@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.8.12)  5 MAY 2021 00:18
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.8.12)  23 MAY 2021 21:24
 entering extended mode
 **"./morse theory.tex"
 ("morse theory.tex"
@@ -1850,6 +1850,30 @@ Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langu
 ge=dflt;!
 Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
 ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
 )
 \tf@toc=\write6
 \openout6 = `"morse theory.toc"'.
@@ -2010,10 +2034,8 @@ Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;
 anguage=dflt;!
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
 input line 392.
-
-
-LaTeX Warning: Reference `1.8' on page 5 undefined on input line 402.
-
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;slant=-0.15;!
 File: sources/1.8.png Graphic file (type bmp)
 <sources/1.8.png>
 Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
@@ -2026,6 +2048,7 @@ Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langu
 ge=dflt;!
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
 line 416.
+
 [5]
 Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
 anguage=dflt;!
@@ -2080,6 +2103,206 @@ ut line 730.
 Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
 anguage=dflt;!
  [8] [9]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 9
+28.
+
+(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 954.
+LaTeX Info: Redefining \sffamily on input line 954.
+LaTeX Info: Redefining \ttfamily on input line 954.
+
+Overfull \hbox (1.52043pt too wide) in paragraph at lines 948--955
+[][]\TU/OpenSansHebrew(0)/m/n/10 מפה $[]$ כמו במשפט נקראת \TU/OpenSansHebrew(0)
+/m/it/10 מפת מורס [][]\TU/OpenSans(0)/m/it/10 (Morse chart)[] []\TU/OpenSansHeb
+rew(0)/m/it/10 סביב הנקודה הקריטית[]
+ []
+
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+[10]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+ [11]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 1178.
+LaTeX Info: Redefining \sffamily on input line 1178.
+LaTeX Info: Redefining \ttfamily on input line 1178.
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+ [12]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 1403.
+LaTeX Info: Redefining \sffamily on input line 1403.
+LaTeX Info: Redefining \ttfamily on input line 1403.
+ [13]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 1526.
+LaTeX Info: Redefining \sffamily on input line 1526.
+LaTeX Info: Redefining \ttfamily on input line 1526.
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+ [14]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 1591.
+LaTeX Info: Redefining \sffamily on input line 1591.
+LaTeX Info: Redefining \ttfamily on input line 1591.
+
+Overfull \hbox (11.99171pt too wide) in paragraph at lines 1602--1614
+[][]\TU/OpenSansHebrew(0)/m/n/10 נסמן ב־$\OML/cmm/m/it/10 m$ \TU/OpenSansHebrew
+(0)/m/n/10 את נקודת המינימום וב־$\OML/cmm/m/it/10 M$ \TU/OpenSansHebrew(0)/m/n/
+10 את נקודת המקסימום. בלי הגבלת הכלליות נניח $\OML/cmm/m/it/10 F [] \OT1/cmr/m/
+n/10 = 0\OML/cmm/m/it/10 ; F [] \OT1/cmr/m/n/10 =$[]
+ []
+
+[15]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Package hyperref Info: bookmark level for unknown fact defaults to 0 on input l
+ine 1679.
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew/OT:script=hebr;langua
+ge=dflt;!
+
+Overfull \hbox (4.60844pt too wide) in paragraph at lines 1806--1825
+[]$\OML/cmm/m/it/10 N \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 m$ \TU/OpenSansHebr
+ew(0)/m/n/10 ואז $[] \OMS/cmsy/m/n/10 U [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 N
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 m \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1
+$ \TU/OpenSansHebrew(0)/m/n/10 ולכן $[]$ קבוצת הזוגות היא $\OML/cmm/m/it/10 N \
+OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 m \OT1/cmr/m/n/10 + []
+$\TU/OpenSansHebrew(0)/m/n/10 ־מימדית[]
+ []
+
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+[16]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 1866.
+LaTeX Info: Redefining \sffamily on input line 1866.
+LaTeX Info: Redefining \ttfamily on input line 1866.
+
+Overfull \hbox (43.25014pt too wide) detected at line 1895
+[]
+ []
+
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+LaTeX Info: Redefining \rmfamily on input line 1923.
+LaTeX Info: Redefining \sffamily on input line 1923.
+LaTeX Info: Redefining \ttfamily on input line 1923.
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+[17]
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+Missing character: There is no ‎ in font Open Sans Hebrew Bold/OT:script=hebr;l
+anguage=dflt;!
+ [18] [19]
 \tf@thm=\write7
 \openout7 = `"morse theory.thm"'.
 
@@ -2133,8 +2356,8 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 856.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 856.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2113.
  ("morse theory.aux" Setting \if@calendar@hebrew
 Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 32.
@@ -2142,26 +2365,20 @@ LaTeX Info: Redefining \sffamily on input line 32.
 LaTeX Info: Redefining \ttfamily on input line 32.
  Setting \if@calendar@hebrew
 Setting \if@calendar@hebrew)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 856.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 856.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2113.
+
 Package rerunfilecheck Info: File `"morse theory".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 856.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2113.
  ) 
 Here is how much of TeX's memory you used:
- 35254 strings out of 414493
- 717572 string characters out of 2903263
- 1252443 words of memory out of 3000000
- 51788 multiletter control sequences out of 15000+200000
- 541511 words of font info for 110 fonts, out of 3000000 for 9000
+ 35273 strings out of 414493
+ 717954 string characters out of 2903263
+ 1253445 words of memory out of 3000000
+ 51801 multiletter control sequences out of 15000+200000
+ 541807 words of font info for 114 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,18n,86p,1288b,1148s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,20n,86p,1288b,1148s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on morse theory.pdf (13 pages).
+Output written on morse theory.pdf (23 pages).
