@@ -11,6 +11,9 @@
     labl/.style={anchor=south, rotate=90, inner sep=.5mm}
 }
 
+\usepackage{graphicx, txfonts}
+\newcommand{\heart}{\ensuremath\varheartsuit}
+
 \title{סיכומי הרצאות בתורת מורס \\ \large{אביב 2021, הטכניון}}
 \author{הרצאותיו של מיכאל חנבסקי \\ \large סוכמו על ידי אלעד צורני}
 \date{\today}
@@ -1074,14 +1077,29 @@ $y_1 = \pm y_2$.
 כאשר
 $\hat{F} = F\prs{x} \pm \eps$
 קווי הגובה מתוארים באיור
-%TODO add fig 2.1
+\ref{2.1}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/2.1}
+\caption{קווי גובה בסביבת מורס.}
+\label{2.1}
+\end{figure}
+
 מתקיים
 \[D \hat{F} = 2 \prs{-y_1, y_2}\]
 ואז
 \[\text{.} y\prs{y} = \prs{2y_1\prs{0} e^t, 2 y_2\prs{0} e^{-t}}\]
 קווי הזרימה מתוארים באיור
-%TODO add fig 2.2
+\ref{2.2}
 ואלו קווים היפרבוליים אסימפטוטיים לצירים.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/2.2}
+\caption{קווי זרימה בסביבת מורס.}
+\label{2.2}
+\end{figure}
 
 נסתכל גם על המקרה
 $n > 2$.
@@ -1101,8 +1119,15 @@ y_J &\ceq \prs{y_{i+1}, \ldots, y_n}
 נסתכל על
 $F$
 עם קווי גובה כמתואר באיור
-%TODO add fig 2.3
+\ref{2.3}
 אז לפי התיאור הנ"ל הנקודה הקריטית אינה מינימום, מקסימום או אוכף, ולכן הינה מנוונת.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/2.3}
+\caption{קווי הגובה מראים כי הנקודה הקריטית מנוונת.}
+\label{2.3}
+\end{figure}
 \end{example}
 
 \begin{remark}
@@ -1344,10 +1369,24 @@ $\hat{g}$
 \[\text{.} \hat{g} = \diff x_1^2 + \ldots + \diff x_n^2\]
 נסתכל על
 \[\text{.} H_c = \set{\substack{\hat{F} \geq a - \eps \\ \norm{x_J}^2 < \delta \lleq \eps}}\]
-ראו איור
-%TODO add fig 2.4
+ראו איורים
+\ref{2.4}, \ref{2.5}.
 מתקיים
 \[\text{.} H_c \cong \overline{B^i} \times B^{n-i}\]
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/2.4}
+\caption{הדבקת ידית בסביבת מורס.}
+\label{2.4}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/2.5}
+\caption{זרימה בסביבת מורס.}
+\label{2.5}
+\end{figure}
 
 \begin{proposition}
 \begin{enumerate}
@@ -1420,12 +1459,20 @@ $Y$
 \end{remark}
 
 \begin{remark}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.1}
+\caption{ידית הומיאומורפית למכפלה של כדור פתוח וכדור סגור.}
+\label{3.1}
+\end{figure}
+
 בהוספת הידית
 $H_c$
 נדביק את
 $H_c$
 על החלק האדום באיור
-%TODO add fig 3.1
+\ref{3.1}
 ל־%
 $\set{\hat{F} = a-\eps}$.
 אם נזהה
@@ -1515,9 +1562,16 @@ $M^{\leq a + \eps}$
 ל־%
 $M^{\leq a - \eps} \cup B^i$.
 ראו איור
-%TODO add fig 3.2
+\ref{3.2}.
 נקבל ריטרקציות דפורמטיביות
 \[\text{.} M^{\leq a + \eps} \approx M^{\leq a - \eps} \bar{H}_c \approx M^{\leq a - \eps} \cup B^i\]
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.2}
+\caption{ריטרקציה מהידית לשפה.}
+\label{3.2}
+\end{figure}
 
 \begin{remark}
 עם מאמץ נוסף ניתן לתת ל־%
@@ -1531,7 +1585,14 @@ $M$
 
 כאשר הראנו הומיאומורפיזם במעבר דרך נקודה קריטית, הגדרנו שדה לאורכו בנינו זרימה, אך שדה זה  לא היה חלק, ולכן קיבלנו רק הומיאומורפיזם ולא דיפאומורפיזם.
 כדי לתקן זאת, נבצע תיקון על ידי "החלקה" של הפינות. ראו איור
-%TODO add fig 3.3
+\ref{3.3}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.3}
+\caption{ידית לאחר החלקת הפינות.}
+\label{3.3}
+\end{figure}
 
 נגדיר
 \[H_c = \bigcup \set{y} \times B^{n-i}\prs{r\prs{y}}\]
@@ -1641,7 +1702,7 @@ $m$.
 אז
 $\phi$
 הרכבה של דיפאומורפיזמים ולכן דיפאומורפיזם.
-%TODO add 3.4
+%TODO add diagram as in 3.4
 
 נבנה הומיאומורפיזם
 \begin{align*}
@@ -2017,7 +2078,7 @@ $p \in \mrm{Crit}\prs{F}$.
 נסתכל על שיכון
 $S^2 \rmono \mbb{R}^3$
 כמתואר באיור
-%TODO add fig 3.5
+\ref{3.5}.
 מתקיים
 $W^U\prs{m} = \set{m}$
 (ובדומה לכל נק' מינימום לוקלית).
@@ -2026,19 +2087,41 @@ $W^U\prs{m} = \set{m}$
  בסביבה של נקודת האוכף
 $x$
 קווי הזרימה מתוארים באיור
-%TODO add fig 3.6
+\ref{3.6}.
 נקבל כי
 $W^U\prs{x}$
 המשך של הקווים האדומים באיור, ובאופן דומה נקבל אתת
 $W^U\prs{M_i}$,
 כמתואר באיור
-%TODO add fig 3.7
+\ref{3.7}.
 \end{definition}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.5}
+\caption{שיכון לא סטנדרטי של הספירה ב־%
+$\mbb{R}^3$.}
+\label{3.5}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.6}
+\caption{קווי הזרימה בנקודת אוכף של הספירה.}
+\label{3.6}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.7}
+\caption{קווי זרימה על שיכון לא סטנדרטי של הספירה.}
+\label{3.7}
+\end{figure}
 
 \begin{example}
 נסתכל על פונקציית הגובה מהטורוס.
 ראו איור
-%TODO add fig 3.8
+\ref{3.8}.
 מתקיים
 $W^U\prs{m} = \set{m}$,
 הקבוצה
@@ -2049,6 +2132,13 @@ $S^1$
 $W^U\prs{M}$
 היא כל שאר הטורוס.
 \end{example}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/3.8}
+\caption{יריעות יציבות ובלתי־יציבות על הטורוס.}
+\label{3.8}
+\end{figure}
 
 \begin{remark}
 בכל הדוגמאות,
@@ -2105,9 +2195,2284 @@ $T_p W^U\prs{p}$.
 \end{enumerate}
 \end{theorem}
 
-%TODO fill in lecture 4 3rd hour
+נציג הוכחה חלקית של המשפט. עבור הוכחה מפורטת ראו
+\textenglish{banyaga}.
+%TODO add reference
 
+\begin{proof}
+\begin{itemize}
+\item
+נניח שבסביבת מורס
+$U$
+של
+$p$
+מתקיים
+\[\hat{F} = F\prs{p} - \norm{x_I}^2 + \norm{x_J}^2\]
+ולפיה
+$\hat{g}$
+מטריקה אוקלידית.
+תחת המפה מתקיים
+\begin{align*}
+W^U\prs{p} \cap U = \mbb{R}^i \times \set{0} \cap U \\
+W^S\prs{p} \cap U = \set{0} \times \mbb{R}^{n-i} \cap U
+\end{align*}
+וכן
+\[\text{.} T_p M = \mbb{R}^n = \prs{\mbb{R}^i \times \set{0}} \oplus \prs{\set{0} \times \mbb{R}^{n-i}} = T_p W^U\prs{p} \oplus T_p W^S\prs{p}\]
+\item נגדיר
+\[\text{.} B_1 = \set{\prs{X_I, 0} \in \mbb{R}^^i \times \mbb{R}^{n-i}}{\norm{x_I}^2 < \eps} = W^U\prs{p} \cap \set{F > F\prs{p} - \eps} \cong B^i\]
+נגדיר גם
+$B_N = \phi_N\prs{B_1}$
+כאשר
+$\phi_t$
+הזרימה של
+$-\nabla F$.
+ניתן לבדוק שמתקיים
+\begin{enumerate}[label = (\roman*)]
+\item יש דיפאומורפיזם
+\[\text{.} B_N \cong B^i\]
+\item \[W^U\prs{p} = \bigcup_{N = 1}^{\infty} B_N\]
+\item יש אימרסיה מ־%
+$\bigcup_{N=1}^{\infty} B_N$
+ל־%
+$M$.
+\item יש שיכון מ־%
+$\bigcup_{N = 1}^{\infty} B_N$
+ל־%
+$M$.
+\item $\bigcup_{N=1}^{\infty} B_n \cong B^i$.
+\end{enumerate}
 
+אפשר לעשות הכל באופן דומה עבור
+$W^S\prs{p}$.
+
+\item
+בסביבת מורס
+$U$
+של
+$p$
+מתקיים
+\[\hat{g} = \sum g_{k,\ell} \diff x_k \diff x_\ell\]
+כאשר זאת תבנית קבועה עם
+$g_{k,\ell}$
+שאינה תלויה ב־%
+$p$.
+אז
+\[\hat{F} = F\prs{p} + x^t \pmat{-I & 0 \\ 0 & I} x\]
+ונקבל 2 תבניות בילינאריות סימטריות על
+$\mbb{R}^n$,
+שאחת מהן מכפלה פנימית.
+
+מאלגברה לינארית, קיים שינוי קואורדינטות לינארי
+\begin{align*}
+\mbb{R}^n &\to \mbb{R}^n \\
+x &\mapsto y = Ax
+\end{align*}
+שמלכסן סימולטנית את שתי התבניות.
+יתר על כך,
+\begin{align*}
+\hat{g} &= \sum_{k \in [n]} \diff y_k^2 \\
+\text{.} \hat{F} &= F\prs{p} + y^t \pmat{-\lambda_1 & & & & & \\ & \ddots & & & & \\ & & -\lambda_i & & & \\ & & & \lambda_{i+1} & & \\ & & & & \ddots & \\ & & & & & \lambda_n}y
+\end{align*}
+אז בקואורדינטות לפי
+$y$
+מתקיים
+\begin{align*}
+\hat{F} &= F\prs{p} - \sum_{k = 1}^i \lambda_k y_k^2 + \sum_{k=i+1}^n \lambda_k y_k^2 \\
+\hat{g} &= \sum_{k \in [n]} \diff y_k^2
+\end{align*}
+כמו מקודם, נקבל
+\[\text{.} W^U\prs{p} \cap \set{F > F\prs{p-\eps}} = \set{\prs{y_I,0}}{\sum_{k = 1}^i \lambda_k y_k^2 < \eps} \cong B^i\]
+
+\item
+במקרה הכללי, מתקיים בסביבת מורס
+\begin{align*}
+\hat{F} &= F\prs{p} - \norm{x_I}^2 + \norm{x_J}^2 \\
+\hat{g}_{\prs{x}} &= \sum g_{k,\ell}\prs{x} \diff x_k \diff x_\ell
+\end{align*}
+וכמו במקרה הקודם ניקח שינוי קואורדינטות עבורו
+\[\text{.} \hat{g}\prs{0} = \sum \diff y_k^2\]
+אז
+\begin{align*}
+\hat{F} &= F\prs{p} - \sum_{k=1}^i \lambda_k y_k^2 + \sum_{k = i+1}^n \lambda_k y_k^2 \\
+\hat{g} &= \sum g_{k,\ell}' \prs{y} \diff y_k \diff y_\ell \\
+g_{k,\ell}' &= \delta_{k,\ell}
+\end{align*}
+בסביבת
+$0$,
+והמטריקה היא דפורמציה קטנה של המטריקה הסטנדרטית.
+
+אז שדה הגרדיאנט הוא דפורמציה קטנה של המקרה הקודם ואז
+$W^U\prs{p}$
+הוא דפורמציה קטנה של קבוצת הפתרונות במקרה הקודם.
+(עדיין מתקיים
+\[T_p W^U\prs{p} = \mbb{R}^I \times \set{0}\]
+כאשר
+$W^U\prs{p}$
+הוא גרף של
+$f \colon \mbb{R}^I \to \mbb{R}^J$%
+).
+\end{itemize}
+
+\end{proof}
+
+%LECTURE 5
+
+קיבלנו
+\[M = \coprod_{\substack{f_p}{p \in \mrm{Crit}\prs{F}}} W^U\prs{p}\]
+עבור פונקציות הדבקה
+$f_p \colon \del B^{\mu\prs{p}} \to M$.
+אז כל יריעה נראית כמו קומפלקס CW.
+
+\begin{definition}[קומפלקס \textenglish{CW}]
+מרחב טופולוגי הוא
+\emph{קומפלקס \textenglish{CW}}
+אם קיימת סדרה
+\begin{align*}
+X^0 \subseteq X^1 \subseteq \ldots \subseteq X = \bigcup_{N \in \mbb{N}} X^N
+\end{align*}
+עבורה
+\begin{enumerate}[label = (\roman*)]
+\item $X^0$
+קבוצת נקודות מבודדות.
+\item $X^{N+1}$
+מתקבל מ־%
+$X^N$
+על ידי הדבקת כדורים במימד
+$N+1$:
+\[\text{.} X^{N} X^{N-1} \cup_{f_1^N} B_1^N \cup \ldots \cup_{f_k^N} B_k^N \cup \ldots\]
+עבור
+$B_i^N \cong B^N$
+כדורים פתוחים ועבור
+$f_i^N \colon \del B_i^N \to X^{N-1}$
+עם תמונה שמוכלת במספר סופי של תאים.
+\end{enumerate}
+
+קבוצה
+$U \subseteq X$
+פתוחה אם ורק אם כל
+$U \cap B_i^N$
+פתוחה. הקבוצה
+$X^i$
+נקראת
+\emph{השלד ה־%
+$i$
+מימדי}.
+\end{definition}
+
+\begin{remark}
+הפירוק
+$M = \coprod W_{\prs{p}}^U$
+לא תמיד מתאים לקומפלקס
+\textenglish{CW}.
+בדוגמא שבאיור
+\ref{3.8}
+השפה של
+$W^U\prs{x_2} \cong B^1$
+מודבקת ל־%
+$W^U\prs{x_1} \cong B^1$,
+מה שהורס את המבנה של הקומפלקס
+\textenglish{CW}.
+אבל, אם נסובב מעט את הטורוס נקבל כי הזרימה מ־%
+$x^2$
+מפספסת את
+$x^1$.
+אז
+\begin{align*}
+\del W^U\prs{x_2} \to \set{m} \cong W^U\prs{m} \cong B^0
+\end{align*}
+ונקבל שהשפה של
+$W^U\prs{x_2} \cong B^1$
+מודבקת ל־%
+$B^0$,
+מה שמסתדר עם המבנה של הקומפלקס.
+ראו איור
+\ref{5.1}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/5.1}
+\caption{שיכון של הטורוס בזווית.}
+\label{5.1}
+\end{figure}
+
+במקרה זה הבעיה הייתה שקווי הזרימה מ־%
+$x_2$
+הגיעו לנקודה עם אינדקס לא מתאים. אם
+$\gamma$
+קו גרדיאנט שמחבר בין
+$x_2, x_1$
+אז
+$\mu\prs{x_1} = \mu\prs{x_2}$.
+אז לכל
+$x \in \gamma$
+מתקיים
+\[\text{.} x \in W^U\prs{x_2} \cap W^S\prs{x_1}\]
+כלומר,
+\[\text{.} \gamma \subseteq W^U\prs{x_2} \cap W^S\prs{x_1}\]
+מתקיים
+$W^U\prs{x_2}, W^S\prs{q} \cong B^1$
+והיינו מצפים שהחיתוך של שני כדורים
+$1$%
+־מימדיים יהיה
+$0$%
+־מימדי. כדי לפתור זאת, נרצה שהחיתוך בין התת־יריעות יהיה טרנסוורסלי.
+\end{remark}
+
+כאשר נדרוש
+$W^U\prs{p} \pitchfork W^S\prs{q}$
+לכל
+$p,q \in \mrm{Crit}\prs{F}$,
+נקבל כי
+$W^U\prs{p} \cap W^S\prs{q}$
+תת־יריעה. אז מתקיים
+\[\text{.} \dim\prs{W^U\prs{p} \cap W^S\prs{q}} = \prs{\mu\prs{p} + n - \mu\prs{q}} - n = \mu\prs{p} - \mu\prs{q}\]
+אם
+$W^U\prs{p} \cap W^S\prs{q} \neq \ns$
+נקבל כי
+$\dim \prs{W^U\prs{p} \cap W^S\prs{q}} \geq 1$,
+כי יש קו זרימה בפנים. אז
+\[\text{.} \mu\prs{p} \geq \mu\prs{q}+1\]
+נקבל מכך כי
+$\mu$
+קטן ממש בין קצוות של קו זרימה.
+
+\section{קומפלקסי \textenglish{CW} ותנאי \textenglish{Morse-Smale}}
+
+\begin{definition}
+תהי
+$F$
+פונקציית מורס ותהי
+$g$
+מטריקה רימנית.
+הזוג
+$\prs{F,g}$
+נקרא
+\emph{\textenglish{Morse-Smale}}
+אם
+$W^U\prs{p} \pitchfork W^S\prs{q}$
+לכל
+$p,q \in \mrm{Crit}\prs{M}$.
+\end{definition}
+
+\begin{corollary}
+\begin{enumerate}
+\item אם
+$W^U\prs{p} \cap W^S\prs{q}$
+(או באופן שקול, אם יש עקום בחיתוך)
+אז
+$\mu\prs{p} > \mu\prs{q}$.
+\item כדי שיהיה מבנה של קומפלקס
+\textenglish{CW}
+על
+$M$,
+נסתכל על
+$x \in \del{W^U\prs{p}}$.
+אז יש
+$q \in M$
+עבורה
+$x \in W^U\prs{q}$.
+נדרוש במקרה זה
+$\mu\prs{q} < \mu\prs{p}$.
+\end{enumerate}
+\end{corollary}
+
+\begin{proposition}\label{proposition:CW-structure}
+אם במקרה הנ"ל גם
+$q \in \overline{W^U\prs{p}}$
+אז גם
+\[W^U\prs{q} \subseteq \overline{W^U\prs{p}}\]
+וקו הזרימה
+$\gamma \colon p \to q$
+מוכל ב־%
+$W^U\prs{p} \cap W^S\prs{q}$.
+בתנאי
+\textenglish{Morse-Smale}
+גם מתקיים
+$\mu\prs{q} < \mu\prs{p}$
+ואז מתקבל מבנה של קומפלקס
+\textenglish{CW}.
+\end{proposition}
+
+\begin{remark}
+התאים בקומפלקס ה־%
+\textenglish{CW}
+הם
+$W^U\prs{p}$
+עבור
+$p \in \mrm{Crit}\prs{F}$.
+נקבל כי
+\[\text{.} \dim H_*\prs{\text{CW-complex}} \leq \# \set{\text{cells}} = \# \mrm{Crit}\prs{F}\]
+נראה זאת בדרך נוספת כאשר נדון בהומולוגיית מורס.
+\end{remark}
+
+\begin{remark}
+הפירוק
+$M = \coprod W^U\prs{p}$
+קרוב מאוד לבנייה של
+$M$
+(עד כדי שקילות הומוטופית) תוך הנקודות הקריטיות, שראינו בתחילת הקורס.
+\end{remark}
+
+\begin{definition}[קבוצה גנרית]
+יהי
+$X$
+מרחב טופולוגי. קבוצה
+$A \subseteq X$
+נקראת
+\emph{גנרית}
+אם היא מכילה חיתוך בן־מנייה של קבוצות פתוחות וצפופות.
+\end{definition}
+
+\begin{definition}[מרחב \textenglish{Baire}]
+מרחב טופולוגי נקרא
+\emph{\textenglish{Baire}}
+אם כל קבוצה גנרית בו היא צפופה.
+\end{definition}
+
+\begin{theorem}[\textenglish{Kupka-Smale}]
+זוגות
+\textenglish{Morse-Smale}
+מהווים קבוצה גנרית במרחב
+$\mcal{C}^\infty\prs{M,\mbb{R}} \times \mrm{RM}\prs{M}$
+כאשר
+$\mrm{RM}\prs{M}$
+מרחב המטריקות הרימניות על
+$M$.
+\end{theorem}
+
+\begin{remark}
+למשפט הנ"ל מספר גרסאות אחרות.
+\begin{enumerate}
+\item תהי
+$g$
+מטריקה רימנית על
+$M$.
+פונקציות מורס
+$F$
+עבורן
+$\prs{F,g}$
+זוג
+\textenglish{Morse-Smale}
+הן קבוצה גנרית ב־%
+$\mcal{C}^\infty\prs{M,\mbb{R}}$.
+\item תהי
+$F$
+פונקציית מורס. אזי
+\[\set{g}{\prs{F,g} \text{ is Morse-Smale}}\]
+קבוצה גנרית ב־%
+$\mrm{RM}\prs{M}$.
+\item תהי
+$F \colon M \to \mbb{R}$
+פונקציית מורס ותהיינה
+$\set{U_p}_{p \in \mrm{Crit}\prs{F}}$
+סביבות זרות של הנקודות הקריטיות, עם מטריקות רימניות
+$g_p$.
+אז
+\[\set{g}{\substack{\prs{F,g} \text{ is Morse-Smale} \\ \rest{g}{U_p} = g_p}}\]
+קבוצה גנרית ב־%
+\[\text{.} \set{g}{\rest{g}{U_p} = g_p}\]
+\end{enumerate}
+\end{remark}
+
+\begin{notation}
+עבור
+$p,q \in \mrm{Crit}\prs{F}$
+נסמן
+\[\text{.} \mu\prs{p,q} \ceq W^U\prs{p} \cap W^S\prs{q} = \set{x \in M}{\substack{\lim_{t\to - \infty} \phi^t\prs{x} = p \\ \lim_{t\to +\infty} \phi^t\prs{x} = q}}\]
+\end{notation}
+
+\begin{remark}
+בתנאי
+\textenglish{Morse-Smale},
+$\mu\prs{p,q}$
+תת־יריעה ממימד
+$\mu\prs{p} - \mu\prs{q} \geq 1$
+(כאשר החיתוך לא ריק ועבור
+$p \neq q$).
+\end{remark}
+
+\begin{remark}
+$\mbb{R}$
+פועלת על
+$\mu\prs{p,q}$
+לפי
+\[\text{.} t \cdot x = \phi^t\prs{x}\]
+מסלולי הפעולה הם קווי הזרימה.
+
+נסמן
+\[\hat{\mu}\prs{p,q} \ceq \quot{\mu\prs{p,q}}{\mbb{R}}\]
+וזאת קבוצת קווי הזרימה בין
+$p,q$.
+\end{remark}
+
+\begin{exercise}
+על
+$\hat{\mu}\prs{p,q}$
+יש מבנה טבעי של יריעה.
+\end{exercise}
+
+\begin{solution}
+\begin{description}
+\item[דרך 1:] $\mbb{R}$
+פועלת חופשית על
+$\mu\prs{p,q}$
+לכן מתורת חבורות לי מקבלים כי המנה
+$\hat{\mu}\prs{p,q}$
+היא יריעה.
+
+\item[דרך 2:]
+נבחר
+$c \in \prs{F\prs{q}, F\prs{p}}$
+ערך רגולרי. אז
+$\mu\prs{p,q} \cap F^{-1}\prs{c}$
+תת־יריעה ממימד
+$\mu\prs{p,q} - 1$.
+כיוון שהזרימה מונוטונית יורדת נקבל התאמה 1:1
+\[\text{.} \hat{\mu}\prs{p,q} \leftrightarrow \mu\prs{p,q} \cap F^{-1}\prs{c}\]
+זאת משרה מבנה של יריעה על
+$\hat{\mu}\prs{p,q}$.
+בדקו כי מבנה זה אינו תלוי (עד כדי דיפאומורפיזם) בערך
+$c$.
+\end{description}
+\end{solution}
+
+\begin{exercise}
+\begin{enumerate}
+\item מתקיים
+\[\text{.} \dim \hat{\mu}\prs{p,q} = \dim \mu\prs{p,q} \overset{\text{M.S}} \mu\prs{p} - \mu\prs{q} - 1\]
+
+\item אם
+$\hat{\mu}\prs{p,q}$
+ממימד
+$0$,
+ומתקיים תנאי
+\textenglish{Morse-Smale},
+אז
+$\hat{\mu}\prs{p,q}$
+קבוצה סופית.
+\end{enumerate}
+\end{exercise}
+
+\begin{example}
+נסתכל על הספירה עם פונקציית הגובה.
+ראו איור
+\ref{5.2}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/5.2}
+\caption{שיכון סטנדרטי של הספירה.}
+\label{5.2}
+\end{figure}
+
+אז
+$\mu\prs{N,S} = S^n \setminus \set{N,S}$.
+מתקיים
+\[\text{.} \dim \mu\prs{N,S} = n = \underset{=n}{\underbrace{\mu\prs{N}}} - \underset{= 0}{\underbrace{\mu\prs{S}}}\]
+לפי ההתאמה שראינו, אפשר לזהות את
+$\mu\prs{N,S}$
+עם קו־גובה של
+$\mu\prs{S,N}$.
+אז
+$\hat{\mu}\prs{N,S} \cong S^{n-1}$
+קו המשווה, והמימד הוא
+$\mu\prs{N} - \mu\prs{S} - 1$.
+\end{example}
+
+\begin{example}
+נעיין באיור
+\ref{3.7}.
+מתקיים
+\begin{align*}
+\dim \mu\prs{M_2, x} &= 1 \\
+\dim \mu\prs{M_1, x} &= 1 \\
+\dim \mu\prs{x, m} &= 1
+\end{align*}
+כאשר בשתי הקבוצות הראשונות קו זרימה יחיד ובשלישית שניים. אז
+$\hat{\mu}\prs{x,m} = \set{\gamma_1, \gamma_2}$
+במקרה השלישי.
+מתקיים גם כי
+$\mu\prs{M_2, m}$
+החצי הימני של הספירה, שהינו ממימד
+$2$.
+אז
+$\hat{\mu}\prs{M_2, m}$
+קטע פתוח, לפי הסתכלות על קו גובה, וזה ממימד
+$1$.
+\end{example}
+
+\begin{example}
+באיור
+\ref{3.8}
+$\mu\prs{x_2, x_1}$
+איחוד שני קטעים פתוחים, והינו ממימד
+$1$.
+זה לא שווה ל־%
+$\mu\prs{x_2} - \mu\prs{x_1}$,
+כיוון שלא מתקיים תנאי
+\textenglish{Morse-Smale}.
+\end{example}
+
+\subsection{הומולוגיית מורס}
+
+\begin{notation}
+נסמן ב־%
+$\mrm{Crit}_k\prs{F}$
+את הנקודות הקריטיות מאינדקס
+$k$
+של
+$F$.
+\end{notation}
+
+\begin{definition}[קומפלקס מורס]
+תהי
+$M$
+יריעה עם זוג
+\textenglish{Morse-Smale}
+$\prs{F,g}$.
+
+\begin{enumerate}
+\item נגדיר
+\[\text{.} C_k \ceq C_k\prs{F} = \mbb{Z}_2\trs{\mrm{Crit}_k\prs{F}}\]
+\item נגדיר
+\[\del_k \colon C_k \to C_{k-1}\]
+על יוצרים באופן הבא.
+עבור
+$p \in \mrm{Crit}_k\prs{F}$
+נגדיר
+\begin{align*}
+\del_k\prs{p} = \sum_{q \in \mrm{Crit}_{k-1}\prs{F}} n_2\prs{p,q} \cdot q
+\end{align*}
+עבור
+\[n_2\prs{p,q} = \# \hat{\mu}\prs{p,q} \mod{2}\]
+מספר קווי הגרדינט בין
+$p,q$
+מודולו
+$2$.
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}
+עבור יריעה
+$M$
+ממימד
+$n$
+הסדרה
+\[\text{.} 0 \to C_n \xrightarrow{\del} C_{n-1} \xrightarrow{\del_{n-1}} \ldots \xrightarrow{\del_3} C_2 \xrightarrow{\del_2} C_1 \xrightarrow{\del_1} C_0 \xrightarrow{\del_0} 0\]
+מקיימת
+$\del_{k-1} \circ \del_k = 0 \colon C_k \to C_{k-2}$
+לכל
+$k$.
+\end{theorem}
+
+לאור משפט זה, ניתן להגדיר הומולוגיה באופן הבא.
+
+\begin{definition}[הומולוגיית מורס]
+נגדיר את
+\emph{ההומולוגיה ה־%
+$k$%
+־ית של
+$M$
+לפי
+$\prs{F,g}$}
+על ידי
+\[\text{.} H_k\prs{F,g;\mbb{Z}_2} \ceq \quot{\ker\prs{\del_k}}{\im\prs{\del_{k+1}}}\]
+\end{definition}
+
+\begin{definition}
+נגדיר
+\[\text{.} H_*\prs{F,g;\mbb{Z}_2} = \bigoplus_{i = 0}^n H_k\prs{F,g;\mbb{Z}_2}\]
+\end{definition}
+
+\begin{example}
+באיור
+\ref{5.2}
+נסתכל על
+$g$
+המטריקה האוקלידית.
+אז
+$\mu\prs{N} = n, \mu\prs{S} = 0$.
+מתקיים לכן
+\begin{align*}
+C_n &= \mbb{Z}_2\trs{N} \cong \mbb{Z}_2 \\
+\forall 0 < k < n \colon C_k &= 0 \\
+\text{.} C_0 &= \mbb{Z}_2\trs{S} \cong \mbb{Z}_2
+\end{align*}
+אם
+$n \geq 2$
+נקבל
+$\del_k = 0$
+לכל
+$k$
+ואז
+\[\text{.} C_k = H_k = \fcases{\mbb{Z}_2 & k \in \set{0,n} \\ 0 & k \notin \set{0,n}}\]
+
+אם
+$n = 1$
+נקבל
+\[0 \to C_1 \to C_0 \to 0\]
+כאשר
+$C_0, C_1 \cong \mbb{Z}_2$.
+אז
+\[\del_1\prs{N} = n_2\prs{N,S} \cdot S\]
+כאשר
+\[\text{.} n_2\prs{N,S} = \# \hat{\mu}\prs{N,S} = 2 \equiv 0 \mod{2}\]
+אז
+$\del_1 = 0$
+וגם כאן
+\[\text{.} H_k = C_k = \fcases{\mbb{Z}_2 & k \in \set{0,1} \\ 0 & k \notin \set{0,1}}\]
+\end{example}
+
+\begin{example}
+נעיין באיור
+\ref{3.7}.
+כאן
+\begin{align*}
+C_2 &= \mbb{Z}_2\trs{M_1, M_2} \cong \mbb{Z}_2^2 \\
+C_1 &\cong \mbb{Z_2} \\
+\text{.} C_0 &\cong \mbb{Z}_2
+\end{align*}
+מתקיים
+\begin{align*}
+\del_2\prs{M_1} &= n_2\prs{M,x} \cdot x = x
+\end{align*}
+כי יש מסלול יחיד מ־%
+$M_2$
+ל־%
+$x$.
+באותו אופן,
+$\del_1\prs{M_2} = x$.
+מתקיים
+$\del_1\prs{x} = 2 \cdot m = 0$
+כי יש שני מסלולים מ־%
+$x$
+ל־%
+$m$.
+כעת,
+\begin{align*}
+H_2 &= \quot{\ker \del_2}{\im \del_3}
+\\&= \ker \del_2
+\\&= \set{0, M_1 + M_2}
+\\&\cong \mbb{Z}_2
+\end{align*}
+לפי אלגברה לינארית.
+גם
+\begin{align*}
+H_1 &= \quot{\ker \del_1}{\im \del_2}
+\\&= 0
+\end{align*}
+כי
+\[\text{.} \ker \del_1 \supseteq \im \del_2 = c_1 \supseteq \ker \del_1\]
+לבסוף,
+\[\text{.} H_0 = \quot{\ker \del_0}{\im \del_1} \cong C_0 \cong \mbb{Z}_2\]
+לסיכום,
+\[\text{.} H_k = \fcases{\mbb{Z}_2 & k = 2 \\ 0 & k = 1 \\ \mbb{Z}_2 & k = 0}\]
+נשים
+\textenglish{\heart}
+שזה גם מה שקיבלנו בספירה לפי המטריקה האוקלידית, ואכן ההומולוגיה אינה תלויה בבחירת המטריקה הרימנית.
+\end{example}
+
+\begin{example}
+באיור
+\ref{5.3}
+נשים לב כי כל קוי הזרימה באים בזוגות. לכן
+$n_2 = 0$
+ולכן
+$\hat{\mu}\prs{x,y} = 0$
+לכל
+$x,y$.
+אז
+$\del_* = 0$
+ונקבל כי
+\[\text{.} H_k = C_k = \fcases{\mbb{Z}_2 & k = 2 \\ \mbb{Z}_2^2 & k = 1 \\ \mbb{Z}_2 & k = 0}\]
+\end{example}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/5.3}
+\caption{שיכון של הטורוס בזווית.}
+\label{5.3}
+\end{figure}
+
+\begin{example}
+בדוגמא האחרונה קווי הזרימה נהיים די מסובכים. אפשר במקרה זה לחשב את ההומולוגיה בדרך אחרת.
+נכתוב
+$\mbb{T}^2 \cong S^1 \times S^1$
+ותהי
+\begin{align*}
+F \colon \mbb{T}^2 \to \mbb{R} \\
+\prs{x,y} &\mapsto f\prs{x} + f\prs{y}
+\end{align*}
+כאשר
+$f \colon S^1 \to \mbb{R}$
+פונקציית גובה עם השיכון של
+$S^1$
+ב־%
+$\mbb{R}^2$
+כבאיור
+\ref{5.4}
+ניתן לראות שמתקיים
+\[\text{.} \mrm{Crit}\prs{F} = \mrm{Crit}\prs{f} \times \mrm{Crit}\prs{f} = \set{\prs{N,N}, \prs{S,S}, \prs{N,S}, \prs{S,N}}\]
+מתקיים
+\begin{align*}
+\mu\prs{\prs{N,N}} &= 2 \\
+\mu\prs{\prs{S,S}} &= 0 \\
+\text{.} \mu\prs{\prs{N,S}} = \mu\prs{\prs{S,N}} &= 1
+\end{align*}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/5.4}
+\caption{שיכון סטנדרטי של
+$S^1$
+ב־%
+$\mbb{R}^2$.}
+\label{5.4}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/5.5}
+\caption{קווי זרימה על הטורוס.}
+\label{5.5}
+\end{figure}
+
+נוכל לאייר את קווי הזרימה על ההצגה הסטנדרטית של הטורוס. ראו איור
+\ref{5.5}.
+בו קווי הזרימה מתוארים באדום.
+ניתן גם כאן לראות כי כל קווי הזרימה מגיעים הזוגות, ולכן
+$\del_* = 0$
+ונקבל
+\begin{align*}
+\text{.} H_k = C_k = \fcases{\mbb{Z}_2 & k =2 \\ \mbb{Z}_2^2 & k=1 \\ \mbb{Z}_2 & k = 2}
+\end{align*}
+
+במקרה הזה קל יותר לבדוק כי הזוג
+$\prs{F,g}$
+הוא
+\textenglish{Morse-Smale}.
+כדי לראות זאת, נזיז את הנקודות באיור ונציג את הטורוס כבאיור
+\ref{5.6}
+תחת פרטורבציה קטנה, קווי הזרימה שאנו סופרים מגיעים לאותם מקומות. אז עדיין
+$\del_* = 0$
+ונקבל את אותן הומולוגיות.
+אז יתקיים תנאי \textenglish{Morse-Smale} ואכן ניתן לחשב את ההומולוגיה.
+\end{example}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/5.6}
+\caption{קווי זרימה על הטורוס.}
+\label{5.6}
+\end{figure}
+
+%LECTURE 6
+
+\begin{figure*}[t!]
+    \centering
+    \begin{subfigure}[t]{0.6\textwidth}
+        \centering
+        \includegraphics[height=0.6\textwidth]{sources/6.1.a}
+        \caption{קווי זרימה על התחום היסודי של משטח מגנוס $g$.}
+    \end{subfigure}%
+    ~ 
+    \begin{subfigure}[t]{0.6\textwidth}
+        \centering
+        \includegraphics[height=0.6\textwidth]{sources/6.1.b}
+        \caption{משטח מגנוס $g$.}
+    \end{subfigure}
+    \caption{}
+    \label{6.1}
+\end{figure*}
+
+\begin{example}
+נסתכל על משטח
+$\Sigma_g$
+מגנוס
+$g$
+כמתואר באיור
+\ref{6.1}
+וכאשר נחשוב על המצולע היסודי כמצולע היפרבולי.
+נגדיר פונקציה
+\[F \colon \Sigma_g \to \mbb{R}\]
+עם נקודת מינימום
+$m$,
+נקודת מקסימום
+$M$
+ונקודות אוכף
+$x_i, y_i$
+על ידי כך שנגדיר את הפונקציה בסביבת כל
+$x_i, y_i$
+ונדביק הכל בעזרת פיצול יחידה.
+מתקיים
+\begin{align*}
+C_2 &= \mbb{Z}_2\trs{M} \\
+C_1 &= \mbb{Z}_2\trs{x_1, y_1, \ldots, x_g, y_g} \\
+C_0 &= \mbb{Z}_2\trs{m}
+\end{align*}
+וגם
+$\del M = 0$,
+לכן
+$\del x_i, \del y_i = 0$
+ונקבל כי
+$\del = 0$.
+אז
+\begin{align*}
+\text{.} H_k = C_k = \fcases{\mbb{Z}_2 & k \in \set{0,2} \\ \mbb{Z}_2^{2 g} & k = 1}
+\end{align*}
+\end{example}
+
+\begin{exercise}
+חשבו את ההומולוגיה בעזרת פונקציית גובה של שיכון
+$\iota \colon \Sigma_g \to \mbb{R}^g$.
+\end{exercise}
+
+\begin{exercise}
+נסתכל על
+$\mbb{C}\mrm{P}^n$
+ונגדיר פונקציה
+\begin{align*}
+f \colon \mbb{C}\mrm{P}^n &\to \mbb{R} \\
+\text{.} \brs{z_0 : \ldots : z_n} &\mapsto \frac{\sum_{j = 0}^n j \abs{z_j}^2}{\sum_{i=0}^n \abs{z_j}^2}
+\end{align*}
+בדקו כי
+$f$
+פונקציית מורס וכי
+\begin{align*}
+\text{.} \mrm{Crit}_\mu\prs{F} &= \fcases{\brs{1:0:\ldots:0} & \mu = 0 \\
+\brs{0:1:0:\ldots:0} & \mu = 2 \\
+\vdots \\
+\brs{0:\ldots:0:1} & \mu = 2n}
+\end{align*}
+הסיקו כי
+$\del = 0$
+וכי אז
+\begin{align*}
+\text{.} H_k = C_k = \fcases{\mbb{Z}_2 & k \in \set{0,2,\ldots,2n} \\ 0 & \text{otherwise}}
+\end{align*}
+\end{exercise}
+
+\begin{exercise}
+הגדרנו
+\[H_k\prs{F,g} = \quot{\ker \del_k}{\im \del_{k+1}}\]
+ומתקיים
+\[\ker \del_k \leq C_k\prs{F,g} = \mbb{Z}_2\trs{\mrm{Crit_k}}\]
+לכן
+\[\text{.} \dim H_k\prs{F,g} \leq \dim C_k\prs{F,g} = \# \mrm{Crit}_k\prs{F}\]
+בפרט,
+\[\text{.} \# \mrm{Crit}\prs{F} \geq \dim H_*\prs{M}\]
+
+ניתן לקבל מכך למשל כי
+על
+$\mbb{T}^2$
+לכל פונקציית מורס יש לפחות
+$4$
+נקודות קריטיות ולפחות
+$2$
+נקודות אוכף.
+\end{exercise}
+
+\begin{exercise}
+בנו
+\[f \colon \mbb{T}^2 \to \mbb{R}\]
+חלקה עם
+$3$
+נקודות קריטיות בלבד.
+\end{exercise}
+
+\begin{proposition}
+מתקיים
+$\del \circ \del = 0$.
+\end{proposition}
+
+נתחיל בהסבר אינטואיטיבי לכך שמתקיים
+$\del^2$.
+נסתכל על
+$p \in \mrm{Crit}_k\prs{F}$
+ונרצה להראות שמתקיים
+$\del_{k-1} \circ \del_k\prs{p} = 0$.
+מתקיים
+\begin{align*}
+\del_{k-1} \circ \del_k\prs{p} &= \del_{k-1} \prs{\sum_{z \in \mrm{Crit}_{k-1}\prs{F}} n_2\prs{p, z} \cdot z}
+\\&=
+\sum_{z \in \mrm{Crit}_{k-1}} n-2\prs{p,z} \del_{k-1}\prs{z}
+\\&=
+\sum_{z \in \mrm{Crit}_{k-1}} n_2\prs{p,z} \cdot \prs{\sum_{q \in \mrm{Crit}_{k-2}} n_2\prs{z,q} \cdot q}
+\\&=
+\sum_{\substack{z \in \mrm{Crit}_{k-1} \\ q \in \mrm{Crit}_{k-2}}} n_2\prs{p,z} \cdot n_2\prs{z,q} \cdot q
+\end{align*}
+ולכן די להראות שמתקיים
+\[\sum_{z \in \mrm{Crit}_{k-2}} n_2\prs{p,z} \cdot n_2\prs{z,q}\]
+לכל
+$q \in \mrm{Crit}_{k-2}$.
+המספר
+$n_2\prs{p,z} \cdot n_2\prs{z,q}$
+הוא מספר זוגות המסלולים שמתחילים ב־%
+$p$,
+עוצרים ב־%
+$z$
+וממשיכים ל־%
+$q$.
+זוג כזה
+\emph{טרקטוריה שבורה \textenglish{broken gradient trajectory}}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/6.2.a}
+\caption{טרקטוריות על הספירה.}
+\label{6.2.a}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/6.2.b}
+\caption{קווי זרימה על חצי ספירה.}
+\label{6.2.b}
+\end{figure}
+
+\begin{example}
+באיור
+\ref{6.2.a}
+מתקיים
+\begin{align*}
+\text{.} n_2\prs{M,x} \cdot n_2\prs{x,m} &= \#\set{\delta_1 * \gamma, \delta_2 * \gamma} = 2 \equiv 0 \mod{2}
+\end{align*}
+
+נסביר למה זה קורה. נחתוך את הלב לשניים ונסתכל על החצי הימני שלו כמתואר באיור
+\ref{6.2.b}.
+כעת,
+\begin{align*}
+\dim \mu\prs{M,m} &= \mu\prs{M} - \mu\prs{m} = 2
+\dim \hat{\mu}\prs{M,m} &= 1
+\end{align*}
+וניתן לראות כי
+\[\text{.} \hat{\mu}\prs{M,m} \cong \prs{0,1}\]
+בשפה של
+$\hat{\mu}$
+רואים את
+$\gamma \cup \delta_i$
+בשני הקצוות.
+\end{example}
+
+\begin{example}
+נסתכל באיור
+\ref{5.5}.
+מתקיים
+\[\del\prs{\hat{\mu}\prs{M,m}} = \del^2\prs{M} = 8 \cdot m \equiv 0 \mod{2}\]
+כאשר
+$\hat{\mu}\prs{M,m}$
+דיפאומורפי לאיחוד של
+$4$
+קטעים פתוחים.
+
+נראה בהמשך שיש התאמה בין טרקטוריות שבורות לבין נקודות שפה של
+$\hat{\mu}\prs{p,q}$,
+ונקבל מכך ש־%
+$n_2\prs{p,z} \cdot n_2\prs{z,q}$
+זוגי.
+\end{example}
+
+\subsubsection{קומפקטיפיקציה של
+$\hat{\mu}\prs{p,q}$}
+
+\begin{definition}[טופולוגיה על קווי זרימה]
+תהי
+$\prs{\gamma_i}_{i \in \mbb{N}}$
+סדרה של קווי זרימה
+$\gamma_i \colon \mbb{R} \to M$
+עם
+\[\text{.} \frac{\del}{\del s} \gamma_i = \nabla F \prs{\gamma_i\prs{s}}\]
+נגיד ש־%
+$\gamma_i \to \gamma$
+אם
+$\gamma_i \to \gamma$
+במידה שווה על קבוצות קומפקטיות.
+כלומר, אם
+$K \subseteq R$
+קומפקטית אז
+\[\rest{\gamma_i}{K} \xrightarrow{\mcal{C}^\ell} \rest{\gamma}{K}\]
+במידה שווה, לכל
+$\ell \geq 0$
+(אבל לאו דווקא עבור
+$\ell = \infty$).
+\end{definition}
+
+\begin{exercise}
+יש דיפאומורפיזם בין
+$\mu\prs{p,q}$
+למרחב הטרקטוריות מ־%
+$p$
+ל־%
+$q$.
+אם
+$\gamma_i, \gamma \in M\prs{p,q}$,
+ההתכנסות
+$\gamma_i \to \gamma$
+שקולה להתכנסות בטופולוגיה שהגדרנו על
+$\mu\prs{p,q}$.
+\end{exercise}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/6.3}
+\caption{טרקטוריות שמתכנסות לשתי מסילות שונות.}
+\label{6.3}
+\end{figure}
+
+\begin{remark}
+ההתכנסות במידה שווה על קבוצות קומפקטיות היא בעלת משמעות גם כאשר נקודות הקצה של
+$\gamma$
+שונות מאלה של
+$\gamma_i$.
+זה נכון כיוון שאנו מסתכלים על מסילות
+\emph{עם פרמטריזציה}.
+למשל, באיור
+\ref{6.3}
+המסילות
+$\gamma_i$
+יכולות להתכנס ל־%
+$\gamma$
+או
+$\delta$,
+תלוי בפרמטריזציה.
+
+לשם כך, נגדיר התכנסות שאינה תלויה בפרמטריזציה. אז המסילות
+$\gamma_i$
+יתכנסו גם ל־%
+$\gamma$
+וגם ל־%
+$\delta$.
+\end{remark}
+
+\begin{definition}[מסילה בלי פרמטריזציה]
+ניזכר כי
+\[\text{.} \hat{\mu}\prs{p,q} = \quot{\mu\prs{p,q}}{\mbb{R}}\]
+עבור מסילה
+$\gamma \colon M \to \mbb{R}$
+נסתכל על מחלקת השקילות
+$\gamma/\mbb{R} = \hat{\gamma} \in \hat{\mu}$
+ונקרא לה
+\emph{מסילה בלי פרמטריזציה}.
+\end{definition}
+
+\begin{remark}
+מסילה בלי פרמטריזציה הינה תלויה בפרמטריזציה, אך לא בבחירת הזמן
+$t=0$.
+\end{remark}
+
+\begin{definition}[התכנסות של מסילות בלי פרמטריזציה]
+עבור מסילות
+$\gamma_i, \gamma$,
+נגיד שיש התכנסות של מסילות בלי פרמטריזציה
+$\hat{\gamma}_i \to \hat{\gamma}$
+אם קיימות הזזות
+$s_i, s_0 \in \mbb{R}$
+עבורן
+\[\gamma_i\prs{\cdot - s_i} \to \gamma\prs{\cdot - s_0}\]
+במידה שווה על קבוצות קומפקטיות.
+\end{definition}
+
+\begin{remark}
+מרחב המסילות בלי פרמטריזציה, עם ההתכנסות שהגדרנו, אינו האוסדורף, כפי שתיארנו בהערה הקודמת.
+\end{remark}
+
+\begin{remark}
+ראינו דרך נוספת להגדיר טופולוגיה על
+$\hat{\mu}\prs{p,q}$,
+בעזרת חתך על קו גובה. אם נרחיב טופולוגיה זאת ל־%
+$\overline{\hat{\mu}\prs{p,q}} \cap F^{-1}\prs{c}$,
+נקבל
+$\hat{\gamma}_i \to \hat{\gamma}$
+או אם נבחר קו גובה אחר
+$c'$
+נקבל
+$\hat{\gamma}_i \to \hat{\delta}$.
+\end{remark}
+
+\begin{definition}[טרקטוריה שבורה
+\textenglish{broken trajectory}]
+\emph{טרקטוריה שבורה
+בין נקודות
+$x,y \in \mrm{Crit}\prs{F}$}
+היא סדרה של מסלולים
+\[ \prs{\hat{\gamma}_1, \ldots, \hat{\gamma}_k} \in \hat{\mu}\prs{z_0 = x, z_1} \times \hat{\mu}\prs{z_1, z_2} \times \ldots \times \hat{\mu}\prs{z_{k-1}, z_k = y}\]
+עבור
+$$k \geq 2$$
+ונקודות קריטיות
+$z_i$.
+\end{definition}
+
+\begin{definition}
+נגדיר
+\begin{align*}
+\text{.} \hat{\mu}\prs{p,q} \ceq \hat{\mu}\prs{p,q} \coprod_{z \in \mrm{Crit}\prs{F}} \prs{\hat{\mu}\prs{p,z} \times \hat{\mu}\prs{z,q}} \coprod_{z_1, z_2 \in \mrm{Crit}\prs{F}} \hat{\mu}\prs{p,z_1} \times \hat{\mu}\prs{z_1, z_2} \times \hat{\mu}\prs{z_2, q} \coprod \ldots
+\end{align*}
+זה איחוד
+$\hat{\mu}\prs{p,q}$
+עם הטרקטריות השבורות בין
+$p,q$.
+\end{definition}
+
+\begin{remark}
+בתנאי
+\textenglish{Morse-Smale}
+מתקיים
+\[\text{.} \mu\prs{p} > \mu\prs{z_1} > \mu\prs{z_2} > \ldots > \mu\prs{q}\]
+אז יתכנו לכל היותר
+$\mu\prs{p} - \mu\prs{q} - 1$
+נקודות שבירה.
+\end{remark}
+
+\begin{remark}
+$\overline{\mu}\prs{p,q}$
+נותנת קומפקטיפיקציה של
+$\hat{\mu}\prs{p,q}$.
+זאת יריעה עם פינות.
+מתקיים,
+\[\dim\prs{\coprod_{z \in \mrm{Crit}\prs{F}} \prs{\hat{\mu}\prs{p,z}}} = \mu\prs{p} - \mu\prs{z} - 1 + \mu\prs{z} - \mu\prs{q} - 1 = \mu\prs{p} - \mu\prs{q} - 2\]
+ובאופן כללי כל נקודה שבירה שנוסיף תפחית את המימד ב־%
+$1$.
+\end{remark}
+
+\begin{definition}[התכנסות]
+תהי
+$\prs{\gamma_i}_{i \in \mbb{N}} \subseteq \hat{\mu}\prs{p,q}$.
+נאמר שהיא מתכנסת ב־%
+$\bar{\mu}\prs{p,q}$
+אם
+\[\hat{\gamma}_i \to \hat{\gamma}\in \hat{\mu}\prs{p,q}\]
+במידה שווה על קבוצות קומפקטיות
+\emph{או}
+שקיימת טרקטוריה שבורה
+$\prs{\hat{\delta_1}, \ldots, \hat{\delta}_k}$
+מ־%
+$p$
+ל־%
+$q$
+עבורה
+\[\text{.} \forall j \in \brs{k} \colon \hat{\gamma}_i \to \hat{\delta}_j\]
+\end{definition}
+
+\begin{theorem}
+$\bar{\mu}\prs{p,q}$
+קומפקטי סדרתית.
+\end{theorem}
+
+\begin{corollary}
+$\bar{\mu}\prs{p,q}$
+מטריזבילי, לכן מהמשפט גם קומפקטי.
+\end{corollary}
+
+הוכחה למשפט נמצאת במאמר
+\textenglish{A Functional Analytic Approacht to Morse Homology},
+של
+\textenglish{U. Foodar}
+שמסתמכת על
+\text{Morse Homology}
+של
+\text{M.Shwarrz}.
+%TODO add bibliography
+
+נציג את ראשי הפרקים של ההוכחה.
+
+\begin{proof}
+\begin{enumerate}
+\item נבחר סדרה
+$\prs{\gamma_i}_{i \in \mbb{N}} \in \mu\prs{p,q}$.
+אז קיימת תת־סדרה
+$\gamma_{n_k} \to v \in \mcal{C}^\infty\prs{\mbb{R},M}$,
+כפי שנובע ממשפט
+\textenglish{Arzela-Ascoly}.
+
+\item נבחר סדרה
+$\hat{\gamma}_i \in \hat{\mu}\prs{p,q}$.
+נראה שיש תת־סדרה מתכנסת ל־%
+$\hat{\delta} \in \bar{\mu}\prs{p,q}$.
+נבחר פרמטריזציה כלשהי ונקבל מהסעיף הקודם סדרה
+$\prs{\gamma_i}_{i \in \mbb{N}} \subseteq \mu\prs{p,q}$
+עבורה
+\[\text{.} \gamma_i \to v \in \mcal{C}^\infty\prs{\mbb{R},M}\]
+אם
+$v \in \mu\prs{p,q}$,
+סיימנו.
+
+אחרת, ממשפט
+\textenglish{Arzela-Ascoly}
+יש התכנסות
+$\gamma_i \to v$
+בטופולוגיה
+$\mcal{C}^\ell$,
+במידה שווה על קבוצות קומפקטיות.
+אז
+$\gamma_i'\prs{s} \to v'\prs{s}$
+ולכן
+\[\text{.} v'\prs{s} = -D F\prs{v\prs{s}}\]
+נקבל כי
+$v$
+הוא קו זרימה.
+כמו כן,
+$\gamma_i\prs{s} \to v\prs{s}$
+ולכן
+$F\prs{z} \leq v\prs{s} \leq F\prs{p}$,
+לכל
+$s \in \mbb{R}$.
+כעת,
+$F\prs{v\prs{s}}$
+מונוטונית יורדת, כי
+$v$
+קו זרימה, ולכן
+\[\text{.} \lim_{s \to \pm \infty} v'\prs{s} \to 0\]
+נקבל כי
+\[\lim_{s \to \pm \infty} v\prs{s} \in \mrm{Crit}\prs{F}\]
+ואז
+$v \in \mu\prs{w,z}$.
+נניח בלי הגבלת הכלליות כי
+$z \neq q$.
+נבחר
+$c \in \prs{F\prs{q}, F\prs{z}}$,
+ואז לכל
+$\gamma_i$
+קיים זמן
+$s_i$
+עבורו
+$F\prs{\gamma_i\prs{s_i}} = c$.
+נגדיר
+\[\text{.} \gamma_i^1 \prs{\cdot} = \gamma_i\prs{\cdot + s_i}\]
+לפי השלב הקודם, נקבל תת־סדרה
+\[\text{.} \gamma_i^1 \to v^1 \in \mcal{C}^\infty \prs{\mbb{R},M}\]
+לפי רציפות,
+\[\text{.} F\prs{v^1\prs{0}} = \lim_{i \to \infty} F\prs{\gamma_i^1\prs{0}} = c\]
+
+נטען כי
+$F\prs{v\prs{s}} > F\prs{v^1\prs{s^1}}$
+לכל
+$s,s^1 \in \mbb{R}$.
+אחרת,
+\begin{align*}
+F\prs{v\prs{s}} = F\prs{v^1\prs{s^1}}
+\end{align*}
+אבל אז
+\begin{align*}
+v\prs{s} &= \lim \gamma_i\prs{s} \\
+v^1\prs{s^1} &= \lim_{i \to \infty} \gamma_i^1\prs{s^1} = \lim_{i\to\infty} \gamma_i\prs{s^1 + s^i}
+\end{align*}
+גורר כי
+\[\lim_{i\to\infty} F\prs{\gamma_i\prs{s}} = \lim_{i\to\infty} F\prs{\gamma_i\prs{s^1 + s^i}}\]
+ואז
+$v\prs{s} = v^1\prs{s^1}$.
+נקבל כי
+$v, v^1$
+שני קווי זרימה שעוברים דרך אותה נקודה, בסתירה.
+
+אם
+\[\text{,} \overline{F\prs{v \cup c^1}} = \brs{F\prs{q}, F\prs{p}}\]
+סיימנו.
+אחרת נמשיך בתהליך, שיעצור אחרי מספר סופי של צעדים כי יש מספר סופי של נקודות קריטיות.
+נקבל תת־סדרה
+$\prs{\gamma_i}_{i \in \mbb{N}}$
+עבורה
+\[\text{.} \hat{\gamma}_i \to \prs{\hat{v}^0, \hat{v}^1, \ldots, \hat{v}^k}\]
+אם נסדר את
+$\prs{\hat{v}, \ldots, \hat{v}^k}$
+לפי גובה נקבל
+\begin{align*}
+\hat{v}^i &\in \mu\prs{w_i, z_i} \\
+F\prs{p} &= F\prs{w_0} \\
+F\prs{w_1} &= F\prs{z_0} \\
+F\prs{w_2} &= F\prs{z_1} \\
+& \vdots \\
+F\prs{w_k} &= F\prs{z_{k-1}} \\
+\text{.} F\prs{z_k} &= F\prs{q}
+\end{align*}
+
+נרצה להראות שהקצוות של ה־%
+$v_i$
+מתאימים. אכן,
+\begin{align*}
+\lim_{s\to\infty} v_j\prs{s} &= \lim \gamma_i\prs{s_i} = \lim_{s \to -\infty} v_{j+1}\prs{s}
+\end{align*}
+ולכן
+$v_j, v_{j+1}$
+מתחברות.
+אז מתקבלת טרקטוריה שבורה. לכן, לכל סדרה
+$\hat{\gamma}_i \in \hat{\mu}\prs{p,q}$
+קיימת תת־סדרה עם גבול ב־%
+$\bar{\mu}$.
+
+\item אם יש סדרה שמורכבת מטרקטוריות שבורות, ניתן לעבור לתת־סדרה בה כל מסלול נשבר בדיוק באותן נקודות קריטיות.
+על ידי הפעלת השלב הקודם לכל אחד מהרכיבים מקבלים תת־סדרה שמתכנסת בכל רכיב, ואז תת־סדרה שמתכנסת בכל הרכיבים. לכן
+$\bar{\mu}$
+קומפקטי סדרתית.
+\end{enumerate}
+\end{proof}
+
+%LECTURE 7
+
+\begin{theorem}[הדבקה]
+עבור מכפלה
+$\hat{\mu}\prs{p,z} \times \hat{\mu}\prs{z,q}$,
+קיים
+$\rho > 0$
+ושיכון חלק
+\[\# \colon \hat{\mu}\prs{p,z} \times \hat{\mu}\prs{z,q} \times \left[\rho,\infty\right) \to \hat{\mu}\prs{p,q}\]
+עבורו
+\begin{enumerate}[label = (\roman*)]
+\item
+\[\# \prs{\hat{\gamma}_1, \hat{\gamma}_2, \rho} \xrightarrow{\rho \to \infty} \prs{\hat{\gamma}_1, \hat{\gamma}_2}\]
+\item 
+כל סדרה
+$\prs{\hat{\gamma}_i}_{i \in \mbb{N}}$
+עבורה
+\[\hat{\gamma}_i \to \prs{\hat{\gamma}_1, \hat{\gamma}_2} \in \hat{\mu}\prs{p,z} \times \hat{\mu}\prs{z,q}\]
+נמצאת בתמונה של
+$\#$
+החל ממקום מסוים.
+\end{enumerate}
+\end{theorem}
+
+\begin{remark}
+התנאי השני במשפט שקול לכך ש־%
+$\im \prs{\#}$
+סביבה פתוחה של
+$\hat{\mu}\prs{p,z} \times \hat{\mu} \prs{z,q}$
+ב־%
+$\hat{\mu}\prs{p,q}$.
+כלומר,
+$\im\prs{\#}$
+כוללת את כל המסלולים שנמצאים מספיק קרוב לטרקטוריות השבורות.
+ראו איור
+\ref{7.1}.
+\end{remark}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.1}
+\caption{התמונה של
+$\#$
+מכילה סביבה של הטרקטוריה השבורה.}
+\label{7.1}
+\end{figure}
+
+נציג הוכחה בראשי פרקים.
+
+\begin{proof}
+\begin{enumerate}
+\item \textbf{קדם־הדבקה:}
+ניתן לקרב את
+$\gamma_2 * \gamma_1$
+על ידי עקום חלק.
+נקבל משפחה
+\[\text{.} \hat{\delta}_\rho \xrightarrow{\rho \to \infty} \prs{\hat{\gamma}_1, \hat{\gamma}_2}\]
+
+\item
+יהי
+\[\mcal{F} \ceq \set{\delta \in \mcal{C}^\infty\prs{\mbb{R},M}}{\substack{\delta\prs{-\infty} = p \\ \delta\prs{+\infty} = q}}\]
+וזה מרחב בנך עם תת־יריעה
+$\mu\prs{p,q} \subseteq \mbb{F}$.
+נציין כעובדה את המשפט הבא.
+
+\begin{theorem}
+עבור
+$p \gg 1$
+קיימת הטלה יחידה של
+$\delta_\rho$
+ל־%
+$\mu\prs{p,q}$.
+\end{theorem}
+
+\item נקבל כי
+$\#$
+שיכון.
+
+\item 
+קיימים
+$s_i, t_i$
+עבורם
+\begin{align*}
+\gamma_i\prs{\cdot - s_i} \to \gamma_1 \\
+\text{.} \gamma_i\prs{\cdot - t_i} \to \gamma_2
+\end{align*}
+נבצע קדם־הדבקה ונטיל על
+$\mu\prs{p,q}$,
+ונקבל מסלול בתמונה של
+$\#$,
+שמיחידות חייב להיות
+$\hat{\gamma}_i$.
+\end{enumerate}
+\end{proof}
+
+\begin{corollary}
+מקומפקטיות והדבקה, יש התאמה
+$1 : 1$
+בין מסלולים שבורים ונקודות שפה של
+$\hat{\mu}\prs{p,q}$.
+
+עבור
+$\mu\prs{p} = \mu\prs{q} + 2$
+מתקיים
+$\dim \hat{\mu}\prs{p,q} = 1$
+ולכן
+$\hat{\mu}$
+אוסף מעגלים וקטעים.
+נקבל כי
+\[\del \hat{\mu}\prs{p,q} = \coprod_{\mu\prs{z} = \mu\prs{q} + 1} \hat{\mu}\prs{p,z} \times \hat{\mu}\prs{z,q}\]
+וכי כל מסלול שבור
+$\prs{\hat{\gamma}_1, \hat{\gamma}_2}$
+מופיע רק פעם אחת כנקודת שפה של
+$\hat{\prs{p,q}}$.
+אחרת היינו יכולים לבנות סדרה מתכנסת שאינה בתמונה של
+$\#$.
+\end{corollary}
+
+\begin{corollary}
+\[\del^2\prs{x} = \sum_{\substack{\mu\prs{q} + 2 = \mu\prs{p} \\ \mu\prs{z} + 1 = \mu\prs{p}}} n_2\prs{p,z} \cdot n_2\prs{z,q} \cdot q \equiv 0 \mod{2}\]
+כיוון ש־%
+\[n_2\prs{p,z} \cdot n_2\prs{z,q} = \#\prs{\hat{\mu}\prs{p,z} \cdot \hat{\mu}\prs{z,q}}\]
+מספר נקודות קצה של יריעה
+$1$%
+־מימדית.
+\end{corollary}
+
+קיימת גירסא של הדבקה גם עבור מספר נקודות שבירה.
+יש מפה
+\begin{align*}
+\# \colon \hat{\mu}\prs{p,z_1} \times \hat{\mu}\prs{z_1, z_2} \times \ldots \times \hat{\mu}\prs{z_k, q} \times \left[ \rho_1, \infty \right) \times \ldots \times \left[ \rho_{k-1}, \infty \right) \to \hat{\mu}\prs{p,q}
+\end{align*}
+כמו מקודם.
+אפשר לבצע קדם־הדבקה והטלה כמו מקודם, ולקבל על
+$\hat{\mu}\prs{p,q}$
+מבנה של יריעה עם פינות.
+
+\subsection{חישובי הומולוגיה}
+
+\begin{exercise}
+תהי
+$\prs{F, \rho}$
+זוג
+\textenglish{Morse-Smale}
+ותהיינה
+$p,z$
+נקודות קריטיות עם
+$\mu\prs{z} < \mu\prs{p}$
+וכאשר
+$z \in W^U\prs{p}$.
+אז
+$W^U\prs{z} \subseteq \del W^U\prs{p}$.
+\end{exercise}
+
+\begin{exercise}
+ראינו
+\[\text{.} M = \coprod_{p \in \mrm{Crit}\prs{F}} W^U\prs{p}\]
+נגדיר
+\[C_*^{\mrm{CW}} = \mbb{Z}_2 \trs{W^U\prs{p}}\]
+וגם
+\[\del_*^{\mrm{CW}} \colon C_*^{\mrm{CW}} \to C_{* - 1}^{\mrm{CW}}\]
+שסופרת את הדרגה של פונקציית ההדבקה.
+עבור
+$U$
+תא
+$k$%
+-מימדי עם הדבקה
+\[f \colon \del U \to U^1_{k-1} \cup \ldots \cup U_{k-1}^n \cup \set{\text{lower-dimensional cells}}\]
+נגדיר
+\[\text{.} \del_k^{\mrm{CW}}\prs{U} = \sum_{j \in [n]} \deg_2\prs{f, U_{k-1}^j} U_{k-1}^j\]
+אז יש איזומורפיזם של קומפלקסים
+$CM_* \cong C^{\mrm{CW}}_*$
+בין קומפלקס מורס לקומפלקס ה־%
+\textenglish{CW}.
+אז יש איזומורפיזם בין ההומולוגיות המתאימות,
+\[\text{.} HM_* \cong H_*^{\mrm{CW}} \cong H_*^{\mrm{sing}}\]
+\end{exercise}
+
+כדי להראות שהומולוגיית מורס אינה תלויה בבחירות. במקרים פרטיים, נקבל זאת מכך שהומולוגיית מורס איזומורפית להומולוגיה אחרת. במקרה הכללי, ולמשל במקרה האינסוף־מימדי, זה לא עובד ויש צורך בהוכחה אחרת.
+
+\subsection{אי־תלות של
+$HM_*\prs{F,\rho}$
+ב־%
+$\prs{F,\rho}$}
+
+\begin{proposition}
+יהיו
+$\prs{F_0, \rho_0}, \prs{F_1, \rho_1}$
+זוגות
+\textenglish{Morse-Smale}
+על
+$M$.
+קיימת
+\[\Phi^{F_1, F_0} \colon {CM}_*^{F_1} \to CM_*^{F_0}\]
+העתקה של קומפלקסים.
+\end{proposition}
+
+\begin{proof}
+נסתכל על
+$M \times \brs{0,1}$.
+נגדיר בסביבה של
+$M \times \set{0}$
+פונקציה
+$F_0 + t^2$
+ומטריקה
+$\rho_0 + \diff t^2$,
+ובסביבה של
+$M \times \set{1}$
+פונקציה
+$F_1 + \prs{1-t}^2$
+ומטריקה
+$\rho_1 + \diff t^2$.
+נקבל שאין נקודות קריטיות נוספות בשתי הסביבות האלה. כדי שלא יהיו נקודות קריטיות נוספות באופן גלובלי, נרצה שההומוטופיה תהיה עולה ממש.
+לשם כך בסביבת
+$M \times \set{1}$
+נגדיר בעצם פונקציה
+$F_1 + \prs{1-t}^2 + K$,
+מה שלא משנה את הזרימה.
+נקבל פונקציה
+$\bar{F}\prs{\rho,t}$
+עולה ממש עם
+$t$,
+בעזרת אינטרפולציה (למשל, אינטרפולציה ריבועית), ונקבל הרחבה כלשהי
+$\rho$
+של המטריקה הרימנית.
+על ידי פרטורבציה מתאימה של
+$\rho$
+נקבל זוג
+\textenglish{Morse-Smale}
+$\prs{\bar{F}, \bar{\rho}}$
+על
+$M \times \brs{0,1}$,
+שנקרא לו
+\textenglish{Morse Data}.
+ראו איור
+\ref{7.2}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.2}
+\caption{}
+\label{7.2}
+\end{figure}
+
+נקבל
+\[\text{.} \mrm{Crit}\prs{\bar{F}} = \mrm{Crit}\prs{F_0} \times \set{0} \amalg \mrm{Crit}\prs{F_1} \times \set{1}\]
+כמו כן,
+\begin{align*}
+\mu\prs{\prs{x,0}} &= \mu\prs{x} \\
+\text{.} \mu\prs{\prs{y,1}} &= \mu\prs{y} + 1
+\end{align*}
+
+עבור
+$y \in \mrm{Crit}_k\prs{F_1}$
+נגדיר
+\begin{align*}
+\Phi^{F_1, F_0}\prs{y} = \sum_{x \in \mrm{Crit}_k\prs{F_0}} n_2\prs{\prs{y,1}, \prs{x,0}} \cdot x
+\end{align*}
+ונקבל מכך העתקה
+\[\Phi^{F_0, F_1} \colon CM_*\prs{F_1, \rho_1} \to CM_*\prs{F_0, \rho_0}\]
+לינארית.
+נראה שהיא העתקה של קומפלקסים ונקבל מכך גם שהיא משרה העתקה בהומולוגיה.
+נסתכל על
+$\bar{\del}$
+דיפרנציאל מורס על
+$M \times \brs{0,1}$.
+מתקיים
+\begin{align*}
+\bar{\del}\prs{\prs{x,0}} &= \prs{\del^0\prs{x}, 0} \\
+\bar{\del}\prs{\prs{y_1, 1}} &= \prs{\del^1\prs{y}, 1} + \prs{\Phi^{F_1, F_0}\prs{y}, 0}
+\end{align*}
+וכמו קודם,
+$\bar{\del}^2 = 0$.
+אז
+\begin{align*}
+0 &= \bar{\del}^2\prs{\prs{y,1}}
+\\&= \bar{\del} \prs{\prs{\del^1\prs{y}, 1} + \prs{\Phi^{F_1, F_0}\prs{y}, 0}}
+\\&= \prs{\prs{\del^1}^2 \prs{y}, 1} + \prs{\Phi^{F_1, F_0} \prs{\del^1\prs{y}},0}
++ \prs{\del^0\prs{\Phi^{F_1, F_0}\prs{y}},0}
+\end{align*}
+ולכן
+\[\Phi^{F_1, F_0} \circ \del^1 + \del^0 \circ \Phi^{F_1, F_0} = 0\]
+וכיוון שאנו עובדים מעל
+$\mbb{Z}/2\mbb{Z}$
+נקבל
+\[\text{,} \Phi^{F_1, F_0} \circ \del^1 = \del^0 \circ \Phi^{F_1, F_0}\]
+כנדרש.
+\end{proof}
+
+\begin{remark}
+קיבלנו זוג
+\textenglish{Morse-Smale}
+$\prs{\bar{F}, \bar{\rho}}$
+על
+$M \times \brs{0,1}$
+וראינו כי
+$\bar{\del}^2 = 0$.
+אז ניתן לחשב הומולוגיה, אך זאת לא הומולוגיה של יריעה עם שפה.
+
+כדי להגדיר הומולוגיה של יריעה עם שפה אפשר לשים את הנקודות הקריטיות בפנים ולדאוג שהגרדיאנט מצביע החוצה על השפה כדי לחשב הומולוגיה של יריעה עם שפה.
+\end{remark}
+
+\begin{proposition}
+עבור אינטרפולציה מתאימה,
+$\Phi^{F_0, F_0} = \1$.
+\end{proposition}
+
+\begin{proof}
+נגדיר
+$\bar{\rho} = \rho_0 + \diff t^2$
+על כל
+$M \times \brs{0,1}$.
+בסביבת
+$M \times \set{0}$
+נגדיר
+$F_0 + t^2$
+ובסביבת
+$M \times \set{1}$
+נגדיר
+$F_0 + \prs{1-t}^2 + K$.
+נבחר
+$\phi \colon \brs{0,1} \to \mbb{R}$
+חלקה ומונוטונית עולה עבורה
+$\phi\prs{0} = 0$
+וגם
+$\phi\prs{t} = K + \prs{1-t}^2$
+עבור
+$t$
+קרוב מספיק ל־%
+$1$.
+אז נגדיר
+$\bar{F}\prs{x,t} = F_0\prs{x} + \phi\prs{t}$.
+חישוב נותן
+\[\text{.} - \nabla_{\bar{\rho}} \bar{F} = \prs{\nabla_{\rho_0} F_0, \phi^1}\]
+אז ההטלה
+$\pi \colon M \times \brs{0,1} \to M$
+שומרת על
+$\nabla$
+ולכן גם על מסלולים של
+$-\nabla$.
+
+\begin{exercise}
+הזוג
+$\prs{\bar{F}, \bar{\rho}}$
+מקיים את תנאי
+\textenglish{Morse-Smale}.
+\end{exercise}
+
+נבחר
+$x \in \mrm{Crit}_k\prs{F_0}$
+ואז
+\begin{align*}
+\text{.} \Phi^{F_0, F_0}\prs{x} &= \sum_{y \in \mrm{Crit}_k\prs{F_0}} n_2\prs{\prs{x,1}, \prs{y,0}} \cdot y
+\end{align*}
+נניח שיש
+$y$
+עבורו
+$n_2\prs{\prs{x,1}, \prs{y,0}} \neq 0$.
+אז
+$\hat{\mu}\prs{\prs{x,1}\prs{y,0}} \neq \ns$.
+נפעיל את
+$\pi$
+ונקבל
+$\hat{\mu}\prs{x,y} \neq \ns$.
+אבל
+$\mu\prs{x} = \mu\prs{y} = k$,
+ולכן זה לא יתכן עבור
+$x \neq y$
+כי ראינו שבמקרה זה אין טרקטוריה מ־%
+$x$
+ל־%
+$y$.
+לכן,
+$x = y$,
+ואז הטרקטוריה היחידה היא הטרקטוריה
+$\prs{x,1} \to \prs{x,0}$
+בסיב של
+$x$.
+
+נקבל כי
+$\Phi^{F_0, F_0} = \1$
+כהעתקה בין קומפלקסים, ולכן גם בהומולוגיה.
+\end{proof}
+
+\begin{proposition}
+$\Phi^{F_1, F_0} \circ \Phi^{F_2, F_1}$
+ו־%
+$\Phi^{F_2, F_0}$
+מגדריות את אותה העתקה בהומולוגיה.
+\end{proposition}
+
+\begin{proof}
+נבנה
+\[\bar{F} \colon M \times \brs{0,1} \times \brs{0,1} \to \mbb{R}\]
+ו־%
+$\bar{\rho}$
+הרחבה של המטריקה הרימנית.
+ראיו איור
+\ref{7.3.a}.
+נרחיב את
+$\rho$
+באופן גנרי בנקודות הפנימיות ו־%
+$\bar{F}$
+כך ש־%
+$\bar{F}\prs{x,s,t}$
+מונוטונית עולה ב־%
+$s,t$
+בלי נקודות קריטיות באמצע.
+
+הנקודות קריטיות של
+$\bar{F}$
+מתוארות באיור
+\ref{7.3.b}.
+אם נשתמש ב־%
+$\bar{\del}^2 = 0$
+נקבל
+\begin{align*}
+0 &= \bar{\del}^2\prs{x,1,1}
+\\&= \ldots
+\\&= \Phi^{F_2, F_0} + \Phi^{F_1, F_0} \circ \Phi^{F_2, F_0} 
+\\&= S \circ \del^2 + \del^0 \circ S
+\end{align*}
+עבור
+\begin{align*}
+S \colon C_*\prs{F_2, \rho_2} &\to C_{*+1}\prs{F_0, \rho_0} \\
+\text{.} \hphantom{lalala} x \in \mrm{Crit}_k\prs{F_2} &\mapsto \sum_{y \in \mrm{Crit}_{k-1}\prs{F_0}} n_2 \prs{\prs{x,1,1}, \prs{y,0,0}} \cdot y
+\end{align*}
+כאן
+$S$
+היא
+\textenglish{chain homotopy}
+בין
+$\Phi^{F_2, F_0}, \Phi^{F_1, F_0} \circ \Phi^{F_2, F_0}$
+ולכן הן משרות את אותה העתקה בהומולוגיה.
+\end{proof}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.3.a}
+\caption{}
+\label{7.3.a}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.3.b}
+\caption{}
+\label{7.3.b}
+\end{figure}
+
+\begin{corollary}
+\[\Phi^{F_1, F_0} \colon HM_*\prs{F_1, \rho_1} \to HM_*\prs{F_0, \rho_0}\]
+איזומורפיזם.
+\end{corollary}
+
+\begin{proof}
+נסתכל על ההרכבה
+\[\text{.} HM_*\prs{F_1, \rho_1} \xrightarrow{\Phi_*^{F_1, F_0}} HM_*\prs{F_0, \rho_0} \xrightarrow{\Phi_*^{F_0, F_1}} HM_*\prs{F_0, \rho_0}\]
+ההרכבה היא
+$\Phi_*^{F_0, F_0} = \1$
+ולכן
+$\Phi_*^{F_1, F_0}$
+חד־חד ערכית ו־%
+$\Phi_*^{F_0, F_1}$
+על.
+אם נחליף את סדר ההרכבה נקבל את התכונות החסרות, ולכן
+$\Phi_*^{F_1, F_0}$
+חד־חד ערכית ועל, ולכן איזומורפיזם.
+\end{proof}
+
+\begin{definition}[מספרי
+\textenglish{Betty}]
+נגדיר את
+\emph{מספר
+\textenglish{Betty}
+ה־%
+$i$}
+של
+$M$
+על ידי
+$\beta_i \ceq \dim\prs{HM_i\prs{F,\rho}}$
+עבור זוג
+\textenglish{Morse-Smale}
+$\prs{F,\rho}$.
+\end{definition}
+
+\begin{corollary}
+מספר
+\textenglish{Betty}
+אינם תלויים ב־%
+$\prs{F, \rho}$,
+ומתקיים
+$\mrm{Crit}_i\prs{F} \geq \beta_i$.
+\end{corollary}
+
+\begin{exercise}
+האיזומורפיזם
+\[\Phi^{F_1, F_0} \colon HM_*\prs{F_1, \rho_1} \to HM_*\prs{F_0, \rho_0}\]
+קנוני ואינו תלוי בהומוטופיה בין
+$\prs{F_0, \rho_0}, \prs{F_1, \rho_1}$.
+\end{exercise}
+
+%LECTURE 8
+
+\subsection{שימושים}
+
+\subsubsection{סיווג של יריעות}
+
+\begin{exercise}
+אם
+$f \colon M_1 \to M_2$
+דיפאומורפיזם אז
+$HM_*\prs{M_1} \cong HM_*\prs{M_2}$.
+\end{exercise}
+
+\begin{solution}
+ניקח
+$\prs{F,\rho}$
+זוג
+\textenglish{Morse-Smale}
+על
+$M_1$
+ונדחוף אותו לזוג על
+$M_2$.
+הדחיפה מעתיקה נקודות קריטיות לנקודות קריטיות, את המטריקה הרימנית למטריקה הרימנית, ושומרת על האינדקסים, לכן ניתן לראות שיש איזומורפיזם
+\[f_* \colon \prs{C_*\prs{M; F,p}, \del_*^1} \to \prs{C_*\prs{M_2; f_*F, f_*p}, \del_*^2}\]
+של קומפלקסים, שמשרה איזומורפיזם בין ההומולוגיות.
+\end{solution}
+
+\subsubsection{תת־יריעות איזוטופיות}
+
+\begin{itemize}
+\item אם
+$L_1, L_2 \subseteq M$
+תת־יריעות סגורות, נרצה לשאול מתי קיימת איזוטופיה שלוקחת את
+$L_1$
+ל־%
+$L_2$.
+ניתן להתאים הומולוגיה
+$\brs{L_1}, \brs{L_2} \in H_*\prs{M}$
+כך שאם
+$\brs{L_1} \neq \brs{L_2}$
+אין איזוטופיה כזאת, שהיא "מעבר רציף", בין
+$L_1, L_2$.
+
+אצלנו, עבור
+$L_i$
+ניקח
+$F_i, \rho_i$
+מתאימות ונקבל
+\[\brs{L_i} \in HM_*\prs{M; F_i, \rho_i}\]
+ואלו איברים בהומולוגיות שונות.
+כדי להשוות את
+$\brs{L_1}, \brs{L_2}$
+ניעזר בכך שיש איזומורפיזם
+\emph{קנוני}
+שמקשר בין ההומולוגיות.
+
+\item אם
+$A,B \in \mrm{SL}_2\prs{\mbb{Z}}$
+נקבל דיפאומורפיזמים
+\begin{align*}
+f_A, f_B \colon \mbb{T}^2 &\to \mbb{T}^2 \\
+x &\mapsto Ax \\
+\text{.} \hphantom{lala} x &\mapsto Bx
+\end{align*}
+
+\begin{proposition}
+אם
+$A\neq B$,
+ההעתקות
+$f_A, f_B$
+אינן איזוטופיות.
+\end{proposition}
+\begin{proof}
+מתקיים
+\begin{align*}
+\prs{f_A}_* \colon H_1\prs{\mbb{T}^2} &\to H_1\prs{\mbb{T}^2} \cong \mbb{Z}^2\trs{a,b} \\
+\text{.} \hphantom{lalalalalalala} x &\mapsto Ax
+\end{align*}
+כאשר
+$A,B$
+שונות, אם קיימת איזוטופיה קיים מעביר רציף בין ההעתקות בהומולוגיה, אבל העתקות אלו הן איברים שונים בקבוצה דיסקרטית, בסתירה.
+\end{proof}
+
+נרצה לתרגם הוכחה זאת להוכחה בעזרת תורת מורס עם הכלים שבנינו.
+
+תהי
+$A \in \mrm{SL}_2\prs{\mbb{Z}}$.
+נגדיר
+\begin{align*}
+\prs{f_A}_* \colon H M_1\prs{M;F,\rho} &\riso HM_1\prs{M;\prs{f_A}_*\prs{F}, \prs{f_A}_*\prs{\rho}} \\
+\prs{f_B}_* \colon H M_1\prs{M;F,\rho} &\riso HM_1\prs{M;\prs{f_B}_*\prs{F}, \prs{f_B}_*\prs{\rho}}
+\end{align*}
+כמקודם.
+במקרה זה נגיד שההעתקות
+\emph{מתאומות}
+אם המשולש
+\[
+\begin{tikzcd}
+& & HM_1\prs{M; \prs{f_A}_*\prs{F}, \prs{f_A}_*\prs{\rho}} \arrow[dd, "\Phi^{\prs{f_A}_* F, \prs{f_B}_* F}"] \\
+HM_1\prs{M; F, \rho} \arrow[urr, "\prs{f_A}_*"] \arrow[drr, "\prs{f_B}_*"] & & \\
+& & HM_1\prs{M; \prs{f_B}_*\prs{F}, \prs{f_B}_*\prs{\rho}}
+\end{tikzcd}
+\]
+קומוטטיבי.
+
+אבל, הגדרת
+$\Phi^{F_1, F_0}$
+לא נוחה לצורך חישוב.
+ראינו ש־%
+$\Phi^{F_1, F_0}$
+אינה תלויה באינטרפולציה, לכן נסתכל על אינטרפולציה בה
+המטריקה הרימנית מהצורה
+$\rho_t + \diff t^2$
+ובה
+$F_t$
+פונקציה נתונה.
+מתקיים
+\[\text{.} -\nabla = \prs{-\nabla_{\rho_1} F_1, -2\prs{1-t}}\]
+נשאיף
+$K \to \infty$
+ואז הזרימה
+$x \to y$
+תעבור את שכבת האינטרפולציה בפרק זמן ששואף לאפס.
+בגבול, החלק של האינטרפולציה יעלם אחרי ההטלה.
+ראו איורים
+\ref{7.4.a}, \ref{7.4.b}.
+נקבל העתקה
+\begin{align*}
+\hat{\Phi}^{F_1, F_0}\prs{x} = \sum_{y \in \mrm{Crit}\prs{F_0}} \# \mcal{P}\prs{x,y} \cdot y
+\end{align*}
+עבור
+\begin{align*}
+\text{.} \mcal{P}\prs{x,y} &\ceq \set{\prs{\gamma_1, \gamma_2}}{\substack{\gamma_1 \colon \left( -\infty, 0 \right] \to M \\ \gamma_2 \colon \left[0,\infty\right) \to M \\ \gamma_1' = -D_{\rho_1} F_1 \\ \gamma_1\prs{s} \xrightarrow{s \to -\infty} x \\ \gamma_2' = -D_{\rho_0} F_0 \\ \gamma_2 \xrightarrow{s\to\infty} y}}
+\end{align*}
+תחת הדרישה
+$W_{F_1}^U \prs{x} \pitchfork W_{F_0}^S\prs{y}$,
+לכל
+$x,y$,
+שמתקיימת במקרה הגנרי.
+אז נוכל לזהות
+\[\text{.} \mcal{P}\prs{x,y} \cong W_{F_1}^U\prs{x} \cap W_{F_0}^S\prs{y}\]
+מתקיים
+\[\text{.} \dim \mcal{P}\prs{x,y} = \u\prs{x} - \mu\prs{y}\]
+
+נציג את אופן החישוב בדוגמא הבאה.
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.4.a}
+\caption{טרקטוריות שמחוברות על ידי פרטורבציה.}
+\label{7.4.a}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.4.b}
+\caption{בגבול הטרקטוריות מתחברות ואין פרטורבציה.}
+\label{7.4.b}
+\end{figure}
+
+\begin{example}
+יהי
+$\mbb{T}^2$
+הטורוס כמתואר באיור
+\ref{5.5}
+ונסמן את הפונקציה והמטריקה המתאימות
+$\prs{F_0, \rho_0}$.
+לאחר פרטורבציה מתאימה אפשר לקבל זוג
+\textenglish{Morse-Smale}
+נוסף שנסמנו
+$\prs{F_1, \rho_1}$.
+ראו איור
+\ref{7.5}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.5}
+\caption{}
+\label{7.5}
+\end{figure}
+
+מספיק לחשב את
+$\hat{\Phi}^{F_1, F_0}$
+על יוצרים.
+למשל, מתקיים
+\begin{align*}
+\hat{\Phi}^{F_1, F_0}\prs{M'} &= \sum_{p \in \mrm{Crit}_2\prs{F_0}} \#_2 \mcal{P}\prs{M', p} \cdot [
+\\&= \#_2 \mcal{P}\prs{M', M} \cdot M
+\end{align*}
+והמספר
+$\# \mcal{P}\prs{M',M}$
+הוא מספר הטרקטוריות השבורות מ־%
+$M'$
+ל־%
+$M$.
+אבל, טרטוריה ל־%
+$M$
+היא בהכרח הטרקטוריה הקבועה, ולכן אלו טרקטוריות מ־%
+$M'$
+ל־%
+$M$.
+יש טרקטוריה יחידה כזו, ממשפט היחידות.
+אז
+$\hat{\Phi}^{F_1, F_0}\prs{M'} = M$.
+
+מתקיים גם
+\begin{align*}
+\text{.} \hat{\Phi}^{F_1, F_0}\prs{x'} &= \#_2 \mcal{P}\prs{x', x} \cdot x + \#_2 \mcal{P}\prs{x', y} \cdot y
+\end{align*}
+מתקיים
+\begin{align*}
+\#_2 \mcal{P}\prs{x', x} \cdot x &= \#_2 W^U\prs{x'} \cap W^S\prs{x} = 1 \\
+\#_2 \mcal{P}\prs{x', y} \cdot y &= \#_2 W^U\prs{x'} \cap W^S\prs{y} = \#_2 \ns = 0 
+\end{align*}
+ולכן
+$\hat{\Phi}^{F_1, F_0} \prs{x'} = x$.
+ניתן להמשיך את החישוב ולראות שמתקיים
+\begin{align*}
+\hat{\Phi} \colon {HM}_*\prs{F_1, \rho_1} &\to HM_*\prs{F_0, \rho_0} \\
+M' &\mapsto M \\
+x' &\mapsto x \\
+y' &\mapsto y \\
+\text{.} m' &\mapsto m
+\end{align*}
+\end{example}
+
+\section{קוהומולוגיית מורס}
+
+נסתכל על קומפלקס
+$C_* = \bigoplus C_k$
+עבור
+$\mbb{Z}/2\mbb{Z}$%
+־מודולים
+$C_k$
+ונסתכל על העתקות
+\[\del_k \colon C_k \to C_{k-1}\]
+עבורן
+$\del^2 = 0$.
+נגדיר
+\emph{קומפלקס קוהומולוגיה}
+על ידי
+\[\text{.} C^k \ceq \hom\prs{C_k, \mbb{Z}/2\mbb{Z}} = \prs{C_K}^*\]
+נסתכל על ההעתקות
+\begin{align*}
+\prs{\del_{k+1}} \colon \prs{C_k}^* \to \prs{C_{k+1}}^*
+\end{align*}
+שמשרה העתקה
+\begin{align*}
+\diff_k \colon C^k &\to C^{k+1} \\
+\text{.} f &\mapsto f &\circ \del_{k+1}
+\end{align*}
+
+\begin{exercise}
+אם
+$\del^2 = 0$
+אז
+$\diff^2$.
+\end{exercise}
+
+\begin{definition}[קומפלקס קוהומולוגיה]
+נגדיר את
+\emph{קומפלקס הקוהומולוגיה}
+על ידי
+\begin{align*}
+C^* &= \bigoplus C^k \\
+\text{.} \diff_* &\colon C^* \to C^{*+1}
+\end{align*}
+\end{definition}
+
+\begin{definition}[קוהומולוגיה]
+נגדיר את
+\emph{הקוהומולוגיה}
+על ידי
+\[\text{.} H^*\prs{C_*, \del_*} \ceq H\prs{C^*, d_*}\]
+\end{definition}
+
+אצלנו, נסתכל על יריעה
+$M$
+עם זוג
+\textenglish{Morse-Smale}
+$\prs{F,\rho}$.
+הגדרנו
+\[C_k = \mbb{Z}_2 \trs{\mrm{Crit}_k F}\]
+ואז
+\[C^k = \hom\prs{C_k, \mbb{Z}_2} = \prs{C_k}^* = \mbb{Z}_2 \trs{\mrm{Crit}_k\prs{F}^{\bullet}}\]
+עבור הבסיס הדואלי
+\[\mrm{Crit}_k\prs{F}^\bullet = \set{x^\bullet}{x \in \mrm{Crit}_k\prs{F}} \subseteq \prs{C_k}^*\]
+ותחת ההגדרה
+$x^\bullet\prs{y} = \delta_{x,y}$.
+
+נחשב את
+$\diff_k \colon C^k \to C^{k+1}$.
+נבחר
+$y \in \mrm{Crit}_k\prs{F}$
+ונרצה לחשב את
+$\diff_k\prs{y^\bullet} \in C^{k+1}$.
+עבור
+$x \in C_{k+1}$
+מתקיים
+\begin{align*}
+\prs{\diff_k\prs{y^\bullet}}\prs{x} &= y^\bullet\prs{\del_{k+1}\prs{x}}
+\\&= y^\bullet\prs{\sum_{z \in \mrm{Crit}_k\prs{F}} n_2\prs{x,z} \cdot z}
+\\ \text{.} \hphantom{\prs{\diff_k\prs{y^\bullet}}\prs{x}} &= n_2\prs{x,y} \cdot y
+\end{align*}
+נקבל שמתקיים
+\[\text{.} \diff_k\prs{y^\bullet} \sum_{x \in \mrm{Crit}_{k+1}\prs{F}} n_2\prs{x,y} \cdot \bullet{x}\]
+נשים לב שכאן הספירה היא של טרקטוריות שמסיימות ב־%
+$y$,
+בניגוד לחישוב של
+$\del$.
+אז חישוב הקוהומולוגיה יהיה זהה לחישוב ההומולוגיה, רק עם ספירה של טרקטוריות בכיוון ההפוך. מתקיים
+$-\nabla F = \nabla\prs{-F}$,
+ולכן ספירת קווי הזרימה של
+$F$
+ב־%
+$d_k$
+מזדהה עם ספירת קווי הזרימה של
+$-F$
+ב־%
+$\del_k$.
+נקבל כי
+\[\text{.} \prs{C^*, d_*}_{\prs{F, \rho}} \cong \prs{C_*, \del_*}_{\prs{-F, \rho}}\]
+
+\begin{corollary}
+\begin{itemize}
+\item מתקיים
+$\diff^2 = 0$.
+\item הקוהומולוגיה אינה תלויה ב־%
+$\prs{F,\rho}$
+ויש איזומורפיזמים קנונניים כמו בהומולוגיה.
+\item יש העתקה, שנקראת
+\textenglish{pairing / evaluation map}
+\[\text{.} C^k\prs{F, \rho} \times C_k\prs{F, \rho} \to \mbb{Z}_2\]
+נקבל העתקה
+\[\text{.} HM^k\prs{F,\rho} \times HM_k\prs{F,\rho} \to \mbb{Z}_2\]
+יש איזומורפיזם קנוני
+$HM_k\prs{F, \rho} \cong HM_k\prs{F', \rho'}$
+ולכן נקבל העתקה
+\[\text{.} HM^*\prs{F, \rho} \times HM_k\prs{F', \rho'} \to \mbb{Z}_2\]
+
+ניקח
+$y \in \mrm{Crit}_k\prs{F}, x \in \mrm{Crit}_k\prs{F'}$.
+אם נעבור על ההגדרות נקבל בהעתקה זאת
+\[\text{.} y^\bullet\prs{x} = \#_2 \mcal{P}\prs{x,y}\]
+\end{itemize}
+\end{corollary}
+
+\begin{corollary}
+$x \in \mrm{Crit}\prs{F}$
+אם ורק אם
+$x \in \mrm{Crit}_{n-k}\prs{-F}$.
+לכן
+\[\text{.} HM^k\prs{F, \rho} \cong H_{n-k}\prs{-F, \rho} \cong H_{n-k}\prs{F,\rho}\]
+איזומורפיזם זה קנוני.
+נקבל כי יש איזומורפיזם קנוני
+\[\text{.} HM^k\prs{M} \cong HM_{n-k}\prs{M}\]
+
+מסקנה זאת נקראת
+\emph{דואליות פואנקרה}.
+\end{corollary}
+
+\begin{remark}
+משפט מאלגברה הומולוגית אומר שמעל שדה כללי,
+$HM^k\prs{M} \cong HM_k\prs{M}$
+עבור קומפלקסים נוצרים סופית.
+זה נובע למשל ממשפט המקדמים האוניברסלי.
+איזומורפיזם זה אינו בהכרח קנוני.
+נקבל כי
+\[HM_k\prs{M} \cong HM_{n-k}\prs{M}\]
+אבל איזומורפיזם זה אינו בהכרח קנוני.
+בפרט, מתקיים
+$\beta_k = \beta_{n-k}$.
+\end{remark}
+
+תהי
+$L^k \subseteq M^n$
+תת־יריעה סגורה ממימד
+$k$.
+יש העתקה
+$L \mapsto \brs{L} \in HM_k\prs{M}$
+שמוגדרת באופן הבא.
+נבחר זוג
+\textenglish{Morse-Smale}
+$\prs{F,\rho}$.
+נגדיר
+\[L \mapsto \sum_{x \in \mrm{Crit}_k\prs{F}} \#_2 \mcal{P}\prs{L, x} \cdot x\]
+עבור
+\[\text{.} \mcal{P}\prs{L,x} \ceq \set{\gamma \colon \left[0,\infty\right) \to \mbb{R}}{\substack{\gamma\prs{0} \in L \\ \gamma \xrightarrow{t\to\infty} x \\ \gamma' = -\nabla F}} \cong L \cap W^S\prs{x}\]
+כאשר החיתוכים
+$L \cap W^S\prs{x}$
+טרנסוורסליים.
+
+\subsection{מכפלה בהומולוגיה}
+
+\subsubsection{מכפלה בהומולוגיה כללית}
+
+עבור יריעות
+יש העתקה שנקראת
+\emph{\textenglish{intersection product}}
+עם
+\begin{align*}
+H_k\prs{M} \times H_m\prs{M} &\to H_{k+m-n}\prs{M} \\
+\brs{L_1^k} \times \brs{L_2^m} &\mapsto \brs{L_1 \cap L_2}
+\end{align*}
+עבור
+$L_1 \pitchfork L_2$.
+במקרה שאין טרנסוורסליות, נוכל לבצע פרטורבציה קטנה, ששומרת על מחלקות ההומולוגיה, ולקבל את אותה נוסחא.
+
+במקרה של הטורוס, אם ניקח את הנקודות
+$a,b$
+באיור
+\ref{7.6}
+נקבל
+$\brs{a} \times \brs{b} = \brs{\mrm{pt}}$.
+עבור
+$\brs{a} \times \brs{a}$,
+נזיז עותק אחד של
+$a$
+כדי לקבל טרנסוורסליות, ונקבל
+$\brs{a} \times \brs{a} = 0$.
+נקבל גם
+$\brs{\mbb{T}^2} \times \brs{L} = \brs{L}$
+ובאופן כללי
+$\brs{\mbb{T}^2}$
+איבר יחידה.
+עבור
+$L \subsetneq \mbb{T}^2$
+מתקיים
+$\brs{\mrm{pt}} \times \brs{L} = 0$.
+נקבל מבנה של חוג על
+$H_*\prs{M}$
+עם איבר יחידה
+$\brs{M}$
+כאשר
+$M$
+אוריינטבילית.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/7.6}
+\caption{יריעות יציבות ובלתי־יציבות על הטורוס.}
+\label{7.6}
+\end{figure}
+
+\subsubsection{מכפלה בהומולוגיית מורס}
+
+נגדיר
+\[\text{.} C_*\prs{F_1, \rho_1} \times C_*\prs{F_2, \rho_2} \to C_*\prs{F_3, \rho_3}\]
+עבור
+\begin{align*}
+x &\in \mrm{Crit}\prs{F_1} \\
+y &\in \mrm{Crit}\prs{F_2} \\
+z &\in \mrm{Crit}\prs{F_3} \\
+\end{align*}
+נגדיר
+\begin{align*}
+\text{.} \mu\prs{x,y;z} \ceq \set{\prs{\gamma_1, \gamma_2, \gamma_3}}{\substack{\gamma_1, \gamma_2 \colon \left(-\infty,0\right] \to M \\ \gamma_3 \colon \left[0,\infty\right) \to M \\ \gamma_1\prs{0} = \gamma_2\prs{0} = \gamma_3\prs{0} \\ \gamma_i' = -\nabla F_i}}
+\end{align*}
+אז נגדיר
+\[\text{.} \prs{x,y} \to \sum_{z \in \mrm{Crit}\prs{F_3}} \#_2\mu\prs{x,y;z} \cdot z\]
+
+%END OF LECTURE 8
+
+%LECTURE 9
 
 \backmatter
 \end{document}

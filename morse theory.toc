@@ -12,11 +12,23 @@
 \contentsline {section}{\numberline {1.3}הדבקת ידיות}{6}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}פונקציות מורס}{6}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}הלמה של מורס}{8}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}שקילות של משטחים}{12}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}הוספת נקודה קריטית}{13}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}מעבר עד כדי דיפאומורפיזם}{15}{subsection.1.3.5}%
-\contentsline {subsubsection}{עבור יריעות חלקות}{15}{section*.16}%
-\contentsline {subsection}{\numberline {1.3.6}הוספת מספר נקודות קריטיות}{15}{subsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.3.7}שימושים}{15}{subsection.1.3.7}%
-\contentsline {section}{\numberline {1.4}קיום פונקציות מורס}{16}{section.1.4}%
-\contentsline {section}{\numberline {1.5}תת־יריעות יציבות}{18}{section.1.5}%
+\contentsline {subsection}{\numberline {1.3.3}שקילות של משטחים}{13}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}הוספת נקודה קריטית}{14}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}מעבר עד כדי דיפאומורפיזם}{17}{subsection.1.3.5}%
+\contentsline {subsubsection}{עבור יריעות חלקות}{18}{section*.24}%
+\contentsline {subsection}{\numberline {1.3.6}הוספת מספר נקודות קריטיות}{18}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}שימושים}{18}{subsection.1.3.7}%
+\contentsline {section}{\numberline {1.4}קיום פונקציות מורס}{19}{section.1.4}%
+\contentsline {section}{\numberline {1.5}תת־יריעות יציבות}{21}{section.1.5}%
+\contentsline {section}{\numberline {1.6}קומפלקסי \textenglish {CW} ותנאי \textenglish {Morse-Smale}}{26}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}הומולוגיית מורס}{28}{subsection.1.6.1}%
+\contentsline {subsubsection}{קומפקטיפיקציה של $\hat {\mu }\left ( p,q \right )$}{34}{section*.38}%
+\contentsline {subsection}{\numberline {1.6.2}חישובי הומולוגיה}{38}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}אי־תלות של $HM_*\left ( F,\rho \right )$ ב־$\left ( F,\rho \right )$}{38}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}שימושים}{42}{subsection.1.6.4}%
+\contentsline {subsubsection}{סיווג של יריעות}{42}{section*.44}%
+\contentsline {subsubsection}{תת־יריעות איזוטופיות}{42}{section*.45}%
+\contentsline {section}{\numberline {1.7}קוהומולוגיית מורס}{45}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}מכפלה בהומולוגיה}{47}{subsection.1.7.1}%
+\contentsline {subsubsection}{מכפלה בהומולוגיה כללית}{47}{section*.49}%
+\contentsline {subsubsection}{מכפלה בהומולוגיית מורס}{47}{section*.51}%
