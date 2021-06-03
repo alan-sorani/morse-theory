@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.6.2)  2 JUN 2021 11:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.6.2)  3 JUN 2021 15:35
 entering extended mode
 **"./morse theory.tex"
 (morse theory.tex
@@ -1756,14 +1756,17 @@ LaTeX Info: Redefining \rmfamily on input line 40.
 LaTeX Info: Redefining \sffamily on input line 40.
 LaTeX Info: Redefining \ttfamily on input line 40.
 
-Setting \if@calendar@hebrew Setting \if@calendar@hebrew)
+Setting \if@calendar@hebrew Setting \if@calendar@hebrew
+
+LaTeX Warning: Label `9.2' multiply defined.
+
+)
 \openout1 = `"morse theory.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 21.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 21.
-
-(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
+ (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -1942,6 +1945,9 @@ LaTeX Info: Redefining \ttfamily on input line 23.
 LaTeX Info: Redefining \rmfamily on input line 23.
 LaTeX Info: Redefining \sffamily on input line 23.
 LaTeX Info: Redefining \ttfamily on input line 23.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 36.
+LaTeX Info: Redefining \ttfamily on input line 36.
 )
 \tf@toc=\write6
 \openout6 = `"morse theory.toc"'.
@@ -2283,27 +2289,16 @@ File: sources/6.2.a.png Graphic file (type bmp)
 <sources/6.2.a.png>
 File: sources/6.2.b.png Graphic file (type bmp)
 <sources/6.2.b.png>
-
-
-LaTeX Warning: Reference `6.2.a' on page 33 undefined on input line 3135.
-
-
-LaTeX Warning: Reference `6.2.b' on page 33 undefined on input line 3142.
-
-[33]
+ [33]
 File: sources/6.3.png Graphic file (type bmp)
 <sources/6.3.png>
-
-
-LaTeX Warning: Reference `6.3' on page 34 undefined on input line 3230.
-
 LaTeX Info: Redefining \rmfamily on input line 3273.
 LaTeX Info: Redefining \sffamily on input line 3273.
 LaTeX Info: Redefining \ttfamily on input line 3273.
 LaTeX Info: Redefining \rmfamily on input line 3273.
 LaTeX Info: Redefining \sffamily on input line 3273.
 LaTeX Info: Redefining \ttfamily on input line 3273.
-[34]
+ [34]
 LaTeX Info: Redefining \rmfamily on input line 3293.
 LaTeX Info: Redefining \sffamily on input line 3293.
 LaTeX Info: Redefining \ttfamily on input line 3293.
@@ -2336,12 +2331,9 @@ LaTeX Info: Redefining \rmfamily on input line 3511.
 LaTeX Info: Redefining \sffamily on input line 3511.
 LaTeX Info: Redefining \ttfamily on input line 3511.
  [36]
-
-LaTeX Warning: Reference `7.1' on page 37 undefined on input line 3544.
-
 File: sources/7.1.png Graphic file (type bmp)
 <sources/7.1.png>
-[37]
+ [37]
 LaTeX Info: Redefining \rmfamily on input line 3652.
 LaTeX Info: Redefining \sffamily on input line 3652.
 LaTeX Info: Redefining \ttfamily on input line 3652.
@@ -2402,9 +2394,6 @@ LaTeX Info: Redefining \ttfamily on input line 3737.
 LaTeX Info: Redefining \rmfamily on input line 3742.
 LaTeX Info: Redefining \sffamily on input line 3742.
 LaTeX Info: Redefining \ttfamily on input line 3742.
-
-LaTeX Warning: Reference `7.2' on page 38 undefined on input line 3744.
-
 File: sources/7.2.png Graphic file (type bmp)
 <sources/7.2.png>
 LaTeX Info: Redefining \rmfamily on input line 3759.
@@ -2420,13 +2409,6 @@ LaTeX Info: Redefining \ttfamily on input line 3800.
 LaTeX Info: Redefining \rmfamily on input line 3854.
 LaTeX Info: Redefining \sffamily on input line 3854.
 LaTeX Info: Redefining \ttfamily on input line 3854.
-
-
-LaTeX Warning: Reference `7.3.a' on page 40 undefined on input line 3907.
-
-
-LaTeX Warning: Reference `7.3.b' on page 40 undefined on input line 3921.
-
 LaTeX Info: Redefining \rmfamily on input line 3939.
 LaTeX Info: Redefining \sffamily on input line 3939.
 LaTeX Info: Redefining \ttfamily on input line 3939.
@@ -2452,7 +2434,7 @@ LaTeX Info: Redefining \ttfamily on input line 4009.
 LaTeX Info: Redefining \rmfamily on input line 4009.
 LaTeX Info: Redefining \sffamily on input line 4009.
 LaTeX Info: Redefining \ttfamily on input line 4009.
-[40] [41]
+ [40] [41]
 LaTeX Info: Redefining \rmfamily on input line 4028.
 LaTeX Info: Redefining \sffamily on input line 4028.
 LaTeX Info: Redefining \ttfamily on input line 4028.
@@ -2463,12 +2445,6 @@ LaTeX Info: Redefining \rmfamily on input line 4128.
 LaTeX Info: Redefining \sffamily on input line 4128.
 LaTeX Info: Redefining \ttfamily on input line 4128.
  [42]
-
-LaTeX Warning: Reference `7.4.a' on page 43 undefined on input line 4136.
-
-
-LaTeX Warning: Reference `7.4.b' on page 43 undefined on input line 4136.
-
 
 LaTeX Warning: Command \u invalid in math mode on input line 4153.
 
@@ -2490,9 +2466,6 @@ Overfull \hbox (29.4756pt too wide) in paragraph at lines 4167--4168
 LaTeX Info: Redefining \rmfamily on input line 4180.
 LaTeX Info: Redefining \sffamily on input line 4180.
 LaTeX Info: Redefining \ttfamily on input line 4180.
-
-LaTeX Warning: Reference `7.5' on page 43 undefined on input line 4184.
-
 File: sources/7.5.png Graphic file (type bmp)
 <sources/7.5.png>
 
@@ -2522,12 +2495,112 @@ LaTeX Info: Redefining \rmfamily on input line 4410.
 LaTeX Info: Redefining \sffamily on input line 4410.
 LaTeX Info: Redefining \ttfamily on input line 4410.
  [46]
-
-LaTeX Warning: Reference `7.6' on page 47 undefined on input line 4423.
-
 File: sources/7.6.png Graphic file (type bmp)
 <sources/7.6.png>
-[47]
+File: sources/9.1.png Graphic file (type bmp)
+<sources/9.1.png>
+File: sources/9.2.png Graphic file (type bmp)
+<sources/9.2.png>
+ [47]
+File: sources/9.3.png Graphic file (type bmp)
+<sources/9.3.png>
+File: sources/9.4.png Graphic file (type bmp)
+<sources/9.4.png>
+
+Overfull \hbox (6.53172pt too wide) in paragraph at lines 4576--4592
+[][]\TU/OpenSansHebrew(0)/m/n/10 נרצה לחשב את $\OML/txmi/m/it/10 ^^Z []$\TU/Ope
+nSansHebrew(0)/m/n/10 . נצטרך לחשב טרקטוריות שבורות מהצורה באיור [][][][][][]1.
+42[][][][][][] אבל, אלו בדיוק הטרקטוריות[]
+ []
+
+[48] [49]
+LaTeX Info: Redefining \rmfamily on input line 4617.
+LaTeX Info: Redefining \sffamily on input line 4617.
+LaTeX Info: Redefining \ttfamily on input line 4617.
+LaTeX Info: Redefining \rmfamily on input line 4644.
+LaTeX Info: Redefining \sffamily on input line 4644.
+LaTeX Info: Redefining \ttfamily on input line 4644.
+LaTeX Info: Redefining \rmfamily on input line 4652.
+LaTeX Info: Redefining \sffamily on input line 4652.
+LaTeX Info: Redefining \ttfamily on input line 4652.
+LaTeX Info: Redefining \rmfamily on input line 4654.
+LaTeX Info: Redefining \sffamily on input line 4654.
+LaTeX Info: Redefining \ttfamily on input line 4654.
+
+Overfull \hbox (7.00505pt too wide) in paragraph at lines 4651--4656
+[][]\TU/OpenSansHebrew(0)/m/n/10 כאשר מוגדר ה־[][]\TU/txr/b/it/10 intersection 
+product[] []\TU/OpenSansHebrew(0)/m/n/10 הוא מתקבל על ידי ה־[][]\TU/txr/b/it/10
+ cup product[] []\TU/OpenSansHebrew(0)/m/n/10 על ידי דואליות פואנקרה. []
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 4658.
+LaTeX Info: Redefining \sffamily on input line 4658.
+LaTeX Info: Redefining \ttfamily on input line 4658.
+LaTeX Info: Redefining \rmfamily on input line 4660.
+LaTeX Info: Redefining \sffamily on input line 4660.
+LaTeX Info: Redefining \ttfamily on input line 4660.
+[50]
+LaTeX Info: Redefining \rmfamily on input line 4753.
+LaTeX Info: Redefining \sffamily on input line 4753.
+LaTeX Info: Redefining \ttfamily on input line 4753.
+
+
+LaTeX Warning: Reference `9.5' on page 51 undefined on input line 4791.
+
+File: sources/9.5.png Graphic file (type bmp)
+<sources/9.5.png>
+LaTeX Info: Redefining \rmfamily on input line 4858.
+LaTeX Info: Redefining \sffamily on input line 4858.
+LaTeX Info: Redefining \ttfamily on input line 4858.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textenglish' on input line 4858.
+
+[51]
+LaTeX Info: Redefining \rmfamily on input line 4860.
+LaTeX Info: Redefining \sffamily on input line 4860.
+LaTeX Info: Redefining \ttfamily on input line 4860.
+LaTeX Info: Redefining \rmfamily on input line 4877.
+LaTeX Info: Redefining \sffamily on input line 4877.
+LaTeX Info: Redefining \ttfamily on input line 4877.
+LaTeX Info: Redefining \rmfamily on input line 4883.
+LaTeX Info: Redefining \sffamily on input line 4883.
+LaTeX Info: Redefining \ttfamily on input line 4883.
+
+Overfull \hbox (17.27168pt too wide) in paragraph at lines 4868--4886
+[][]\TU/OpenSansHebrew(0)/m/n/10 נבחר זוגות מורס $[]$ עבור $\OML/txmi/m/it/10 M
+$ \TU/OpenSansHebrew(0)/m/n/10 ו־$[]$ עבור $\OML/txmi/m/it/10 N$\TU/OpenSansHeb
+rew(0)/m/n/10 , שמקיימים את תנאי [][]\TU/txr/b/it/10 Morse-Smale[][]\TU/OpenSan
+sHebrew(0)/m/n/10 . נקבל זוג $[]$[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 4911.
+LaTeX Info: Redefining \sffamily on input line 4911.
+LaTeX Info: Redefining \ttfamily on input line 4911.
+
+Overfull \hbox (66.92964pt too wide) in paragraph at lines 4894--4916
+[][]\TU/OpenSansHebrew(0)/m/n/10 כדי לחשב את $\OML/txmi/m/it/10 @$ \TU/OpenSans
+Hebrew(0)/m/n/10 נרצה מרחב חד־מימדי כדי שזה יהיה מורכב ממספר סופי של טרקטוריות.
+ כלומר, נדרוש $[] [] [] \OT1/txr/m/n/10 =$[]
+ []
+
+[52]
+LaTeX Info: Redefining \rmfamily on input line 5034.
+LaTeX Info: Redefining \sffamily on input line 5034.
+LaTeX Info: Redefining \ttfamily on input line 5034.
+LaTeX Info: Redefining \rmfamily on input line 5039.
+LaTeX Info: Redefining \sffamily on input line 5039.
+LaTeX Info: Redefining \ttfamily on input line 5039.
+LaTeX Info: Redefining \rmfamily on input line 5054.
+LaTeX Info: Redefining \sffamily on input line 5054.
+LaTeX Info: Redefining \ttfamily on input line 5054.
+LaTeX Info: Redefining \rmfamily on input line 5087.
+LaTeX Info: Redefining \sffamily on input line 5087.
+LaTeX Info: Redefining \ttfamily on input line 5087.
+LaTeX Info: Redefining \rmfamily on input line 5094.
+LaTeX Info: Redefining \sffamily on input line 5094.
+LaTeX Info: Redefining \ttfamily on input line 5094.
+ [53]
 \tf@thm=\write7
 \openout7 = `"morse theory.thm"'.
 
@@ -2581,22 +2654,23 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- (morse theory.aux Setting \if@calendar@hebrew Setting \if@calendar@hebrew
+ (morse theory.aux Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
-
-Setting \if@calendar@hebrew Setting \if@calendar@hebrew
+ Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 32.
 LaTeX Info: Redefining \sffamily on input line 32.
 LaTeX Info: Redefining \ttfamily on input line 32.
-
-Setting \if@calendar@hebrew Setting \if@calendar@hebrew
+ Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 40.
 LaTeX Info: Redefining \sffamily on input line 40.
 LaTeX Info: Redefining \ttfamily on input line 40.
-
-Setting \if@calendar@hebrew Setting \if@calendar@hebrew)
+ Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2604,18 +2678,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"morse theory".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 36256 strings out of 411486
- 736670 string characters out of 2832793
+ 36360 strings out of 411486
+ 738652 string characters out of 2832793
  1322394 words of memory out of 3000000
- 55725 multiletter control sequences out of 15000+600000
- 429187 words of font info for 163 fonts, out of 8000000 for 9000
+ 55820 multiletter control sequences out of 15000+600000
+ 429211 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,24n,122p,1288b,1170s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on morse theory.pdf (51 pages).
+Output written on morse theory.pdf (57 pages).

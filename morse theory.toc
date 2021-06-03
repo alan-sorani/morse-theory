@@ -32,3 +32,6 @@
 \contentsline {subsection}{\numberline {1.7.1}מכפלה בהומולוגיה}{47}{subsection.1.7.1}%
 \contentsline {subsubsection}{מכפלה בהומולוגיה כללית}{47}{section*.49}%
 \contentsline {subsubsection}{מכפלה בהומולוגיית מורס}{47}{section*.51}%
+\contentsline {section}{\numberline {1.8}שימושים}{52}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}נוסחאת \textenglish {Künneth}}{52}{subsection.1.8.1}%
+\contentsline {section}{\numberline {1.9}הכללות של תורת מורס}{53}{section.1.9}%

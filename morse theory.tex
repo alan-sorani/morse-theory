@@ -4456,7 +4456,7 @@ $M$
 \subsubsection{מכפלה בהומולוגיית מורס}
 
 נגדיר
-\[\text{.} C_*\prs{F_1, \rho_1} \times C_*\prs{F_2, \rho_2} \to C_*\prs{F_3, \rho_3}\]
+\[\text{.} \rho \colon C_k\prs{F_1, \rho_1} \times C_m\prs{F_2, \rho_2} \to C_{k+m-n}\prs{F_3, \rho_3}\]
 עבור
 \begin{align*}
 x &\in \mrm{Crit}\prs{F_1} \\
@@ -4468,11 +4468,653 @@ z &\in \mrm{Crit}\prs{F_3} \\
 \text{.} \mu\prs{x,y;z} \ceq \set{\prs{\gamma_1, \gamma_2, \gamma_3}}{\substack{\gamma_1, \gamma_2 \colon \left(-\infty,0\right] \to M \\ \gamma_3 \colon \left[0,\infty\right) \to M \\ \gamma_1\prs{0} = \gamma_2\prs{0} = \gamma_3\prs{0} \\ \gamma_i' = -\nabla F_i}}
 \end{align*}
 אז נגדיר
-\[\text{.} \prs{x,y} \to \sum_{z \in \mrm{Crit}\prs{F_3}} \#_2\mu\prs{x,y;z} \cdot z\]
+\[\rho\prs{x,y} = \sum_{z \in \mrm{Crit}_{k+m-n}\prs{F_3}} \#_2\mu\prs{x,y;z} \cdot z\]
+ונרחיב לינארית כדי לקבל העתקה בין הקומפלקסים.
 
 %END OF LECTURE 8
 
 %LECTURE 9
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/9.1}
+\caption{}
+\label{9.1}
+\end{figure}
+
+\begin{remark}
+הקבוצה
+$\mu\prs{x,y;z}$
+היא מספר השלשות של טרקטוריות כמתואר באיור
+\ref{9.1}
+ויש התאמה
+\[\text{.} \mu\prs{x,y;z} \cong W_{F_1}^U\prs{x} \cap W_{F_2}^U\prs{y} \cap W_{F_3}^S\prs{z}\]
+כמו מקודם, נדרוש שכל החיתוכים הנ"ל טרנסוורסליים, מה שמתקיים עבור בחירה גנרית של מידע מורס.
+זה מתקיים גם עבור בחירה גנרית תחת ההנחה
+$\prs{F_1, \rho_1} = \prs{F_3, \rho_3}$
+או
+$\prs{F_2, \rho_2} = \prs{F_3, \rho_3}$.
+\end{remark}
+
+\begin{remark}
+מתקיים
+\begin{align*}
+\dim\prs{\mu\prs{x,y;z}} &= \prs{\mu\prs{x} + \mu\prs{y} - n} + \prs{n - \mu\prs{z}} - n
+\\ \text{.} \hphantom{\dim\prs{\mu\prs{x,y;z}}} &= \mu\prs{x} + \mu\prs{y} - \mu\prs{z} - n
+\end{align*}
+\end{remark}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/9.2}
+\caption{}
+\label{9.2}
+\end{figure}
+
+\begin{example}
+נסתכל על
+$\mbb{T}^2$
+כבאיור
+\ref{9.2}.
+
+\begin{itemize}
+\item
+נחשב את
+$\rho\prs{x,y}$
+כאשר
+$x = M, y = p'$.
+נקבל כי זה מספר הטרקטוריות השבורות כמתואר באיור
+\ref{9.3}
+וכאשר
+$z \in C_1\prs{F} = \set{p,q}$.
+כאשר
+$z = q$
+מתקיים
+$\mu\prs{M,q} \cap W^U\prs{p'} = \ns$
+ולכן
+$\# \mu\prs{M,p';q} = 0$.
+כאשר
+$z = p$
+מתקיים
+$\# \mu\prs{M, p';p} = 1$.
+לכן
+\[\text{.} \rho\prs{M, p'} = p\]
+באופן דומה,
+$\rho\prs{M,q'} = q$.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/9.3}
+\caption{}
+\label{9.3}
+\end{figure}
+
+נרצה לחשב את
+$\rho\prs{M,M'}$.
+זה מספר "מזלגות" מ־%
+$M,M'$
+שמסתיימים בנקודה מאינדקס
+$2$,
+שחייבת להיות
+$M$.
+כייון ש־%
+$M$
+נקודת מקסימום, זה מספר המסלולים
+$M' \to M$,
+ששווה
+$1$.
+נקבל
+$\rho\prs{M,M'} = M$.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/9.4}
+\caption{}
+\label{9.4}
+\end{figure}
+
+נרצה לחשב את
+$\rho\prs{M,m'}$.
+נצטרך לחשב טרקטוריות שבורות מהצורה באיור
+\ref{9.4}
+אבל, אלו בדיוק הטרקטוריות השבורות מ־%
+$M$
+ל־%
+$m$
+שעוברות ב־%
+$m'$
+לפי
+$\prs{F,\rho}$.
+מספר זה שווה בדיוק
+$1$
+לפי קיום ויחידות, לכן
+$\rho\prs{M,m'} = m$.
+
+\item נחשב את
+$\rho\prs{q,q'}$
+על ידי הסתכלות על חיתוך בין המסלולים, כמו מקודם, ונקבל
+$\rho\prs{q,q'} = 0$.
+מתקיים
+$\rho\prs{s,p'} = q$.
+\end{itemize}
+\end{example}
+
+\begin{exercise}
+בדוגמא הנ"ל, העתקת ההשוואה שולחת
+\begin{align*}
+x &\mapsto x' \\
+y &\mapsto y' \\
+m &\mapsto m' \\
+\text{.} M &\mapsto M'
+\end{align*}
+נקבל כי
+$M$
+איבר היחידה, תחת הזיהוי.
+\end{exercise}
+
+\begin{remark}
+עבור ה־%
+\textenglish{intersection product}
+באיור
+\ref{7.6}
+ראינו כי
+\begin{align*}
+\brs{\mbb{T}^2} \cdot  * &= * \\
+\brs{x} \cdot \brs{x} &= 0 \\
+\brs{y} \cdot \brs{y} &= 0 \\
+\brs{x} \cdot \brs{y} &= \brs{\mrm{pt}}
+\end{align*}
+וקיבלנו את אותו המבנה האלגברי כמו בחישוב הנוכחי.
+\end{remark}
+
+\begin{example}
+עבור
+$\mbb{C}\mrm{P}^n$
+מתקיים
+\begin{align*}
+H_* = \bigoplus_{k \in 2 \mbb{Z}} \mbb{Z}_2 \cong \mbb{Z}_2\trs{e_0, \ldots, e_{2n}}
+\end{align*}
+כאשר המכפלה היא
+\[\text{.} e_{2m} \cdot e_{2k} = e_{2m + 2k - 2n}\]
+נקבל כי
+\[\text{.} H_* = \mbb{Z}_2 \trs{e_{2n - 2}^0, e_{2n - 2}^1, e_{2n - 2}^2, \ldots}\]
+זה חוג הנוצר על ידי
+$e_{2n - 2}$.
+המבנה של חוג ההומולוגיה לפי ה־%
+\textenglish{intersection product}
+ולפי
+$\rho$
+איזומורפי באופן טבעי.
+\end{example}
+
+\begin{remark}
+כאשר מוגדר ה־%
+\textenglish{intersection product}
+הוא מתקבל על ידי ה־%
+\textenglish{cup product}
+על ידי דואליות פואנקרה.
+
+ה־%
+\textenglish{cap product}
+הוא ה־%
+\textenglish{intersection product}.
+\end{remark}
+
+\begin{proposition}
+\begin{enumerate}
+\item מתקיים
+\[\text{.} \rho\prs{\del_1\prs{-}, -} + \rho\prs{-, \del_2\prs{-}} + \del_3 \rho\prs{-,-} = 0\]
+
+\item $\rho$
+משרה פעולה
+\begin{align*}
+\text{.} \rho \colon HM_*\prs{F_1, \rho_1} \times HM_*\prs{F_2, \rho_2} &\to HM_*\prs{F_3, \rho_3}
+\end{align*}
+
+\item $\rho$
+מתנהגת טוב ביחס להעתקות זיהוי, ואז מתקבלת העתקה
+\[\text{.} \rho \colon HM_*\prs{M} \times HM_*\prs{M} \to HM_*\prs{M} \]
+\end{enumerate}
+\end{proposition}
+
+נציג סקיצה להוכחה.
+
+\begin{proof}
+\begin{enumerate}
+\item נסתכל על משפחה חד־מימדית של קונפיגורציות
+$\mu\prs{x,y;z}$.
+נבצע קומפקטיפיקציה והדבקה כמו במקרה של
+$\mu\prs{x,y}$
+ונקבל כי
+$\del \mu\prs{x,;z}$
+מסווגת טריפודים שבורים.
+על כל נקודת שבר שנוסיף המימד יפחת באחת, ולכן מחשבון מימדים תיתכן נקודת שבר אחת
+$w$%
+, שיכולה להיות על הרגל שסמוכה ל־%
+$x$,
+ל־%
+$y$
+או ל־%
+$z$.
+נקבל
+\begin{align*}
+0 = \#_2 \del \mu\prs{x,y;z} &= \sum_w \# \hat{\mu}\prs{x,w} \cdot \#\mu\prs{w,y;z} + \sum_w \# \hat{\mu}\prs{y,w} \cdot \# \mu\prs{x,w;z} + \sum_w \# \hat{\mu}\prs{w,z} \cdot \#\mu\prs{x,y;w}
+\end{align*}
+כאשר הסכום האגף ימין שווה
+\[\text{.} \# \rho\prs{\del x, y} + \# \rho\prs{x,\del_2 y} + \# \del_3\rho\prs{x,y}\]
+
+\item עבור
+$x \in \ker \del_1, y \in \ker \del_2$
+מתקיים
+\begin{align*}
+\del_3 \rho\prs{x,y} &= \rho\prs{\del_1 x, y} + \rho\prs{x, \del_2 y}
+\\&= \rho\prs{0,y} + \rho\prs{x,0}
+\\ \text{.} \hphantom{\del_3 \rho\prs{x,y}} &= 0
+\end{align*}
+לכן
+$\rho\prs{x,y} \in \ker\prs{\del_3}$.
+
+נניח כעת כי
+$x = \del_1 x' \in \im \del_1$
+וכי
+$y \in \ker \del_2$.
+נרצה להראות כי
+$\rho\prs{\del x', y} \in \im \del_3$
+כדי שההעתקה תהיה מוגדרת בהומולוגיה. אכן
+\begin{align*}
+\text{.} \rho\prs{\del x', y} &= \rho\prs{x', \del y} + \del \rho\prs{x', y}
+= \del \rho\prs{x', y} \in \im \del_3
+\end{align*}
+לכן
+\[\rho \colon HM_*\prs{F_1, \rho_1} \times HM_*\prs{F_2, \rho_2} \to HM_*\prs{F_3, \rho_3}\]
+מוגדרת היטב.
+
+\item צריכים לבנות הומוטופיה בין זוגות מורס השונים ולספור רכיבי שפה של משפחות חד־מימדיות.
+\end{enumerate}
+\end{proof}
+
+\begin{remark}
+עבור
+$L \subseteq M$
+תת־יריעה, ניתן להתאים איבר
+$\brs{L} \in HM_*\prs{M}$
+על ידי
+\[\brs{L} = \sum_{x \in \mrm{Crit}\prs{F}} \# \mu\prs{L,x} \cdot x\]
+כאשר הסכום עבור ביטויים
+$\# \mu\prs{L,x}$
+סופיים.
+
+מתקיים
+\begin{align*}
+\text{.} \rho\prs{x,y} &= \sum_z \#\prs{W^U\prs{x} \cap W^U\prs{y}} \cap W^S\prs{z} \cdot z
+= \brs{W^U\prs{x} \cdot W^U\prs{y}}_{C\prs{F_3, \rho_3}}
+\end{align*}
+כאשר הכפל באגף ימין הוא ה־%
+\textenglish{intersection product}.
+\end{remark}
+
+\begin{example}
+תהי
+$M$
+יריעה, ונסתכל על
+\[\text{.} \Delta = \set{\prs{p,p}}{p \in M} \subseteq M \times M\]
+ניתן להגדיר את
+\emph{מאפיין אוילר של
+$M$}
+על ידי
+\[\text{.} \chi\prs{M} \cdot \brs{\mrm{pt}} = \brs{\Delta} \cdot \brs{\Delta}\]
+
+נסתכל על
+$M = S^1$.
+ידוע מטופולוגיה אלגברית כי
+$\chi\prs{M} = \beta_0 - \beta_1 = 0$.
+נבדוק שזה מסתדר עם החישוב שלנו, כלומר שמתקיים
+$\brs{\Delta} \cdot \brs{\Delta} = 0$.
+נעבוד ב־%
+$M \times M = S^1 \times S^1$.
+נבחר
+$F, F' \colon S^1 \to \mbb{R}$
+עם
+\begin{align*}
+\mrm{Crit}\prs{F} &= \set{N,S} \\
+\text{.} \mrm{Crit}\prs{F'} &= \set{N',S'}
+\end{align*}
+נקבל
+\[F + F' \colon S^1 \times S^1 \to \mbb{R}\]
+ומטריקה רימנית סטנדרטית
+$\rho_1 + \rho_2$.
+נשאל מיהו
+$\brs{\Delta} \in HM_*\prs{F + F', \rho_1 + \rho_2}$.
+מתקיים
+\[\text{.} \brs{\Delta} = \sum_{\prs{p,q} \in \mrm{Crit}\prs{F} \times \mrm{Crit}\prs{F'}} \# \mu\prs{\Delta, \prs{p,q}} \cdot \prs{p,q}\]
+ראו איור
+\ref{9.5}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{sources/9.5}
+\caption{}
+\label{9.5}
+\end{figure}
+
+כמו כן,
+\begin{align*}
+\dim \mu\prs{L,\prs{p,q}} &= \dim\prs{L \cap W^U\prs{p,q}}
+\\&= \dim L + \prs{2 - \mu\prs{p} - \mu\prs{q}} - 2
+\\&= \dim L - \mu\prs{p} - \mu\prs{q}
+\end{align*}
+כאשר אצלנו
+$\dim L = \dim \Delta = 1$
+ולכן נרצה לספור נקודות קריטיות
+$\prs{p,q}$
+עבורן
+$\mu\prs{p} + \mu\prs{q} = 1$.
+אז אחת הנקודות
+$p,q$
+היא מינימום והשנייה היא מקסימום.
+יש שני זוגות כאלה,
+$\prs{N, S'}, \prs{S,N'}$.
+
+נסתכל על
+$\prs{N,S'}$.
+מתקיים
+$-\nabla\prs{F + F'} = \prs{-\nabla F, -\nabla F'}$
+ולכן מספר המסילות מ־%
+$L$
+ל־%
+$\prs{N,S'}$
+הוא מספר זוגות המסילות מ־%
+$p$
+ל־%
+$N$
+ומ־%
+$p$
+ל־%
+$S'$.
+כדי שזה יתאפשר, צריך שיתקיים
+$p = N$,
+כי
+$N$
+נקודת מקסימום.
+
+נקבל כי
+\[\# \mu\prs{\Delta, \prs{N,S'}} = 1\]
+וחישוב דומה נותן
+\[\text{.} \# \mu\prs{\Delta, \prs{S,N'}} = 1\]
+אז מתקיים
+\[\text{.} \brs{\Delta} = \prs{N, S'} + \prs{S,N'}\]
+בסימונים קודמים, כתבנו
+$p = \prs{N,S'}, q = \prs{S, N'}$
+וראינו כי
+$p^2 = q^2 = 0$
+וכי
+$p \cdot q = q \cdot p = 1$.
+אז
+\[\text{.} \brs{\Delta} \cdot \brs{\Delta} = p^2 + p \cdot q + q \cdot p + q^2 = 2 \cdot \brs{\mrm{pz}} \equiv 0 \mod{2}\]
+\end{example}
+
+\section{שימושים}
+
+\subsection{נוסחאת \textenglish{Künneth}}
+
+\begin{theorem}[נוסחאת \textenglish{Künneth}]
+מתקיים
+\begin{align*}
+\text{.} HM_k\prs{M \times N} &= \bigoplus_{i+j = k} HM_i\prs{M} \otimes HM_j\prs{N}
+\end{align*}
+\end{theorem}
+
+\begin{proof}
+נבחר זוגות מורס
+$\prs{F,\rho}$
+עבור
+$M$
+ו־%
+$\prs{G, \rho'}$
+עבור
+$N$,
+שמקיימים את תנאי
+\textenglish{Morse-Smale}.
+נקבל זוג
+$\prs{F+G, \rho + \rho'}$
+על
+$M \times N$,
+שמקיים את תנאי
+\textenglish{Morse-Smale}
+לפי בדיקה ישירה.
+מתקיים
+\begin{align*}
+\phi_{M \times N}^t \prs{x,y} &= \prs{\phi_M^t\prs{x}, \phi_N^t\prs{y}}
+\end{align*}
+וגם
+\begin{align*}
+\text{.} \mu_{M \times N}\prs{\prs{x,x'}, \prs{y, y'}} = \mu_M\prs{x,y} \times \mu_N\prs{x',y'}
+\end{align*}
+
+כדי לחשב את
+$\del$
+נרצה מרחב חד־מימדי כדי שזה יהיה מורכב ממספר סופי של טרקטוריות.
+כלומר, נדרוש
+$\dim \prs{\mu_{M \times N}}\prs{\prs{x,x'},\prs{y,y'}} = 1$.
+אז
+$\dim \mu_M\prs{x,y} = 1$
+ו־%
+$\dim \mu_N\prs{x',y'} = 0$
+או להיפך.
+נניח בלי הגבלת הכלליות שמתקיים המקרה הראשון.
+$\mu_M\prs{x,y}$
+מספר המסלולים שנספרים ב־%
+$\del_M$,
+ו־%
+$\dim \mu_N\prs{x',y'} = \mu\prs{x} - \mu\prs{y}$,
+מה שמתאפשר בתנאי
+\textenglish{Morse-Smale}
+רק כאשר
+$x' = y'$.
+אז יש נקודה בודדת.
+נקבל כי
+\[\text{.} \del_{M \times N} \prs{x, x'} = \prs{\del_M \prs{x}, x'} + \prs{x, \del_N \prs{x'}}\]
+אז
+\[\text{.} \del_{M \times N} \del_M \otimes \1_N + \1_M \otimes \del_N\]
+נקבל העתקה
+\begin{align*}
+C^M_* \prs{F} \otimes C^N_*\prs{G} &\riso C_*^{M \times N}\prs{F + G} \\
+x \otimes y &\mapsto \prs{x,y} \in \mrm{Crit}\prs{F+G}
+\end{align*}
+ששולחת את
+$\del_M \otimes \1 + \1 \otimes \del_N$
+ל־%
+$\del_{M \times N}$.
+זה איזומורפיזם של קומפלקסים ולכן משרה איזומורפיזם בהומולוגיה,
+\[\text{.} H_*\prs{C_*\prs{F} \otimes C_*\prs{G}} \cong H_*\prs{C_*\prs{F+G}}\]
+אם פותחים את ההגדרות מקבלים מכך את הנדרש.
+\end{proof}
+
+\begin{proposition}
+תהי
+$M$
+יריעה עם פונקציית מורס
+$F \colon M \to \mbb{R}$
+ללא נקודות קריטיות מאינדקס
+$1$.
+אז
+$M$
+פשוטת קשר.
+\end{proposition}
+
+\begin{proof}
+תהי
+$\gamma \colon S^1 \to M$.
+עבור
+$x \in \mrm{Crit}_k\prs{M}$
+נסתכ על
+$\gamma \cap W^s\prs{x}$.
+מתקיים
+$\dim W^S\prs{x} = \dim M - \mu\prs{x}$
+ולכן
+\[\text{.} \dim \prs{\gamma \cap W^S\prs{x}} = 1 - \mu\prs{x}\]
+במקרה הגנרי בו
+$\gamma \pitchfork W^S\prs{x}$
+נקבל
+$\gamma \cap W^S\prs{x} = \ns$
+לכל
+$\mu\prs{x} \geq 2$.
+הנחנו שאין נקודות קריטיות מאינדקס
+$1$,
+ולכן נותרו רק נקודות קריטיות מאינדקס
+$0$.
+אם
+$\gamma \cap W^S\prs{x} \neq \ns$
+נקבל כי
+$\mu\prs{x} = 0$
+ואז
+$x$
+מינימום מקומי. מתקיים
+\[M = \coprod_{x \in \mrm{Crit}\prs{F}} W^S\prs{x}\]
+וגם
+\[\text{.} \gamma \subseteq \coprod_{\mu\prs{x} = 0} W^S\prs{x} \cong \coprod_{\mu\prs{x}} B^{\dim\prs{M}}\]
+אז
+$\gamma$
+מוכלת באיחוד זר של קבוצות פתוחות ב־%
+$M$.
+כיוון שהאיחוד זר, ו־%
+$\gamma$
+קשירה, נקבל
+$\gamma \subseteq W^S\prs{x_0}$
+עבור
+$x_0$
+מינימום מקומי כלשהו.
+אז נוכל להגדיר הומוטופיה לפי הזרימה
+\[\text{.} \phi^t\prs{\gamma} \xrightarrow{t \to \infty} x_0\]
+לכן
+$\gamma$
+כוויצה.
+\end{proof}
+
+\begin{remark}
+אם אין נקודות קריטיות מאינדקס
+$1$,
+ההומולוגיה הראשונה מתאפסת, והטענה הנ"ל נובעת מכך שההומולוגיה הראשונה היא האבליניזציה של החבורה היסודית.
+\end{remark}
+
+\begin{remark}
+הזוג
+$\prs{F,\rho}$
+נדרש כדי לבנות שדה וקטורי
+$-\nabla_\rho F$.
+מהשדה נקבל זרימה
+$\phi^t$\text{.}
+ הנקודות הקריטיות
+$\mrm{Crit}$
+הן האפסים של
+$-\nabla F$.
+מספיק להשתמש ב־%
+$- \nabla F$
+בכדי לעשות את כל החישובים, ולשכוח את
+$\prs{F, \rho}$.
+
+למעשה, ניתן לבנות את תורת מורס עם שימוש בשדות וקטוריים בלבד, בלי זוג מורס
+$\prs{F, \rho}$.
+נדרוש משדה וקטורי
+$X$
+כזה את התכונות הבאות.
+\begin{enumerate}[label = (\roman*)]
+\item%1
+$X$
+מתנהג כמו
+$-\nabla F$
+ליד האפסים שלו.
+\item%2
+ל־%
+$X$
+אין לולאות. אין מסלולים מעגליים ואין לולאות שבורות.
+\end{enumerate}
+\end{remark}
+
+\begin{definition}[\textenglish{Pseudo-gradient Vector Field}]
+$X \in \Vect\prs{M}$
+עבורו יש
+$F \colon M \to \mbb{R}$
+המקיימת את התכונות הבאות נקרא
+\emph{\textenglish{Pseudo-gradient Vector Field}}.
+\begin{enumerate}[label = (\roman*)]
+\item $X = -\nabla_\rho F$
+ליד האפסים של
+$X$,
+לפי
+$\rho$
+כלשהי.
+\item $L_X F < 0$
+בכל
+$M$.
+\end{enumerate}
+\end{definition}
+
+במקרה של
+\textenglish{Pseudo-gradient Vector Field}
+ניתן לבנות את כל תורת מורס, כמו מקודם.
+
+\begin{example}
+נסתכל על משטח מגנוס
+$3$
+עם נקודות אוכף
+$x,y,z$
+באותו גובה.
+נוכל לעשות פרטורבציה של
+$F$
+תוך כדי שמירה של השדה הוקטורי
+$X$,
+מה שמאפשר להתייחס בצורה נוחה לחישובים במקרים דומים.
+\end{example}
+
+\section{הכללות של תורת מורס}
+
+\begin{enumerate}
+\item את התנאי
+$L_X F < 0$
+אפשר לכתוב גם
+$\diff F \prs{x} < 0$.
+במקום התבנית
+$\diff F \in \Omega^1\prs{M}$
+נוכל לעבוד עם תבנית
+$\omega \in \Omega^1\prs{M}$
+ולדרוש
+$\omega\prs{X} < 0$.
+נוכל ככה להחליש את התנאי של אין לולאות.
+
+\item
+בתורת
+\textenglish{Morse-Bott}
+אפשר לדבר גם על מקרים בהם יש תת־יריעות קריטיות.
+אצלנו,
+$\del x = \sum n_2\prs{x,y} \cdot y$,
+כאשר אפשר לזהות
+\[\text{.} n_2 \colon \mbb{Z}_2\trs{x} \to \mbb{Z}_2\trs{y}\]
+בתורת
+\textenglish{Morse-Bott}
+באופן דומה אפשר להגדיר
+\[n\prs{L_1, L_2} \colon H_*\prs{L_1} \to H_*\prs{L_2}\]ו
+ואז
+\begin{align*}
+\text{.} \del L_1 = \sum_{L_2} n\prs{L_1, L_2} \cdot L_2
+\end{align*}
+\end{enumerate}
+
+%LECTURE 10
+
+%TODO
+
+%LECTURE 11
+
+%TODO
+
+%LECTURE 12
+
+%TODO
+
+%LECTURE 13
+
+%TODO
 
 \backmatter
 \end{document}
