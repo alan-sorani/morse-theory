@@ -35,3 +35,5 @@
 \contentsline {section}{\numberline {1.8}שימושים}{52}{section.1.8}%
 \contentsline {subsection}{\numberline {1.8.1}נוסחאת \textenglish {Künneth}}{52}{subsection.1.8.1}%
 \contentsline {section}{\numberline {1.9}הכללות של תורת מורס}{53}{section.1.9}%
+\contentsline {section}{\numberline {1.10}הומולוגיית מורס עם מקדמים ב־$\mathbb {Z}$}{54}{section.1.10}%
+\contentsline {chapter}{\numberline {2}תורת \textenglish {minimax}}{56}{chapter.2}%

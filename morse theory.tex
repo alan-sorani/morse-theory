@@ -3143,7 +3143,7 @@ $q$.
 כעת,
 \begin{align*}
 \dim \mu\prs{M,m} &= \mu\prs{M} - \mu\prs{m} = 2
-\dim \hat{\mu}\prs{M,m} &= 1
+\dim \hat{\mu}\prs{M,m} = 1
 \end{align*}
 וניתן לראות כי
 \[\text{.} \hat{\mu}\prs{M,m} \cong \prs{0,1}\]
@@ -5102,7 +5102,489 @@ $\del x = \sum n_2\prs{x,y} \cdot y$,
 
 %LECTURE 10
 
-%TODO
+\section{הומולוגיית מורס עם מקדמים ב־%
+$\mbb{Z}$}
+
+לאורך הדיון, תהי
+$M$
+יריעה סגורה עם אוריינטציה ועם זוג
+\textenglish{Morse-Smale}
+$\prs{F,\rho}$.
+
+\begin{definition}
+עבור
+$k \in \mbb{N}$
+נגדיר
+\[\text{.} C_k^{\mbb{Z}} \ceq \mbb{Z} \trs{\mrm{Crit}_k\prs{F}}\]
+\end{definition}
+
+לכל נקודה
+$x \in \mrm{Crit}\prs{F}$
+נבחר אוריינטציה של
+$W^U\prs{x}$
+(באופן שרירותי).
+עבור
+$W^S\prs{x}$
+נקבע אוריינטציה באופן הבא.
+יהי
+$B^U\prs{x}$
+בסיס חיובי של
+$T_x W^U\prs{x}$
+ויהי
+$B^S\prs{x}$
+בסיס כלשהו של
+$T_x W^S\prs{x}$.
+אם
+\[B_x^M = \prs{B^U\prs{x}, B^S\prs{x}}\]
+בסיס חיובי של
+$M$,
+נאמר כי
+$B^S\prs{x}$
+בסיס חיובי של
+$W^S\prs{x}$.
+כיוון ש־%
+\[T_x M = T_x W^U\prs{x} \oplus T_x W^S\prs{x}\]
+זה מגדיר היטב אוריינטציה.
+
+עבור החיתוכים
+$W^U\prs{x} \cap W^S\prs{y}$
+נקבע אוריינציה בדרך סטנדרטית עבור חיתוכים טרנסוורסליים.
+תהי
+$p \in W^U\prs{x} \cap W^S\prs{y}$.
+נבחר בסיס
+$\prs{u_1, \ldots, u_k}$
+של
+$T_p\prs{W^U\cap W^S}$.
+נרחיב אותו לבסיסים חיוביים
+\begin{align*}
+\prs{u_1, \ldots, u_k, v_1, \ldots, v_t} \\
+\prs{u_1, \ldots, u_k, w_1, \ldots, w_s}
+\end{align*}
+של
+$T_p W^U\prs{x}$
+ושל
+$T_p W^S\prs{x}$
+בהתאמה.
+נקרא לבסיס
+$\prs{u_1, \ldots, u_k}$
+בסיס חיובי אם
+$\prs{u_1, \ldots, u_k, v_1, \ldots, v_t, w_1, \ldots, w_s}$
+בסיס חיובי של
+$T_p M$.
+אחרת נגיד ש־%
+$\prs{u_1, \ldots, u_k}$
+בסיס שלילי.
+
+\begin{exercise}
+בידקו שהאוריינטציה בהגדרה הנ"ל מוגדרת היטב.
+\end{exercise}
+
+\begin{definition}
+עבור
+$x \in \mrm{Crit}_k\prs{F}$
+נגדיר
+\begin{align*}
+\del_k^{\mbb{Z}} \prs{x} &= \sum_{y \in \mrm{Crit}_{k-1}\prs{F}} n\prs{x,y} \cdot y
+\end{align*}
+עבור
+\begin{align*}
+\text{.} n\prs{x,y} \ceq \# \hat{\mu}\prs{x,y} = \# \quot{\mu\prs{x,y}}{\mbb{R}}
+\end{align*}
+\end{definition}
+
+\begin{remark}
+כל איבר ב־%
+$\quot{\mu\prs{x,y}}{\mbb{R}}$
+הוא מסלול זרימה, כלומר תת־יריעה חד־מימדית מתוך
+$W^U\prs{x} \cap W^S\prs{y}$.
+אם
+$- \nabla F_{\prs{p}}$
+בסיס חיובי של
+$T_p\prs{W^U\prs{x} \cap W^S\prs{y}}$
+נספור את המסילה עם סימן
+$+$,
+אחרת עם סימן
+$-$.
+\end{remark}
+
+\begin{example}
+נסתכל על הטורוס
+$M \ceq \mbb{T}^2$
+כמתואר באיור
+\ref{5.6}.
+נחשב את
+$\del_1^{\mbb{Z}}\prs{p}$.
+נבחר אוריינטציות של
+$W^U\prs{p}, W^U\prs{m}$.
+$W^U\prs{p}$
+קטע פתוח (בין $p$
+ו־%
+$m$).
+נבחר אוריינטציה עבורה
+$\frac{\del}{\del x}$
+בסיס חיובי.
+הקבוצה
+$W^U\prs{m} = \set{m}$
+היא נקודה בודדת עם מרחב משיק
+$T_m m = \set{0}$,
+עם בסיס
+$\ns$.
+נצטרך להחליט האם זה בסיס חיובי או שלילי, ונבחר שזה בסיס חיובי.
+מ־%
+$p$
+ל־%
+$m$
+נקבל מסלול אחד חיובי ואחד שלילי, לכן סכום המסלולים עם הסימון שווה
+$0$.
+אבל, צריך להסתכל על מסלולים אלו לפי האוריינציה של
+$W^U\prs{p} \cap W^S\prs{m}$.
+תת־יריעה זאת היא איחוד של שני הקטעים הפתוחים, עם אוריינטציה שהגדרנו על החיתוך.
+נחשב את האוריינטציה של
+$W^S\prs{m}$.
+נצטרך להשלים את
+$\ns$
+לבסיס חיובי של
+$T_m M$.
+לכן, האוריינטציה מסכימה עם זאת של
+$M$.
+
+עבור
+$s$
+בקטע הימני,
+$-\nabla F_{\prs{s}}$
+בסיס חיובי של
+$T_s W^U\prs{p}$.
+נקבל כי
+$\prs{-\nabla F_{\prs{s}}, \frac{\del}{\del y}}$
+בסיס חיובי של
+$T_s M$.
+אז
+$\prs{-\nabla F_{\prs{s}}}$
+בסיס חיובי של
+$T_p\prs{W^U \cap W^S}$.
+עבור
+$t$
+בקטע השמאלי, נסתכל על
+$\prs{\nabla F_{\prs{t}}}$
+וזה בסיס חיובי של
+$W^U\prs{p}$.
+נשלים לבסיס חיובי
+$\prs{\nabla F_{\prs{t}}, \frac{\del}{\del y}}$
+של
+$T_t W^S\prs{m}$.
+נסיק כי
+$\nabla F_{\prs{t}}$
+בסיס חיובי של
+$T_t\prs{W^U\prs{p} \cap W^S\prs{m}}$.
+אז
+$-\nabla F_{\prs{t}}$
+בסיס שלילי.
+לכן, נספור את המסילה הימנית בסימן
+$+$
+ואת השמאלית בסימן
+$-$.
+נקבל כי
+\[\text{.} \del_1^{\mbb{Z}}\prs{p} = \prs{1-1} \cdot m = 0\]
+כמו במקרה של
+$\mbb{Z}_2$
+נקבל גם כאן
+$\del_* = 0$
+ואז
+\[\text{.} HM_* \prs{\mbb{T}^2; \mbb{Z}} \cong C_* \cong \fcases{\mbb{Z} & k = 0 \\ \mbb{Z}^2 & k = 1 \\ \mbb{Z} & k = 2}\]
+\end{example}
+
+\begin{remark}
+נוכל לחשב הומולוגיה עבור חוג כללי (קומוטטיבי עם יחידה) בדומה לחישוב ההומולוגיה מעל
+$\mbb{Z}$.
+\end{remark}
+
+\begin{proposition}
+מתקיים
+$\del^2 = 0$.
+\end{proposition}
+
+\begin{proof}
+תהיינה
+$x \in \mrm{Crit}_k\prs{F}$
+ו־%
+$y \in \mrm{Crit}_{k-2}\prs{F}$.
+נרצה להראות שמתקיים
+\[\text{.} \sum_{z \in \mrm{Crit}_{k-1} \prs{F}} \# \hat{\mu}\prs{x,z} \cdot \# \hat{\mu}\prs{z,y} = 0\]
+כמו מקודם, נסתכל על מסילות שבורות מ־%
+$x$
+ל־%
+$y$.
+ראו איור
+%TODO add fig 10.1
+מספיק להראות כי
+\[\text{.} \sgn\prs{\gamma_1} \cdot \sgn\prs{\gamma_2} + \sgn\prs{\delta_1} \cdot \sgn\prs{\delta_2} = 0\]
+זה נובע מבדיקה ישירה.
+\end{proof}
+
+\chapter{תורת \textenglish{minimax}}
+
+עד כה השתמשנו במידע מורס כדי להסיק על אינווריאנטים של היריעה. כעת, ניעזר באינווריאנטים של היריעה כדי להגיד דברים על פונקציות על יריעה.
+
+ראינו בהקשר זה את אי־שוויוני מורס. עבור
+$F \colon M \to \mbb{R}$
+פונקציית מורס, מתקיים
+\[\text{.} \# \mrm{Crit}_k\prs{F} \geq \dim H_k\prs{M}\]
+אם נעבוד עם כלים מתאימים, נוכל להגיד הרבה יותר.
+
+ראינו גם עבור
+$M$
+סגורה שלכל
+$F \colon M \to \mbb{R}$
+יש נקודת מינימום ומקסימום, ויש אלגוריתם לחישוב
+$F\prs{m}, F\prs{M}$
+עבור נקודות מינימום ומקסימום
+$m,M$,
+למשל לפי שיטת ניוטון.
+נרצה לדעת איך להגיע למידע גם עבור נקודות אוכף.
+
+נניח תחילה כי
+$\dim M = 2$.
+נדון בקיום נקודות אוכף. מתקיים:
+
+\begin{enumerate}
+\item $\# \mrm{Crit}_1\prs{F} \geq \beta_1$.
+
+\item יש חסם שמשתמש בהתנהגות של
+$F$
+ולא רק בטופולוגיה של
+$M$:
+\[\text{.} \# \mrm{Crit}_2\prs{F} - \# \mrm{Crit}_1 + \# \mrm{Crit}_0 = \chi \ceq \beta_2 - \beta_1 + \beta_0\]
+אכן
+\begin{align*}
+\chi &= \dim \ker \prs{\del_2} - \prs{\dim \ker\prs{\del_1} - \dim \im \prs{\del_2}} + \prs{\dim C_0 - \dim \im\prs{\del_1}}
+\\&= \dim C_2 - \dim C_1 + \dim C_0
+\end{align*}
+כאשר השתמשנו בכך שמתקיים
+\[\text{.} \dim C_i = \dim \ker \prs{\del_i} + \dim \im\prs{\del_i}\]
+
+\item אם
+$M$
+יריעה סגורה וקשירה, מתקיים
+$\# \mrm{crit}_1 \geq \# \mrm{Crit}_0 - 1$:
+
+נסתכל על
+$M^{F < a}$.
+כאשר
+$a$
+עובר דרך ערך קריטי, יש הרבה של ידית/ידיות. לכל נקודה קריטית מאינדקס
+$k$
+נדביק
+$B^k \times B^{m-k}$
+לאורך
+$\del B^k \times B^{m-k}$.
+אם
+$k \geq 2$,
+ההדבקה היא לאורך קבוצה קשירה
+$S^{k-1} \times B^{m-k}$
+ואז הידית נדבקת לאותו רכיב קשירות.
+לכן, מספר רכיבי הקשירות יקטן רק עבור
+$k = 1$.
+אז הידית היא
+$B^1 \times B^{m-1} = I \times B^{m-1}$
+ומודבקת לאורך
+$\del I \times B^{m-1}$.
+לכן
+$\# \mrm{Crit}_1$,
+מספר נקודות הקריטיות, הוא לפחות מספר נקודות המינימום פחות
+$1$.
+אם נסדר את נקודות הקריטיות של
+$F$
+לפי הגובה,
+$p_1, \ldots, p_k \in \mrm{Crit}_0\prs{F}$,
+יהיו נקודות קריטיות
+$q_1, \ldots, q_{k-1} \in \mrm{Crit}_1\prs{F}$
+כאשר
+$F\prs{q_i} \geq F\prs{q_{i+1}}$.
+
+ניתן להוכיח זאת גם עם הומולוגיה, כמתואר בתרגיל הבא.
+\end{enumerate}
+
+\begin{exercise}
+\begin{enumerate}
+\item תהי
+$M$
+יריעה קשירה ויהיו
+$x, y \in \mrm{Crit}_0\prs{F}$.
+אז
+$\brs{x} = \brs{y} \in HM_0\prs{F}$.
+
+\item אם
+\begin{align*}
+\alpha \colon C_0 &\to \mbb{Z}_2 \\
+\sum a_i x_i &\mapsto \sum a_i
+\end{align*}
+אז
+$\im \prs{\del_1} = \ker \alpha$.
+
+\item מתקיים
+\[\text{.} H M_0\prs{F} = \quot{\ker\prs{\del_0}}{\im\prs{\del_1}} \cong \mbb{Z}_2\]
+
+\item הסיקו שמתקיים
+\[\dim C_0 - 1 = \dim \im\prs{\del_1} \leq \dim C_1\]
+ולכן
+\[\text{.} \# \mrm{Crit}_0 - 1 \leq \dim \mrm{Crit}_1\]
+\end{enumerate}
+\end{exercise}
+
+\begin{theorem}[\textenglish{Mountain Pass Theorem}]
+נסתכל על מסילות
+$\gamma \colon \brs{0,1} \to M$
+עם
+\begin{align*}
+\gamma\prs{0} &= x \\
+\text{.} \gamma\prs{0} &= y
+\end{align*}
+עבור
+$x,y$
+בסביבת נקודת אוכף
+$p$
+מתקיים
+\[\text{.} F\prs{p} = \inf_\gamma \max_{z \in \gamma} F\prs{z}\]
+\end{theorem}
+
+ההוכחה הבאה מתוך הספר
+\textenglish{Riemannian Geometry \& Geometric Analysis}
+של
+\textenglish{Jost}.
+
+\begin{proof}
+נניח כי
+$M$
+יריעה / יריעת הילברט (אנלוג אינסוף־מימדי של יריעה) קשירה מסילתית ותהי
+$F \in \mcal{C}^1\prs{M,\mbb{R}}$.
+נניח שפתרון המד"ר המוגדרת על ידי
+$-\nabla F$
+קיים לכל
+$x \in M$
+ולכל
+$t \geq 0$.
+
+נסתכל על
+$M{F < a}$
+ונניח כי יש לה שני רכיבי קשירות שונים
+$A,B$.
+נניח גם ש־%
+$F$
+מקיימת את תנאי
+\textenglish{Palais-Smale}
+שנתאר בהמשך. אז קיימת נקודה קריטית
+$p$
+של
+$F$
+עבורה
+\[\text{.} F\prs{p} = K = \inf_{\substack{\gamma \in \mcal{C}^0\prs{\brs{0,1}, M} \\ \gamma\prs{0} \in A \\ \gamma\prs{1} \in B}} \max_{z \in \gamma} F\prs{z} \geq a\]
+\end{proof}
+
+\begin{definition}[תנאי \textenglish{Palais-Smale}]
+$F \colon M \to \mbb{R}$
+פונקצייה
+$\mcal{C}^1$
+מקיימת את תנאי
+\textenglish{Palais-Smale}
+אם לכל סדרה
+$x_1, \ldots, x_n, \ldots \in M$
+עבורה
+\begin{enumerate}
+\item $\abs{F\prs{x_i}} \leq C$
+\item $\norm{\diff F\prs{x_n}} \xrightarrow{n\to\infty} 0$
+\end{enumerate}
+קיימת תת־סדרה מתכנסת ב־%
+$M$.
+\end{definition}
+
+\begin{remark}
+עבור יריעה סגורה או קומפקטית, תנאי
+\textenglish{Palais-Smale}
+מתקיים לכל פונקציה, ולכן נובע משפט ה־%
+\textenglish{Mountain-Pass}.
+התנאי מתקיים גם כאשר
+$M$
+אינה קומפקטית אך
+$F \colon M \to \mbb{R}$
+העתקה
+\textenglish{proper}.
+
+כאשר
+$M$
+אינסוף־מימדית (ולכן לא קומפקטית, גם מקומית), תנאי
+\textenglish{Palais-Smale}
+מהווה תחליף לתכונות של קומפקטיות.
+\end{remark}
+
+נמשיך את הוכחת המשפט.
+
+\begin{proof}
+\begin{itemize}
+\item נראה ש־%
+$K$
+ערך קריטי של
+$F$.
+נבחר סדרה
+$\prs{x_i}_{i \in \mbb{N}_+} \subseteq M$
+עבורה
+$F\prs{x_i} \to K$.
+
+אם
+$\norm{\diff F\prs{x_i}} \to 0$
+לפי
+\textenglish{Palais-Smale}
+יש תת־סדרה מתכנסת
+$x_{i_k}$
+ל־%
+$x_0$.
+אז
+\begin{align*}
+F\prs{x_0} &= \lim F\prs{x_{i_k}} = k \\
+\diff F\prs{x_0} &= \lim \diff F\prs{x_{i_k}} = 0
+\end{align*}
+ואז
+$x_0$
+הנקודה הנדרשת.
+אחרת,
+לכל סדרה כזאת לא מתקיים
+$\diff F\prs{x_i} \to 0$.
+אז יש
+$\alpha,\eta > 0$
+עבורן
+$\norm{\diff F\prs{x}} > \alpha$
+לכל
+$\abs{F\prs{x} - K} < \eta$.
+
+\item נבחר
+$\gamma \colon \brs{0,1} \to M$
+עם
+$\gamma\prs{0} \in A$,
+$\gamma\prs{1} \in B$
+ו־%
+$\max_{z \in \gamma} F\prs{z} \leq K + \eta$.
+נפעיל את הזרימה
+$\Phi^t$
+של
+$- \nabla F$
+על
+$\gamma$.
+נקבל
+\begin{align*}
+\text{.} \frac{\diff}{\diff t} \prs{F\prs{\Phi^t\prs{x}}} &= \ldots
+\\&= -\norm{\diff F\prs{\Phi^t\prs{x}}}^2
+\\&\leq -\alpha^2
+\end{align*}
+כאשר
+$K - \eta \leq F \leq K + \eta$.
+עבור
+$t_0 = \frac{2 \eta}{\alpha^2}$
+נקבל
+\[F\prs{\Phi^{t_0}\prs{\gamma}} \leq K - \eta\]
+וזאת סתירה לשלב הקודם.
+\end{itemize}
+\end{proof}
+
+
 
 %LECTURE 11
 

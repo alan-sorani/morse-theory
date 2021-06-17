@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.6.2)  3 JUN 2021 15:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.6.2)  17 JUN 2021 09:39
 entering extended mode
 **"./morse theory.tex"
 (morse theory.tex
@@ -1756,17 +1756,14 @@ LaTeX Info: Redefining \rmfamily on input line 40.
 LaTeX Info: Redefining \sffamily on input line 40.
 LaTeX Info: Redefining \ttfamily on input line 40.
 
-Setting \if@calendar@hebrew Setting \if@calendar@hebrew
-
-LaTeX Warning: Label `9.2' multiply defined.
-
-)
+Setting \if@calendar@hebrew Setting \if@calendar@hebrew)
 \openout1 = `"morse theory.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 21.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 21.
- (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
+
+(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -1948,6 +1945,14 @@ LaTeX Info: Redefining \ttfamily on input line 23.
 LaTeX Info: Redefining \rmfamily on input line 36.
 LaTeX Info: Redefining \sffamily on input line 36.
 LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 39.
+LaTeX Info: Redefining \sffamily on input line 39.
+LaTeX Info: Redefining \ttfamily on input line 39.
+
+
+LaTeX Font Warning: Font shape `TU/txr/b/n' undefined
+(Font)              using `TU/txr/m/n' instead on input line 39.
+
 )
 \tf@toc=\write6
 \openout6 = `"morse theory.toc"'.
@@ -1962,8 +1967,7 @@ LaTeX Info: Redefining \ttfamily on input line 39.
 LaTeX Info: Redefining \rmfamily on input line 48.
 LaTeX Info: Redefining \sffamily on input line 48.
 LaTeX Info: Redefining \ttfamily on input line 48.
-
-Setting \if@calendar@hebrew
+ Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 55.
 LaTeX Info: Redefining \sffamily on input line 55.
 LaTeX Info: Redefining \ttfamily on input line 55.
@@ -1994,10 +1998,6 @@ File: sources/1.7.png Graphic file (type bmp)
 LaTeX Info: Redefining \rmfamily on input line 218.
 LaTeX Info: Redefining \sffamily on input line 218.
 LaTeX Info: Redefining \ttfamily on input line 218.
-
-LaTeX Font Warning: Font shape `TU/txr/b/n' undefined
-(Font)              using `TU/txr/m/n' instead on input line 218.
-
 [1
 
 ] [2] [3]
@@ -2148,8 +2148,8 @@ LaTeX Info: Redefining \ttfamily on input line 2374.
 Overfull \hbox (6.27408pt too wide) in paragraph at lines 2363--2380
 [][]\TU/OpenSansHebrew(0)/m/n/10 הפירוק $\OML/txmi/m/it/10 M \OT1/txr/m/n/10 = 
 [] \OML/txmi/m/it/10 W[]$ \TU/OpenSansHebrew(0)/m/n/10 לא תמיד מתאים לקומפלקס [
-][]\TU/txr/b/n/10 CW[][]\TU/OpenSansHebrew(0)/m/n/10 . בדוגמא שבאיור [][][][][]
-[]1.20[][][][][][] השפה של $\OML/txmi/m/it/10 W[] [] \U/txsyc/m/n/10 ^^[$[]
+][]\TU/txr/m/it/10 CW[][]\TU/OpenSansHebrew(0)/m/n/10 . בדוגמא שבאיור [][][][][
+][]1.20[][][][][][] השפה של $\OML/txmi/m/it/10 W[] [] \U/txsyc/m/n/10 ^^[$[]
  []
 
 File: sources/5.1.png Graphic file (type bmp)
@@ -2543,15 +2543,12 @@ LaTeX Info: Redefining \ttfamily on input line 4660.
 LaTeX Info: Redefining \rmfamily on input line 4753.
 LaTeX Info: Redefining \sffamily on input line 4753.
 LaTeX Info: Redefining \ttfamily on input line 4753.
-
-
-LaTeX Warning: Reference `9.5' on page 51 undefined on input line 4791.
-
 File: sources/9.5.png Graphic file (type bmp)
 <sources/9.5.png>
 LaTeX Info: Redefining \rmfamily on input line 4858.
 LaTeX Info: Redefining \sffamily on input line 4858.
 LaTeX Info: Redefining \ttfamily on input line 4858.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\textenglish' on input line 4858.
@@ -2600,7 +2597,82 @@ LaTeX Info: Redefining \ttfamily on input line 5087.
 LaTeX Info: Redefining \rmfamily on input line 5094.
 LaTeX Info: Redefining \sffamily on input line 5094.
 LaTeX Info: Redefining \ttfamily on input line 5094.
- [53]
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5106.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5106.
+
+LaTeX Info: Redefining \rmfamily on input line 5111.
+LaTeX Info: Redefining \sffamily on input line 5111.
+LaTeX Info: Redefining \ttfamily on input line 5111.
+[53]
+Overfull \hbox (5.42151pt too wide) in paragraph at lines 5162--5177
+[]\TU/OpenSansHebrew(0)/m/n/10 של $\OML/txmi/m/it/10 T[]W[] []$ \TU/OpenSansHeb
+rew(0)/m/n/10 ושל $\OML/txmi/m/it/10 T[]W[] []$ \TU/OpenSansHebrew(0)/m/n/10 בה
+תאמה. נקרא לבסיס $[]$ בסיס חיובי אם $[]$[]
+ []
+
+[54] [55]
+פרק 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textenglish' on input line 5324.
+
+LaTeX Info: Redefining \rmfamily on input line 5324.
+LaTeX Info: Redefining \sffamily on input line 5324.
+LaTeX Info: Redefining \ttfamily on input line 5324.
+LaTeX Info: Redefining \rmfamily on input line 5434.
+LaTeX Info: Redefining \sffamily on input line 5434.
+LaTeX Info: Redefining \ttfamily on input line 5434.
+[56
+
+]
+LaTeX Info: Redefining \rmfamily on input line 5451.
+LaTeX Info: Redefining \sffamily on input line 5451.
+LaTeX Info: Redefining \ttfamily on input line 5451.
+LaTeX Info: Redefining \rmfamily on input line 5453.
+LaTeX Info: Redefining \sffamily on input line 5453.
+LaTeX Info: Redefining \ttfamily on input line 5453.
+LaTeX Info: Redefining \rmfamily on input line 5474.
+LaTeX Info: Redefining \sffamily on input line 5474.
+LaTeX Info: Redefining \ttfamily on input line 5474.
+LaTeX Info: Redefining \rmfamily on input line 5483.
+LaTeX Info: Redefining \sffamily on input line 5483.
+LaTeX Info: Redefining \ttfamily on input line 5483.
+LaTeX Info: Redefining \rmfamily on input line 5488.
+LaTeX Info: Redefining \sffamily on input line 5488.
+LaTeX Info: Redefining \ttfamily on input line 5488.
+LaTeX Info: Redefining \rmfamily on input line 5502.
+LaTeX Info: Redefining \sffamily on input line 5502.
+LaTeX Info: Redefining \ttfamily on input line 5502.
+LaTeX Info: Redefining \rmfamily on input line 5504.
+LaTeX Info: Redefining \sffamily on input line 5504.
+LaTeX Info: Redefining \ttfamily on input line 5504.
+LaTeX Info: Redefining \rmfamily on input line 5510.
+LaTeX Info: Redefining \sffamily on input line 5510.
+LaTeX Info: Redefining \ttfamily on input line 5510.
+LaTeX Info: Redefining \rmfamily on input line 5515.
+LaTeX Info: Redefining \sffamily on input line 5515.
+LaTeX Info: Redefining \ttfamily on input line 5515.
+
+Overfull \hbox (11.17671pt too wide) in paragraph at lines 5512--5517
+[][]\TU/OpenSansHebrew(0)/m/n/10 כאשר $\OML/txmi/m/it/10 M$ \TU/OpenSansHebrew(
+0)/m/n/10 אינסוף־מימדית (ולכן לא קומפקטית, גם מקומית), תנאי [][]\TU/txr/b/it/10
+ Palais-Smale[] []\TU/OpenSansHebrew(0)/m/n/10 מהווה תחליף לתכונות של קומפקטיות
+. []
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 5535.
+LaTeX Info: Redefining \sffamily on input line 5535.
+LaTeX Info: Redefining \ttfamily on input line 5535.
+LaTeX Info: Redefining \rmfamily on input line 5601.
+LaTeX Info: Redefining \sffamily on input line 5601.
+LaTeX Info: Redefining \ttfamily on input line 5601.
+[57]
 \tf@thm=\write7
 \openout7 = `"morse theory.thm"'.
 
@@ -2654,42 +2726,35 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- (morse theory.aux Setting \if@calendar@hebrew
-Setting \if@calendar@hebrew
+ (morse theory.aux Setting \if@calendar@hebrew Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 20.
 LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
- Setting \if@calendar@hebrew
-Setting \if@calendar@hebrew
+
+Setting \if@calendar@hebrew Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 32.
 LaTeX Info: Redefining \sffamily on input line 32.
 LaTeX Info: Redefining \ttfamily on input line 32.
- Setting \if@calendar@hebrew
-Setting \if@calendar@hebrew
+
+Setting \if@calendar@hebrew Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 40.
 LaTeX Info: Redefining \sffamily on input line 40.
 LaTeX Info: Redefining \ttfamily on input line 40.
- Setting \if@calendar@hebrew
-Setting \if@calendar@hebrew)
+
+Setting \if@calendar@hebrew Setting \if@calendar@hebrew)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"morse theory".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 36360 strings out of 411486
- 738652 string characters out of 2832793
+ 36378 strings out of 411486
+ 738985 string characters out of 2832793
  1322394 words of memory out of 3000000
- 55820 multiletter control sequences out of 15000+600000
- 429211 words of font info for 166 fonts, out of 8000000 for 9000
+ 55836 multiletter control sequences out of 15000+600000
+ 432789 words of font info for 179 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,24n,122p,1288b,1170s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on morse theory.pdf (57 pages).
+Output written on morse theory.pdf (61 pages).
