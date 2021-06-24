@@ -192,7 +192,61 @@
 \contentsline {proof}{{הוכחה}{22}{}}{55}{proof.22}%
 \contentsline {exercise}{{תרגיל}{19}{}}{56}{exercise.19}%
 \contentsline {theoremx}{{משפט}{2.0.{1}}{\textenglish {Mountain Pass Theorem}}}{57}{theoremx.2.0.1}%
+\contentsline {lemma}{{למה}{2.0.{2}}{}}{57}{theoremx.2.0.2}%
+\contentsline {definitionx}{{הגדרה}{2.0.{3}}{תנאי \textenglish {Palais-Smale}}}{57}{theoremx.2.0.3}%
+\contentsline {remark}{{הערה}{2.0.{4}}{}}{57}{theoremx.2.0.4}%
 \contentsline {proof}{{הוכחה}{23}{}}{57}{proof.23}%
-\contentsline {definitionx}{{הגדרה}{2.0.{2}}{תנאי \textenglish {Palais-Smale}}}{57}{theoremx.2.0.2}%
-\contentsline {remark}{{הערה}{2.0.{3}}{}}{57}{theoremx.2.0.3}%
-\contentsline {proof}{{הוכחה}{24}{}}{57}{proof.24}%
+\contentsline {example}{{דוגמה}{2.0.{5}}{}}{58}{theoremx.2.0.5}%
+\contentsline {exercise}{{תרגיל}{20}{}}{58}{exercise.20}%
+\contentsline {theoremx}{{משפט}{2.0.{6}}{}}{58}{theoremx.2.0.6}%
+\contentsline {exercise}{{תרגיל}{21}{}}{58}{exercise.21}%
+\contentsline {remark}{{הערה}{2.0.{7}}{}}{58}{theoremx.2.0.7}%
+\contentsline {example}{{דוגמה}{2.0.{8}}{}}{58}{theoremx.2.0.8}%
+\contentsline {theoremx}{{משפט}{2.0.{9}}{}}{58}{theoremx.2.0.9}%
+\contentsline {remark}{{הערה}{2.0.{10}}{}}{58}{theoremx.2.0.10}%
+\contentsline {proof}{{הוכחה}{24}{}}{58}{proof.24}%
+\contentsline {theoremx}{{משפט}{2.0.{11}}{}}{58}{theoremx.2.0.11}%
+\contentsline {remark}{{הערה}{2.0.{12}}{}}{58}{theoremx.2.0.12}%
+\contentsline {proof}{{הוכחה}{25}{}}{58}{proof.25}%
+\contentsline {example}{{דוגמה}{2.0.{13}}{}}{58}{theoremx.2.0.13}%
+\contentsline {example}{{דוגמה}{2.0.{14}}{}}{58}{theoremx.2.0.14}%
+\contentsline {example}{{דוגמה}{2.0.{15}}{דוגמא חשובה- \textenglish {minimax} הומולוגי}}{59}{theoremx.2.0.15}%
+\contentsline {example}{{דוגמה}{2.0.{16}}{}}{59}{theoremx.2.0.16}%
+\contentsline {theoremx}{{משפט}{2.0.{17}}{}}{59}{theoremx.2.0.17}%
+\contentsline {proof}{{הוכחה}{26}{רעיון ההוכחה}}{59}{proof.26}%
+\contentsline {corollary}{{מסקנה}{2.0.{18}}{}}{60}{theoremx.2.0.18}%
+\contentsline {example}{{דוגמה}{2.0.{19}}{}}{60}{theoremx.2.0.19}%
+\contentsline {example}{{דוגמה}{2.0.{20}}{}}{60}{theoremx.2.0.20}%
+\contentsline {definitionx}{{הגדרה}{2.0.{21}}{\textenglish {cup-length}}}{60}{theoremx.2.0.21}%
+\contentsline {remark}{{הערה}{2.0.{22}}{}}{60}{theoremx.2.0.22}%
+\contentsline {remark}{{הערה}{2.0.{23}}{}}{60}{theoremx.2.0.23}%
+\contentsline {corollary}{{מסקנה}{2.0.{24}}{}}{60}{theoremx.2.0.24}%
+\contentsline {definitionx}{{הגדרה}{3.0.{1}}{מסילה גיאודזית}}{61}{theoremx.3.0.1}%
+\contentsline {theoremx}{{משפט}{3.0.{2}}{Ltusternik-Fet}}{61}{theoremx.3.0.2}%
+\contentsline {remark}{{הערה}{3.1.{1}}{}}{61}{theoremx.3.1.1}%
+\contentsline {definitionx}{{הגדרה}{3.1.{2}}{}}{61}{theoremx.3.1.2}%
+\contentsline {theoremx}{{משפט}{3.1.{3}}{משפט השיכון של סובולב}}{61}{theoremx.3.1.3}%
+\contentsline {fact}{{עובדה}{3.1.{4}}{}}{61}{theoremx.3.1.4}%
+\contentsline {question}{{שאלה}{3.1.{5}}{}}{62}{theoremx.3.1.5}%
+\contentsline {theoremx}{{משפט}{3.1.{6}}{\textenglish {Birkhoff}}}{62}{theoremx.3.1.6}%
+\contentsline {theoremx}{{משפט}{3.1.{7}}{\textenglish {Lyusternik-Shnirelman}}}{62}{theoremx.3.1.7}%
+\contentsline {remark}{{הערה}{3.1.{8}}{}}{62}{theoremx.3.1.8}%
+\contentsline {definitionx}{{הגדרה}{3.1.{9}}{אנרגיה \textenglish {(Action)}}}{62}{theoremx.3.1.9}%
+\contentsline {remark}{{הערה}{3.1.{10}}{}}{62}{theoremx.3.1.10}%
+\contentsline {definitionx}{{הגדרה}{3.1.{11}}{טופולוגיה על $\Lambda _0$}}{62}{theoremx.3.1.11}%
+\contentsline {remark}{{הערה}{3.1.{12}}{}}{63}{theoremx.3.1.12}%
+\contentsline {definitionx}{{הגדרה}{3.1.{13}}{}}{63}{theoremx.3.1.13}%
+\contentsline {remark}{{הערה}{3.1.{14}}{}}{63}{theoremx.3.1.14}%
+\contentsline {lemma}{{למה}{3.1.{15}}{}}{63}{theoremx.3.1.15}%
+\contentsline {proof}{{הוכחה}{27}{}}{63}{proof.27}%
+\contentsline {theoremx}{{משפט}{3.1.{16}}{\text {Palais-Smale} עבור $E$}}{63}{theoremx.3.1.16}%
+\contentsline {definitionx}{{הגדרה}{3.1.{17}}{}}{63}{theoremx.3.1.17}%
+\contentsline {theoremx}{{משפט}{3.1.{18}}{}}{64}{theoremx.3.1.18}%
+\contentsline {proof}{{הוכחה}{28}{}}{64}{proof.28}%
+\contentsline {example}{{דוגמה}{3.1.{19}}{}}{64}{theoremx.3.1.19}%
+\contentsline {theoremx}{{משפט}{3.1.{20}}{}}{64}{theoremx.3.1.20}%
+\contentsline {proof}{{הוכחה}{29}{}}{64}{proof.29}%
+\contentsline {remark}{{הערה}{3.1.{21}}{}}{64}{theoremx.3.1.21}%
+\contentsline {theoremx}{{משפט}{3.1.{22}}{\textenglish {Lyusternik-Fet}}}{64}{theoremx.3.1.22}%
+\contentsline {proof}{{הוכחה}{30}{}}{64}{proof.30}%
+\contentsline {exercise}{{תרגיל}{22}{}}{64}{exercise.22}%

@@ -5452,10 +5452,10 @@ $p$
 של
 \textenglish{Jost}.
 
-\begin{proof}
+\begin{lemma}
 נניח כי
 $M$
-יריעה / יריעת הילברט (אנלוג אינסוף־מימדי של יריעה) קשירה מסילתית ותהי
+יריעה / יריעת הילברט (אנלוג אינסוף־מימדי של יריעה) שלמה וקשירה מסילתית ותהי
 $F \in \mcal{C}^1\prs{M,\mbb{R}}$.
 נניח שפתרון המד"ר המוגדרת על ידי
 $-\nabla F$
@@ -5472,13 +5472,15 @@ $A,B$.
 $F$
 מקיימת את תנאי
 \textenglish{Palais-Smale}
-שנתאר בהמשך. אז קיימת נקודה קריטית
+שנתאר בהמשך.
+
+אז קיימת נקודה קריטית
 $p$
 של
 $F$
 עבורה
 \[\text{.} F\prs{p} = K = \inf_{\substack{\gamma \in \mcal{C}^0\prs{\brs{0,1}, M} \\ \gamma\prs{0} \in A \\ \gamma\prs{1} \in B}} \max_{z \in \gamma} F\prs{z} \geq a\]
-\end{proof}
+\end{lemma}
 
 \begin{definition}[תנאי \textenglish{Palais-Smale}]
 $F \colon M \to \mbb{R}$
@@ -5516,7 +5518,7 @@ $M$
 מהווה תחליף לתכונות של קומפקטיות.
 \end{remark}
 
-נמשיך את הוכחת המשפט.
+נוכיח כעת את הלמה, שממנה נובע המשפט.
 
 \begin{proof}
 \begin{itemize}
@@ -5585,14 +5587,1139 @@ $t_0 = \frac{2 \eta}{\alpha^2}$
 \end{proof}
 
 
-
 %LECTURE 11
 
-%TODO
+\begin{example}
+תהי
+$F\prs{x,y} = x \cdot y$
+על
+$\mbb{R}^2$.
+היא מקיימת את תנאי
+\textenglish{Palais-Smale}
+(תרגיל).
+ב־%
+$M^{<0}$
+נקבל שני רכיבי קשירות
+$a,b$.
+נקבל
+\[\text{.} \inf \max F\prs{\gamma} = 0 = F\prs{0}\]
+\end{example}
+
+\begin{exercise}
+הוכיחו את הגירסא הבאה של משפט ה־%
+\textenglish{Mountain-Pass}.
+\end{exercise}
+
+\begin{theorem}
+תהיינה
+$x \in A, y \in B$
+נקודות בשני רכיבי קשירות של
+$M^{< a}$.
+אז
+\[K = \inf_{\substack{\gamma\prs{0} = x \\ \gamma\prs{1} = y}} \max_{s \in \gamma} F\prs{s}\]
+ערך קריטי.
+\end{theorem}
+
+\begin{exercise}
+הראו שקיימת סדרה
+$\prs{\gamma_k}_{k \in \mbb{N}}$
+וקיימת סדרה
+$\prs{s_k}_{k \in \mbb{N}} \subseteq \brs{0,1}$
+עם
+\begin{align*}
+\gamma_k &\colon \brs{0,1} \to M \\
+\gamma_k\prs{0} &= x \\
+\gamma_k\prs{1} &= y \\
+s_k &\to p \in \mrm{Crit}\prs{F} \\
+\text{.} F\prs{p} &= K
+\end{align*}
+\end{exercise}
+
+\begin{remark}
+$F$
+במשפט הנ"ל
+אינה חייבת להיות פונקציית מורס. מספיק שהיא תהיה
+$\mcal{C}^1$.
+
+אם
+$F$
+כן מורס,
+$p$
+אוכף מאינדקס
+$1$.
+\end{remark}
+
+\begin{example}
+נסתכל על השיכון הסטנדרטי של
+$S^2$
+ב־%
+$\mbb{R}^2$,
+עם פונקציית הגובה
+$F$.
+אם נוסיף מימדים ונגדיר את
+$F$
+בהתאם, נוכל לקבל שהקוטב הצפוני
+$N$
+הוא נקודת אוכף מאינדקס
+$2$.
+לא נוכל לקבל מסילה בין שתי נקודות ב־%
+$M^{<a}$
+שעוברת במקסימום בעזרת המשפט. ננסח לכן את ההכלה הבאה עבור אוכפים מאינדקס גבוה יותר.
+\end{example}
+
+\begin{theorem}
+תהי
+$M$
+קשירה ותהי
+$F \in \mcal{C}^1 \prs{M,\mbb{R}}$.
+נניח שיש פתרון למד"ר המוגדרת לפי
+$- \nabla F$.
+נניח ש־%
+$F$
+מקיימת את תנאי
+\textenglish{Palais-Smale}
+ונניח כי
+$\phi \colon S^k \to M^{<a}$
+אינה הומוטופית לההעתקה הקבוה.
+
+אז קיימת
+$p \in \mrm{Crit}\prs{F}$
+עבורה
+\[\text{.} F\prs{p} = \inf_{\mcal{U} \colon D^{k+1} \to M \\ \rest{\mcal{U}}{\del D} \approx \phi} \max_{s \in \mcal{U}\prs{D}} F\prs{s}\]
+\end{theorem}
+
+\begin{remark}
+הלמה עבור המשפט המקורי היא המקרה
+$k = 0$.
+\end{remark}
+
+\begin{proof}
+כמו במשפט המקורי.
+\end{proof}
+
+גירסא כללית יותר של המשפט היא הבאה.
+
+\begin{theorem}
+תהי
+$M$
+יריעה קשירה, תהי
+$F \in \mcal{C}^1\prs{M,\mbb{R}}$,
+ונניח שקיים פתרון למד"ר שמוגדרת על ידי
+$-\nabla F$
+לכל
+$x \in M, t > 0$
+וכי
+$F$
+מקיימת את תנאי
+\textenglish{Palais-Smale}.
+תהי
+$U$
+משפחה של תת־קבוצות של
+$M$
+עבורה
+$\phi^t\prs{\mcal{U}} \in U$
+לכל
+$\mcal{U} \in U$
+ולכל
+$t > 0$.
+נסמן
+\[\text{.} K \ceq \inf_{\mcal{U} \in U} \max_{s \in \mcal{U}} F\prs{s}\]
+
+אם
+$K > -\infty$,
+יש נקודה קריטית
+$p \in \mrm{Crit}\prs{F}$
+עבורה
+$K = F\prs{p}$.
+\end{theorem}
+
+\begin{remark}
+הגירסא הקודמת של המשפט נובעת מהבחירה
+\[\text{.} U = \set{\im\prs{\mcal{U}}}{\substack{\mcal{U} \colon D^{k+1} \to M \\ \rest{\mcal{U}}{\del D} \approx \phi}}\]
+\end{remark}
+
+\begin{proof}
+כמו במשפט המקורי.
+\end{proof}
+
+\begin{example}
+ניקח
+$U = \set{\set{p}}_{p \in M}$.
+אז
+\[K = \inf_{p \in M} \max_{q \in \set{p}} F\prs{q} = \inf \prs{F}\]
+ואז אם
+$K > -\infty$
+נקבל
+$K = \min\prs{F}$
+וזה ערך קריטי.
+\end{example}
+
+\begin{example}
+תהי
+$N = S^k$
+(או יריעה אחרת) ותהי
+$F \colon M \to \mbb{R}$
+חסומה מלמטה. נסתכל על
+$f \colon N \to M$
+חלקות (/ רציפות) ותהי
+\[\text{.} U = \set{\im f}{f \approx f_0 \colon N \to M}\]
+כאשר
+$N = S^k$
+נקבל
+\[\text{.} U = \set{\im f'}{\brs{f'} = \brs{f_0} \in \pi_k\prs{M}}\]
+
+אם
+$M = N = S^n$
+נקבל מהמשפט את הנקודה הקריטית שהיא הקוטב הצפוני.
+\end{example}
+
+\begin{example}[דוגמא חשובה%
+-
+\textenglish{minimax} הומולוגי]
+תהי
+$F \colon M \to \mbb{R}$
+חסומה מלמטה.
+תהי
+$\alpha \in H_*\prs{M}$.
+תהי
+$\phi = \set{\phi_i \colon \Delta_i \to M}$
+שרשרת סגורה עבורה
+$\alpha = \brs{\phi}$.
+נסתכל על כל האפשרויות של
+$\phi$
+כזאת.
+\[\text{.} U_\alpha \ceq \set{\im \phi}_{\brs{\phi} = \alpha}\]
+נפעיל את המשפט ונקבל כי
+\[K_\alpha = \inf_{\brs{\phi} = \alpha} \max_{s \in \im \phi} F\prs{s}\]
+ערך קריטי.
+נקרא לערך זה ה־%
+\emph{\textenglish{spectral number / spectral invariant}}
+של
+$F$.
+\end{example}
+
+נרצה לדעת מה מספר הנקודות הקריטיות שנוכל למצוא בתור
+$K_\alpha$.
+נסתכל על כך בדוגמא הבאה.
+
+\begin{example}
+נסתכל על הטורוס כבאיור
+%TODO add fig 11.1
+
+מתקיים
+$K_{\brs{a}} = F\prs{x}$
+וגם
+$K_{\brs{b}} = F\prs{y}$.
+במקרה זה יש רק שתי נקודות אוכף, ולא משנה איזו מחלקת הומולוגיה ניקח נקבל את אחת הנקודות הקריטיות האלו.
+למשל,
+$K_{2 \brs{a}} = K_{\brs{a}} = F\prs{x}$
+וגם
+$K_{\brs{a+b}} = K_{\brs{a}}$.
+גם במקרה כללי יותר בו יש יותר נקודות קריטיות מאינדקס
+$1$
+נוכל לקבל מצב דומה בו לא כולם מתקבלים באופן זה.
+\end{example}
+
+נשאל מתי
+$K_{\alpha} \neq K_{\beta}$.
+לשם פשטות נניח כי
+$M^n$
+סגורה.
+נניח ש־%
+$\alpha,\beta \in H_*\prs{M}$
+בלתי־תלויים לינארית (אחרת יש להם אותו מספר ספקטרלי).
+נניח שקיים
+$a \in H_{<n}\prs{M}$
+עבורו
+$\alpha = \beta \cdot a$
+(כאשר זה
+\textenglish{intersection product}).
+
+\begin{theorem}
+נניח של־%
+$F$
+יש מספר סופי של נקודות קריטיות (אך יתכן ש־%
+$F$
+אינה מורס.
+אז במצב הנ"ל
+$K_\alpha < K_\beta$.
+\end{theorem}
+
+\begin{proof}[רעיון ההוכחה]
+\begin{enumerate}
+\item ניקח שתי פונקציות מורס
+$F', F''$
+גנריות ונבחר
+$p \in \mrm{Crit}\prs{F'}$
+ו־%
+$q \in \mrm{Crit}\prs{F''}$.
+אז
+\[\text{.} \rho\prs{p,q} = \sum_{r \in \mrm{Crit}\prs{F'}} n_2\prs{p,q;r} \cdot r\]
+לכל
+$r$
+כזאת מתקיים
+$F'\prs{r} \leq F'\prs{p}$.
+
+באופן כללי יותר, אם
+\begin{align*}
+\alpha &= \sum a_i p_i \\
+\beta &= \sum b_i q_i \\
+\gamma &= c_i r_i
+\end{align*}
+וגם
+\[\rho\prs{\alpha,\beta} = \gamma\]
+אז
+\[\text{.} \max_{\forall i\colon a_i \neq 0} F'\prs{p_i} \geq \max_{\forall j \colon c_j \neq 0} F'\prs{r_i}\]
+
+\item 
+אם
+\begin{align*}
+\alpha &\in HM_*\prs{F'} \\
+\beta &\in HM_*\prs{F'} \\
+a &\in HM_*\prs{F''}
+\end{align*}
+אז
+\begin{align*}
+\text{.} \min_{\alpha = \sum \brs{a_i p_i}} \max_{a_i \neq 0} F'\prs{p_i} \geq \min_{\beta = \brs{\sum b_j q_j}} \max_{b_i \neq 0} F'\prs{q_j}
+\end{align*}
+
+\item יהיו
+$\alpha \in H_*\prs{M}$
+ו־%
+$\bar{\alpha} \in HM_*\prs{F, g}$
+עבור
+$\prs{F,g}$
+\textenglish{Morse-Smale}.
+תהי
+\begin{align*}
+\phi \colon HM_* &\to H_* \\
+\bar{\alpha} &\to \alpha
+\end{align*}
+ההעתקה הקנונית. אז
+\[\text{.} K_\alpha = \min_{\brs{\sum a_i p_i} = \bar{\alpha}} = \max_{a_i \neq 0} F\prs{p_i}\]
+
+כלומר,
+\textenglish{minimax}
+ההומולוגי זהה לזה של הומולוגיית מורס, מהשלב הקודם.
+
+\item
+תהיינה
+$F,G \colon M \to \mbb{R}$.
+אז
+\[\text{.} \abs{K_\alpha^F - K_\alpha^G} \leq d_{\mcal{C}^0} \prs{F,G}\]
+זה מתקבל מתוך ההגדרה.
+
+\item
+תהי
+$F \colon M \to \mbb{R}$
+כללית.
+נוכל לקרב את
+$F$
+בטופולוגיית
+$\mcal{C}^0$
+על ידי פונקציית מורס
+$F'$.
+אז
+\[\text{.} K_\alpha^{F'} \leq K_\beta^{F'}\]
+כאשר
+$F' \xrightarrow[\mcal{C}^0]{} F$
+נקבל
+$K_\alpha^F \leq K_\beta^F$.
+נותר להראות שלא ייתכן שוויון.
+
+\item נסמן את הנקודות הקריטיות עם הערך הקריטי
+$K_\beta$
+על ידי
+$p_1, \ldots, p_m$.
+כיוון שיש מספר סופי של נקודות קריטיות, יש
+$\chi < F\prs{\beta}$
+עבורו לכל
+$q \in \mrm{Crit}\prs{F}$
+עם
+$F\prs{q} < K_\beta$
+מתקיים
+$F\prs{q} < \chi$.
+
+נראה כי
+$K_\alpha \leq \chi$.
+נבחר
+$F''$
+פונקציית מורס כך ש־%
+$p_1, \ldots, p_m \notin W^U\prs{q_i}$
+לכל
+$q_i$
+עם
+$\mu\prs{q_i} < n$.
+זה מתקיים עבור
+$F''$
+גנרית, כי ל־%
+$W^U\prs{q_i}$
+יש קו־מימד חיובי.
+
+ניקח פרטורבציה של
+$F$
+ל־%
+$F'$
+פונקציית מורס שהיא קרוב ב־%
+$\mcal{C}^0$
+ל־%
+$F$.
+כתוצאה, הנקודות הקריטיות
+$p_1, \ldots, p_m$
+עלולות להתפצל למספר נקודות קריטיות בסביבות קטנות של ה־%
+$p_i$.
+אם מדובר בפרטורבציה קטנה,
+$W^U\prs{q_j}$
+יפספסו את הסביבות שבהן מופיעות הנקודות הקריטיות האלה.
+
+נקבל מהגדרת הכפל
+$\rho$
+כי לכל הנציגים של
+$\brs{\sum c_i r_i} = \beta \cdot a$
+מתקיים
+$\max F'\prs{r_i} \leq \chi$.
+אז
+$K_{\beta \cdot a} \leq \chi < K_\beta$,
+ולכן
+$K_\alpha < K_\beta$,
+כנדרש.
+\end{enumerate}
+\end{proof}
+
+\begin{corollary}
+תהי
+$M$
+יריעה
+$n$%
+־מימדית ונניח כי
+$a_i \in H_{<n}\prs{M}$
+מקיימים
+$a_1 \cdot \ldots \cdot A_k \neq 0$.
+אז
+\begin{align*}
+\text{.} K_{a_1 \cdot \ldots \cdot a_k} < K_{a_1 \cdot \ldots \cdot a_{k-1}} < \ldots < K_{a_1} < K_{\brs{M}}
+\end{align*}
+אז יש לפחות
+$k+1$
+נקודות קריטיות לכל
+$F \in \mcal{C}^1\prs{M,\mbb{R}}$
+(גם אם
+$F$
+אינה מורס!).
+\end{corollary}
+
+\begin{example}
+נסתכל על הטורוס
+$\mbb{T}^2$
+באיור
+%TODO add fig 11.2
+
+מתקיים
+\[\text{.} \alpha \cdot \beta = \brs{\mrm{pt}} \neq - H_*\prs{\mbb{T}^2}\]
+אז לכל
+$F \colon \mbb{T}^2 \to \mbb{R}$
+יש לפחות
+$3$
+נקודות קריטיות שונות.
+
+נסתכל באופן כללי יותר על
+$\mbb{T}^n$.
+מתקיים
+\[H_{n-1} = \mbb{Z} \trs{T_1, \ldots, T_n}\]
+עבור
+$T_i = \prs{S^1}^{i-1} \times \set{p} \times \prs{S^1}^{n-i}$
+וגם
+\[\brs{T_1} \cdot \ldots \cdot \brs{T_n} = \brs{\mrm{pt}} \neq 0\]
+ולכן
+לכל
+$F \in \mcal{C}^1 \prs{\mbb{T}^n,\mbb{R}}$
+יש במקרה זה לפחות
+$n+1$
+נקודות קריטיות.
+
+להשוואה,
+$\dim H_*\prs{\mbb{T}^2} = 4$
+ולכן לכל פונקציית מורס
+$F \colon \mbb{T}^2 \to \mbb{R}$
+יש לפחות
+$4$
+נקודות קריטיות.
+באופן כללי,
+$d\im H_*\prs{\mbb{T}^n} = 2^n$
+ואז לכל
+$F \colon \mbb{T}^n \to \mbb{R}$
+מורס יש לפחות
+$2^n$
+נקודות קריטיות.
+\end{example}
+
+\begin{example}
+נסתכל על
+$\mbb{C}\mrm{P}^n$.
+מתקיים
+\begin{align*}
+H_k\prs{\mbb{C}\mrm{P}^n} = \fcases{\mbb{Z} & k \in 2 \mbb{Z} \cap \brs{0,2n} \\ 0 & \text{otherwise}}
+\end{align*}
+ומעבר לכך
+\begin{align*}
+H_{2n - 2i} = \mbb{Z}\trs{a^i}
+\end{align*}
+כאשר
+$H_0 = \mbb{Z}\trs{\mrm{pt}} = \mbb{Z}\trs{a^n}$.
+אז
+\begin{align*}
+\text{.} H_*\prs{\mbb{C}\mrm{P}^n} \cong \quot{\mbb{Z}\brs{a}}{a^{n+1} = 0}
+\end{align*}
+נקבל כי
+$a^n \neq 0$
+ולכן יש לפחות
+$n+1$
+נקודות קריטיות.
+
+במקרה זה, קיימת פונקציית מורס
+$F \colon \mbb{C}\mrm{P}^n \to \mbb{R}$
+עם
+$n+1$
+נקודות קריטיות בלבד.
+\end{example}
+
+\begin{definition}[\textenglish{cup-length}]
+עבור יריעה
+$M$
+נגדיר
+\[\text{.} \mrm{CL}\prs{M} \ceq \max\set{k \in \mbb{N}}{\exists w_1, \ldots, w_k \in H^{\geq 1}\prs{M} \colon w_1 \cup \ldots \cup w_k \neq 0 \in H^*}\]
+\end{definition}
+
+\begin{remark}
+מתקיים
+$\mrm{CL}\prs{M} \leq \dim M$.
+\end{remark}
+
+\begin{remark}
+מדואליות פואנקרה נקבל כי
+\[\text{.} \mrm{CL}\prs{} = \max\set{k \in \mbb{N}}{\exists a_1, \ldots, a_k \in H_{< n}\prs{M} \colon a_1 \cdot \ldots a_k \neq 0}\]
+\end{remark}
+
+\begin{corollary}
+מספר הנקודות הקריטיות של
+$F \in \mcal{C}^1\prs{M,\mbb{R}}$
+הוא לפחות
+$\mrm{CL}\prs{M} + 1$.
+\end{corollary}
+
+\chapter{תורת מורס ביריעות אינסוף מימדיות}
+
+\begin{definition}[מסילה גיאודזית]
+תהי
+$\prs{M,g}$
+יריעה רימנית.
+$\gamma \colon I \to M$
+\emph{מסילה גיאודזית}
+אם
+היא
+\emph{length-minimizing}
+באופן מקומי.
+\end{definition}
+
+\begin{theorem}[Ltusternik-Fet]
+תהי
+$M$
+יריעה סגורה.
+קיימת עקומה גיאודזית סגורה על
+$M$.
+\end{theorem}
+
+\section{הכנות}
+
+נרצה להפעיל את תורת מורס על מרחב הלולאות
+$\mcal{C}^\infty\prs{S^1, M}$.
+קו גיאוזי יהיה בדיוק נקודה קריטית של
+\[\text{.} \mrm{len}\prs{\gamma} = \int_{S'} \norm{\dot{\gamma}} \diff t\]
+
+\begin{remark}
+\begin{enumerate}
+\item נצטרך לשלב את הנגזרות
+$\dot{\gamma}$
+לתוך המבנה.
+
+\item בדרך כלל, נרצה לחסום מלמעלה את אורך הלולאות. נסתכל על
+\[\text{.} \set{\gamma}{\len\prs{\gamma} \leq K}\]
+
+\item נצטרך את מרחב סובולב
+$\Lambda_0 \ceq H^{1,2}\prs{S^1, M}$
+שהוא יריעת הילברט.
+
+\item נעבוד עם קואורדינטות מקומיות. עבור מסילה
+$\gamma$
+ב־%
+$M$
+ניקח מפת קואורדינטות
+$\mcal{U}$
+ל־%
+$\mbb{R}^n$.
+נתאר את
+$\hat{\gamma} \in H^{1,2}\prs{I,\mbb{R}^n}$
+כדי להבין את
+$H^{1,2}$
+לוקלית.
+\end{enumerate}
+\end{remark}
+
+\begin{definition}
+נגדיר
+\[H^1 \prs{I,\mbb{R}^n} = H^{1,2}\prs{I, \mbb{R}^n}\]
+להיות הסגור של
+$\mcal{C}^\infty \prs{I,\mbb{R}^n}$
+ביחס למכפלה הפנימית
+\[\text{.} \trs{\gamma_1, \gamma_2}_{1,2} = \int_a^b \trs{\gamma_1\prs{t}, \gamma_2\prs{t}}_{\mbb{R}^n} \diff t + \int_a^b \trs{\dot{\gamma}_1\prs{t}, \dot{\gamma}_2\prs{t}}_{\mbb{R}^n} \diff t\]
+זה מגדיר מכפלה פנימית על
+$H^{1,2}$
+שהופכת אותו למרחב הילברט.
+\end{definition}
+
+\begin{theorem}[משפט השיכון של סובולב]
+כל
+$\gamma \in H^{1,2} \prs{I, \mbb{R}^n}$
+רציפה.
+\end{theorem}
+
+
 
 %LECTURE 12
 
-%TODO
+נניח כי
+$M$
+יריעה רימנית סגורה.
+נגדיר
+\[\Lambda_0 \ceq H^{1,2}\prs{S^1, M} = \set{\gamma \colon S^1 \to M}{\hat{\gamma} \in H^1\prs{I, \mbb{R}^n}}\]
+ואלו מסילות שמקומית שייכות ל־%
+$H^1$.
+
+\begin{fact}
+כל
+$\gamma \in \Lambda_0$
+רציפה.
+\end{fact}
+
+יכולות לעניין אותנו מספר פונקציות.
+נגדיר
+\begin{align*}
+\len \colon \Lambda_0 &\to \mbb{R} \\
+\text{.} \gamma &\mapsto \int_a^b \norm{\gamma'\prs{ss}} \diff s
+\end{align*}
+נקודות קריטיות של
+$\len$
+הן קווים גיאודזיים סגורים כיוון שהן
+\textenglish{locally length-minimizing}.
+מסילה ב־%
+$\Lambda_0$
+היא הומוטופיה של לולאות
+$\gamma_t \colon S^1 \to M$.
+וקטור משיק ל־%
+$\gamma_0 \in \Lambda_0$
+הוא
+\[\text{.} \frac{\del}{\del t} \gamma_t \left( s \right) \in T_{\gamma_0\prs{M}}\]
+אם נקבע
+$s = \mrm{const}\prs{t}$
+נקבל מסילה
+$\gamma_t\prs{s}$.
+אז הוקטור המשיק הוא וקטור משיק של מסילה זאת.
+
+נוכל גם לתאר את השדה הוקטורי לאורך
+$\gamma_0$
+שמשיק ל־%
+$M$
+על ידי
+$\eta \in T_{\gamma_0}\Lambda_0$
+אם ורק אם
+$\eta \colon S^1 \to TM$
+מקיימת
+$\eta\prs{s} \in T_{\gamma_0\prs{s}}M$
+וגם
+$\eta \in H^{1,2}\prs{S^1, TM}$.
+במקרה זה
+$\eta$
+בפרט רציפה.
+
+נסתכל על נקודת מינימום
+$\gamma$
+של
+$\len$.
+אם
+$\len\prs{\gamma} = 0$
+נקבל כי
+$\gamma$
+קבועה. אבל, אם
+$\len\prs{\gamma} > 0$
+אז
+$\gamma$
+קו גיאודזי (לא טריוויאלי).
+נניח כי
+$M$
+קשירה. נניח גם כי
+$\pi_1\prs{M, *} \neq \set{0}$.
+זה שקול לכך ש־%
+$\pi_1\prs{M} \neq \set{0}$
+כאשר אלו כל הלולאות הרציפות עד כדי הומוטופיה (בלי נקודת בסיס).
+אז יש לולאה שאינה כוויצה ב־%
+$M$.
+
+נקבע
+$\gamma \in \pi_1\prs{M} \setminus \set{0}$
+ונגדיר
+\[\text{.} \Lambda_\alpha \ceq \set{\gamma \in \Lambda_0}{\brs{\gamma} = \alpha}\]
+$\len$
+מקיימת את תנאי
+\text{Palais-Smale}.
+לכן קיימת
+$\gamma_\alpha \in \alpha$
+עבורה
+\[\text{.} \len\prs{\gamma_\alpha} = \inf_{\gamma \in \alpha} \len\prs{\gamma}\]
+מתקיים
+$\len\prs{\gamma_\alpha} > 0$
+כי אחרת 
+$\gamma_\alpha$
+קבועה ואז
+$\brs{\gamma_\alpha} = \brs{\mrm{const}} = 0$.
+לכן
+$\gamma_\alpha$
+נקודת מינימום לא קבועה של
+$\len$,
+שהיא לולאה גיאודזית (לא טריוויאלית).
+ראו איור
+%TODO add fig 12.1
+לכן קיימים קווים גיאודזיים סגורים לכל יריעה
+$M$
+פשוטת קשר.
+באופן כללי,
+$\Lambda_0$
+לאו דווקא קשירה, ומחלקות הקשירות שלה הן
+$\pi_1\prs{M}$.
+
+\begin{question}
+יהי
+$n > 1$.
+איך נמצא קווים גיאודזיים ב־%
+$S^n$?
+\end{question}
+
+\begin{theorem}[\textenglish{Birkhoff}]
+לכל מטריקה רימנית על
+$S^n$,
+קיים מסלול גיאודזי סגור ב־%
+$S^n$.
+\end{theorem}
+
+\begin{theorem}[\textenglish{Lyusternik-Shnirelman}]
+לכל מטריקה רימנית על
+$S^n$,
+קיימים לפחות
+$3$
+קווים גיאודזיים סגורים ופשוטים.
+\end{theorem}
+
+\begin{remark}
+$\len \colon \Gamma_0 \to \mbb{R}$
+בחירה לא מוצלחת.
+אם
+$\gamma \colon S^1 \to M$
+שייכת ל־%
+$\mrm{Crit}\prs{\len}$,
+גם כל פרמטריזציה אחרת של
+$\gamma$
+היא נקודה קריטית של
+$\len$.
+בפרט, הנקודות הקריטיות של
+$\len$
+מגיעות במשפחות אינסוף מימדיות. אז לא נוכל להיעזר בתורת מורס.
+\end{remark}
+
+\begin{definition}[אנרגיה \textenglish{(Action)}]
+עבור
+$\gamma \in \Lambda_0\prs{M}$
+ומטריקה רימנית
+$g$
+על
+$M$
+נגדיר
+\[\text{.} E\prs{\gamma} = \frac{1}{2} \int_{S^1} \norm{\gamma'}_g \diff s\]
+\end{definition}
+
+\begin{remark}
+נקודות קריטיות של
+$E$
+הן מסילות
+$\gamma$
+עם פרמטריזציה במהירות קבועה
+$\norm{\gamma'}_g = \mrm{const}\prs{s}$.
+הן גם נקודות קריטיות עבור
+$\len$.
+אם
+$\gamma \colon S^1 \to M$
+נקודה קריטית של
+$E$,
+גם
+$\gamma\prs{\cdot + \theta} \colon S^1 \to M$
+נקודה קריטית של
+$E$.
+אבל, זה החופש היחיד כאן ולכן לוקלית יש
+$S^1$
+פרמטריזציות שונות לכל ערך של
+$E$.
+אז הנקודות הקריטיות מופיעות במשפחות של
+$S^1$
+ונוכל במקרה זה להיעזר בתורת
+\text{Morse-Bott}.
+
+דרך נוספת תהיה לעשות פרטורבציה של
+$E$
+ולהגיע לפונקציית מורס אמיתית:
+נגדיר
+\begin{align*}
+\hat{E} \ceq \int_{S^1} \norm{\gamma'}_{g\prs{s}} \diff s
+\end{align*}
+עבור
+\[g_{\prs{s}} \colon S^1 \to \mrm{Riemannian Metrics on } M\]
+משפחה רציפה של מטריקות רימניות.
+זה מתחבר לתורת
+\textenglish{Floer}
+שמרכזה היא הכללה של תורת מורס למקרה האינסוף־מימדי.
+\end{remark}
+
+\begin{definition}[טופולוגיה על
+$\Lambda_0$]
+נגדיר טופולוגיה על
+$\Lambda_0$
+על ידי
+$\gamma_n \to \gamma$
+אם
+\begin{enumerate}
+\item $\gamma_n \to \gamma$
+יוניפורמית.
+|item $E\prs{\gamma_n} \to E\prs{\gamma}$.
+\end{enumerate}
+\end{definition}
+
+\begin{remark}
+ההתכנסות הנ"ל שקולה להתכנסות של נציגים מקומיים ב־%
+$\hat{\gamma}_n \to \hat{\gamma}$
+ב־%
+$H^{1,2}\prs{I, \mbb{R}^n}$
+בכל מפה של
+$M$.
+בפרט, ניתן במקרה זה למצוא כיסויים
+$S^1 = \bigcup_{i \in [m]} V_i$
+כאשר
+$\im\prs{\gamma} \subseteq \bigcup_{i \in [m]} U_i$,
+כאשר
+$\gamma\prs{V_i} \subseteq U_i$,
+וגם ל־%
+$\gamma_k\prs{V_i} \subseteq U_i$
+עבור
+$k$
+גדול מספיק.
+
+עבור
+$\xi \in \mcal{C}^\infty\prs{I, \mbb{R}^n}$
+ועבור
+$\eps > 0$
+קטן מספיק
+מתקיים
+\[\text{.} \forall s \in V_i \colon \hat{\gamma}\prs{s} + \eps \xi\prs{s} \in \phi_i\prs{U_i} \subseteq \mbb{R}^n\]
+נסמן
+$u \ceq \hat{\gamma}$
+נעשה חשבון ווריאציות של
+$\hat{\gamma}$.
+מתקיים
+\begin{align*}
+\left. \frac{\diff}{\diff \eps} \prs{E \prs{u + \eps \xi}} \right|_{\eps = 0} &= \left. \frac{1}{2} \frac{\diff}{\diff \eps} \right|_{\eps = 0} \int_I \sum_{i,j} g_{i,j} \prs{u + \eps \xi}_{\prs{s}} \prs{u_i' + \eps \xi_i'} \prs{u_j' + \eps \xi_j'} \diff s
+\\&=
+\frac{1}{2} \int_I \sum_{i,j} \prs{g_{i,j}\prs{u} \xi'_i u'_j + g_{i,j} u'_i \xi_j' + \sum_k \xi_k u_i' u_j'} \diff s
+\\&\stackrel{g_{i,j} = g_{j,i}}{=}
+\sum_I \sum_{i,j} \prs{ g_{i,j} \prs{u} u_i' \xi_j' + \frac{1}{2} \sum_k \frac{\del g_{i,j}}{\del x_k} \xi_k u_i' u_j'} \diff s
+\\&=
+-\int_I \sum_{i,j} \prs{u_i''\prs{s} + \sum_{k,\ell} \Gamma^i_{k,\ell} \prs{u} u_k' u_\ell'} \cdot g_{i,j} \prs{u} \xi_j \diff s
+\end{align*}
+כאשר
+$\Gamma^i_{k,\ell}$
+סימני קריסטופל.
+אם
+$u$
+נקודה קריטית של
+$E$
+מתקיים
+$\frac{\diff}{\eps} \prs{E \prs{u + \eps \xi}} = 0$
+לכל
+$\xi$
+ואז מהביטוי האחרון נובע כי
+\begin{align*}
+\text{.} \forall s \forall i \colon u''_i \prs{s} + \sum_{k,\ell} \Gamma^i_{k,\ell} u'_k u_\ell' = 0
+\end{align*}
+זאת מד"ר שמתארת קו גיאודזי, ודרך אלטרנטיבית להגדיר קו גיאודזי.
+
+בחישוב הנ"ל בעצם השתמשנו בכך ש־%
+$u, \xi$
+הן חלקות (מספיק
+$\mcal{C}^2$).
+זה לא המצב עבור
+$u \in \Lambda_0$
+גנרית.
+\end{remark}
+
+\begin{definition}
+נגדיר
+\[\text{.} DE\prs{u} \prs{\xi} \ceq \left. \frac{\diff}{\diff e} E\prs{u + \eps \xi} \right|_{\eps = 0}\]
+כאשר נסתכל על
+$u + \eps \xi$
+בקואורדינטות מקומיות, תוצאת הגזירה לא תהיה תלויה בבחירת הקואורדינטות.
+
+נגדיר גם
+\[\text{.} \norm{DE}\prs{u} = \sup\set{\frac{\diff}{\diff \eps} E\prs{u + \eps \xi}}{\exists \mu \colon \substack{\xi \in H^{1,2}_{\mrm{comp}}\prs{V_\mu, U_\mu} \\ \int_{V_\mu} \norm{\xi'}^2 \diff s \leq 1}}\]
+\end{definition}
+
+\begin{remark}
+מתקיים
+$\norm{DE\prs{u}} = 0$
+אם ורק אם
+$DE\prs{u} \colon T_u \Lambda_0 \to \mbb{R}$
+העתקת האפס, אם ורק אם
+$u$
+נקודה קריטית של
+$E$.
+\end{remark}
+
+\begin{lemma}
+אם
+$DE\prs{u}$
+(או באופן שקול,
+$\norm{DE\prs{u}} = 0$)
+עבור
+$u \in \Lambda_0$
+אז
+$u$
+חלקה
+$\mcal{C}^\infty$
+ולכן (לפי חישוב קודם) היא לולאה גיאודזית.
+\end{lemma}
+
+\begin{proof}
+ראו
+\textenglish{Jost-Riemannian Geometry \& Geometric Analysis}.
+\end{proof}
+
+\begin{theorem}[\text{Palais-Smale} עבור $E$]
+תהי
+$\prs{u_i}_{i \in \mbb{N}} \subseteq \Lambda_0$
+עבורה
+\begin{align*}
+\forall i \in \mbb{N} \colon E\prs{u_i} \leq C \\
+\text{.} \hphantom{lala} \norm{DE\prs{u_i}} \to 0
+\end{align*}
+אז יש תת־סדרה מתכנסת
+$\gamma_{i_k} \to \gamma \in \Lambda_0$
+עבורה
+$\gamma$
+לולאה גיאודזית.
+\end{theorem}
+
+\begin{definition}
+נגדיר
+\textenglish{gradient flow}
+$\nabla E$
+על ידי הדרישה
+\[\int_{S^1} g_{\prs{u\prs{s}}} \prs{\nabla E \prs{u}_{\prs{s}} \xi\prs{s}} \diff s = \trs{\nabla E\prs{u}, \xi}_{\Lambda_0} = DE_{\prs{u}}\prs{\xi}\]
+כאשר אגף שמאל מטריקה רימנית על
+$\Lambda_0$.
+שדות וקטוריים
+$H^{1,2}$
+לאורך מסילה
+$u \in \Lambda_0$
+זה מרחב הילברט ולכן לכל
+$x$
+מתקיים
+\[\trs{x, \cdot} = DE\prs{\cdot}\]
+לפי ריס.
+אז
+$\nabla E\prs{u} = x$.
+נקבל
+$\Phi_t \in \Lambda_0$
+זרימה עם תנאי התחלה
+$\Phi\prs{0} = \gamma_0 \in \Lambda_0$
+ועם קווי זרימה
+\[\text{.} \frac{\diff}{\diff t} \prs{\Phi\prs{t}} = -\nabla E\prs{\Phi\prs{t}}\]
+\end{definition}
+
+\begin{theorem}
+\begin{enumerate}
+\item הפתרון
+$\Phi\prs{t}$
+קיים לכל
+$t > 0$.
+\item מתקיים
+\[\text{.} \frac{\diff}{\diff t} E\prs{\Phi_t} \leq 0\]
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+אנליזה.
+\end{proof}
+
+\subsection{שימושים}
+
+\begin{example}
+באיור
+%TODO add fig 12.2
+המסילות האדומות הן לולאות גיאודזיות מאורך מינימלי, אך יש גם לולאה גיאודזית שאינה מינימלית.
+\end{example}
+
+\begin{theorem}
+תהיינה
+$\gamma_1, \gamma_2 \in \Lambda_0$
+לולאות גיאודזיות הומוטופיות ב־%
+$\Lambda_0$
+אך לא ב־%
+$\Lambda_0^{E < \max\prs{E\prs{\gamma_1}, E\prs{\gamma_2}} + \eps}$.
+אז קיימת
+$\gamma_3$
+קו גיאודזי עבורה
+$E\prs{\gamma_3} > E\prs{\gamma_1}, E\prs{\gamma_2}$.
+\end{theorem}
+
+\begin{proof}
+$\gamma_1, \gamma_2$
+שייכים לרכיבי קשירות שונים של
+$\Lambda_0^{E < \max\prs{E\prs{\gamma_1}, E\prs{\gamma_2}} + \eps}$.
+מתקבל מ־%
+\textenglish{minimax}
+אוכף
+$\gamma_3$
+עבור
+$E$
+עם
+$E\prs{\gamma_3} > E\prs{\gamma_1}, E\prs{\gamma_2}$,
+כנדרש.
+\end{proof}
+
+\begin{remark}
+הוכחת
+\textenglish{minimax}
+נותנת דרך מפורשת להגיע ל־%
+$\gamma_3$.
+תהי
+$\gamma_t \colon S^1 \to M$
+הומוטופיה בין
+$\gamma_1, \gamma_2$.
+נגדיר
+$\gamma_t^k = \Phi^k\prs{\gamma_t}$
+עבור
+$k \in \mbb{N}$.
+נסמן
+\[\text{.} \gamma^k_{\max} \ceq \set{\gamma_{t_0}^k}E\prs{\gamma_{t_0}^k = \max E\prs{\gamma_t^k}}\]
+לסדרה
+$\gamma_{\max}^k$
+יש תת־סדרה מתכנסת ל־%
+$\gamma_3$
+שהיא קו גיאודזי.
+\end{remark}
+
+\begin{theorem}[\textenglish{Lyusternik-Fet}]
+על כל יריעה רימנית
+$M$
+סגורה יש לולאה גיאודזית לא קבועה.
+\end{theorem}
+
+\begin{proof}
+אם
+$\pi_1\prs{M} = \neq \set{0}$.
+אחרת,
+$\pi_k \prs{M} \neq \set{0}$
+עבור
+$k \geq 2$
+כלשהו (זאת מסקנה ממשפט \textenglish{Hurewicz}, לכל
+$k$
+יש העתקה
+$\pi_k \prs{M} \to H_k\prs{M,\mbb{Z}}$.
+אם
+$\pi_k = \set{0}$
+לכל
+$k$
+גם
+$H_k = 0$
+וזה לא נכון ליריעות אוריינטביליות, שעבורן
+$H_n\prs{M;\mbb{Z}} \cong \mbb{Z}$%
+).
+כלומר, יש
+$\alpha \in \pi_k\prs{M} \setminus \set{1}$
+ונכתוב
+\[\text{.} \alpha = \set{u \colon S^k \to M}{\brs{u} = \alpha}\]
+בפרט, קיימת
+$u \colon S^k \to M$
+שאינה כוויצה.
+זאת מתאימה להעתקה
+$\hat{\phi} \colon S^{k-1} \to \lambda_0\prs{M}$.
+[ראו הרצאה 12 עבור פירוט]
+
+\begin{exercise}
+בנו העתקה זאת עבור
+$k > 2$.
+\end{exercise}
+
+הומוטופיות
+$\set{S^k \to M}$
+מתאימות להומוטופיות
+$\set{S^{k-1} \to \Lambda_0}$.
+לכן
+$\phi$
+אינה כוויצה אם ורק אם
+$\hat{\phi}$
+אינה כוויצה.
+לכן
+$\brs{\hat{\phi}} \neq 0 \in \pi_{k-1}\prs{\Lambda_0}$.
+נפעיל
+\textenglish{minimax}
+ונקבל
+$\gamma_3$
+לולאה קריטית של
+$E$
+עם
+\[\text{.} E\prs{\gamma_3} = \inf_{\substack{u \sim \hat{\phi} \\ u \colon S^{k-1} \to \Lambda_0}} \max_{\xi \in \im\prs{u}} E\prs{\xi}\]
+אם
+$E\prs{\gamma > 0}$
+סיימנו ו־%
+$\gamma_3$
+קו גיאודזי.
+
+אחרת,
+$\inf \max = 0$.
+אז קיימת
+$u \approx \hat{\phi}$
+עבורה
+\[E\prs{\xi} < \eps\]
+לכל
+$\xi \in \im\prs{u}$.
+נקבל כי
+
+$\len\prs{\xi} < \eps'$
+לכל
+$\xi \in \im\prs{u}$
+עבור
+$\eps'$
+שתלוי ב־%
+$\eps$.
+אז
+$\xi$
+מוכל במפה סביב מסילה קבועה
+$u\prs{\mrm{south pole}}$.
+אז
+$\im \prs{\hat{\phi}} = \im\prs{\phi}$
+מוכלת במפה קטנה סביב
+$\phi\prs{\mrm{south pole}$,
+ולכן
+$\phi$
+כוויצה, בסתירה לבחירה של
+$\phi$
+שאינה כוויצה (כי ניתן לבחור מפה דיפאומורפית לכדור).
+\end{proof}
 
 %LECTURE 13
 
