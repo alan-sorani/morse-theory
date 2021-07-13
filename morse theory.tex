@@ -6,6 +6,8 @@
 \usepackage{lipsum}
 \let\bs\blacksquare
 
+\usepackage{stmaryrd}
+
 %TIKZSETS
 \tikzset{
     labl/.style={anchor=south, rotate=90, inner sep=.5mm}
@@ -6713,7 +6715,7 @@ $u\prs{\mrm{south pole}}$.
 אז
 $\im \prs{\hat{\phi}} = \im\prs{\phi}$
 מוכלת במפה קטנה סביב
-$\phi\prs{\mrm{south pole}$,
+$\phi\prs{\mrm{south pole}}$,
 ולכן
 $\phi$
 כוויצה, בסתירה לבחירה של
@@ -6723,7 +6725,643 @@ $\phi$
 
 %LECTURE 13
 
-%TODO
+\chapter{חיפוש של קווים גיאודזיים לפי \textenglish{Milnor Morse Theory}}
+
+\section{אורך ואנרגיה}
+
+תהי
+$\prs{M,g}$
+יריעה רימנית סגורה ותהיינה
+$p,q \in M$.
+נחפש קווים  גיאודזיים שעוברים ב־%
+$p,q$.
+נסמן
+\[\text{.} \Lambda\prs{p,q} \ceq \set{\gamma \in H^{1,2} \prs{I,M}}{\substack{\gamma\prs{0} = p \\ \gamma\prs{1} = q}}\]
+נסמן גם
+$\Lambda\prs{M} = \bigcup_{p,q \in M} \Lambda \prs{p,q}$.
+אלו יריעות הילברט, בדומה למרחב הלולאות שדיברנו עליו קודם.
+כמו קודם נסתכל על פונקציות האורך והאנרגיה
+\begin{align*}
+\len\prs{\gamma} &= \int_I \norm{\gamma'} \diff s \\
+\text{.} \hphantom{la} E\prs{\gamma} &= \int_I \norm{\gamma'}^2 \diff s
+\end{align*}
+
+\begin{proposition}
+מינימום של
+$E \colon \Lambda\prs{p,q} \to \mbb{R}$
+הוא גם מינימום של
+$\len$
+ולכן זה קו גיאודזי מינימלי בין
+$p,q$.
+\end{proposition}
+
+\begin{remark}
+אצלנו "קו גיאודזי מינימלי" הוא קו גיאודזי מאורך מינימלי ועם פרמטריזציה במהירות קבועה.
+\end{remark}
+
+\begin{proof}
+לפי קושי־שוורץ
+\begin{align*}
+\len\prs{\gamma}^2 &= \abs{\int_I \norm{\gamma'} \diff s}^2 \leq \abs{\int_I \diff s} \cdot \abs{\int_I \norm{\gamma'}^2 \diff s} = E\prs{\gamma}
+\end{align*}
+ויש שוויון אם ורק אם
+$1, \norm{\gamma'}$
+פרופורציונליות, כלומר אם ורק אם ל־%
+$\gamma$
+פרמטריזציה במהירות קבועה.
+
+יהי
+$\gamma$
+קו גיאודזי מינימלי בין
+$p,q$
+ותהי
+$\delta$
+מסילה כלשהי בין
+$p,q$.
+אז
+$\len\prs{\delta} \geq \len\prs{\gamma}$
+ולכן
+$\len\prs{\delta}^2 \geq \len\prs{\gamma}^2$.
+כיוון שלקו גיאודזי יש פרמטריזציה במהירות קבועה, ומהאי־שוויון הנ"ל נקבל
+\[\text{.} E\prs{\gamma} = \len\prs{\gamma}^2 \leq \len\prs{\delta}^2 \leq E\prs{\delta}\]
+לכן
+$E$
+מקבלת מינימום ב־%
+$\gamma$.
+אם
+$E\prs{\delta} = E\prs{\gamma}$
+נקבל מכך כי
+$\len\prs{\delta} = \len\prs{\gamma}$
+ולכן
+$\delta$
+קו גיאודזי מינימלי (אולי עם פרמטריזציה לא במהירות קבועה).
+במקרה זה גם
+$E\prs{\delta} = \len\prs{\delta}^2$
+כלומר
+$\delta$
+עם פרמטריזציה במהירות קבועה.
+נקבל יחד כי
+$\delta$
+קו גיאודזי מינימלי (עם פרמטריזציה סטנדרטית).
+לכן, נקודות המינימום הן קווים גיאודיים מינימליים.
+\end{proof}
+
+\begin{remark}
+נקודת המינימום אינה תמיד יחידה. אם נסתכל למשל על נקודות אנטיפודליות על הספירה, יש
+$\aleph$
+קווים גיאודזיים מינימליים שונים בין שתי הנקודות.
+אז המינימום של
+$E$
+(עבור הנקודות) הוא המינימום של
+$\len^2$.
+\end{remark}
+
+\section{שדות יעקובי}
+
+למרחב
+$\Lambda\prs{M}$
+יש תת־מרחב
+$\Lambda_{\mrm{Geod}}\prs{M}$
+של מסילות גיאודזיות.
+תת־מרחב זה הוא בעצם תת־יריעה ממימד סופי.
+תהי
+$\gamma \in \Lambda_{\mrm{Geod}}\prs{M}$
+ונסתכל על סביבה של
+$\gamma$
+ב־%
+$\Lambda_{\mrm{Geod}}\prs{M}$.
+אם
+$\gamma \colon p \to q$,
+כיוון שקו גיאודזי הוא פתרון של מד"ר, נקבל עבור
+$p'$
+קרובה ל־%
+$p$
+מסילה
+$\gamma'$
+שקרובה ל־%
+$\gamma$.
+אם
+$\dim M = n$
+נקבל משפחה
+$n$%
+־פרמטרית של נקודות
+$p'$
+שקרובות ל־%
+$p$,
+ובחירה של כיוון של המסילה,
+ולכן המימד של
+$\Lambda_{\mrm{Geod}}\prs{M}$
+הוא
+$2n$.
+
+%TODO why is it 2n?
+
+אם
+$\gamma \colon I \to M$
+קו גיאודזי אז
+$T_\gamma \Lambda\prs{M}$
+שדות וקטוריים לאורך
+$\gamma$.
+איברי התת־מרחב
+$T_{\gamma}\Lambda_{\mrm{Geod}} \subseteq T_{\gamma}\Lambda\prs{M}$
+נקראים שדות יעקובי.
+לכל שדה יעקובי
+$J$
+לאורך
+$\gamma$
+קיימת משפחה
+$\gamma_t$
+של קווים גיאודזיים עבורם
+$J = \left. \frac{\del}{\del t} \prs{\gamma_t} \right|_{t=0}$.
+
+חישוב מראה ששדה יעקובי הוא פיתרון של מד"ר עם תנאי התחלה
+$J\prs{0}, J'\prs{0}$:
+\begin{align*}
+\text{.} \frac{D^2}{\del s^2} J\prs{s} + R\prs{J\prs{s}, \gamma'\prs{s}} \gamma'\prs{s} = 0
+\end{align*}
+
+\begin{remark}
+$D, R$
+הם אופרטורים מגיאומטריה דיפרנציאלית.
+\end{remark}
+
+\begin{example}
+נסתכל על
+$\mbb{R}^n$
+עם המטריקה הסטנדרטית.
+תהי
+$\gamma = p + s\prs{q-p}$.
+כל קו גיאודזי הוא אפיני, ולכן גזירה תיתן שכל שדה יעקובי הוא שדה אפיני
+\[\text{.} J = J_0 + s J'\prs{0}\]
+\end{example}
+
+\begin{example}
+נסתכל על
+$S^n$
+עם המטריקה האוקלידית.
+נסתכל על נקודות אנטיפודליות
+$N,S$
+ועל
+$\gamma$
+בינן.
+אם נגזור משפחת מסילות
+$\gamma_t$
+שמתרחקות מ־%
+$\gamma$
+בכיוון מסוים נקבל שדה יעקובי
+$J$
+שהולך לאורך אותו כיוון ושמקיים
+$J\prs{0} = J\prs{1} = 0$.
+\end{example}
+
+יהי
+$\gamma$
+קו גיאודזי בין
+$p,q$.
+אז
+$T_{\gamma} \Lambda\prs{p,q} \subseteq T_{\gamma}\Lambda\prs{M}$
+אוסף השדות
+$X$
+לאורך
+$\gamma$
+עבורם
+$X\prs{0} = X\prs{1} = 0$.
+נקבל בדוגמא של הספירה כי
+$J \in T_\gamma \Lambda_{\mrm{Geod}}\cap T_{\gamma} \Lambda\prs{p,q}$.
+
+\begin{definition}
+יהי
+$\gamma$
+קו גיאודזי בין
+$p,q$.
+$p,q$
+נקראות
+\emph{צמודות
+\textenglish{(conjugate / focal)}
+לאורך
+$\gamma$}
+אם קיים שדה יעקובי
+$J$
+לאורך
+$\gamma$
+עבורו
+$J\prs{0} = J\prs{1} = 0$.
+\end{definition}
+
+\begin{remark}
+במקרה של
+$\mbb{R}^n$
+שתי נקודות שונות אף פעם אינן צמודות.
+במקרה של
+$S^n$
+שתי נקודות אנטיפודליות הן צמודות לאורך הקו הגיאודזי המינימלי המחבר ביניהן.
+\end{remark}
+
+\begin{remark}
+אם יש משפחה
+$\gamma_t$
+של קווים גיאודזיים עם
+$\gamma_t\prs{0} \equiv p$
+וגם
+$\gamma_t\prs{1} \equiv q$
+אז הנגזרת שלה
+$\left. \frac{\del}{\del t} \right|_{t=0} \gamma_t$
+היא שדה יעקובי המקיים
+$J\prs{0} = J\prs{1} = 0$,
+ואז
+$p,q$
+צמודות לאורך
+$\gamma$.
+
+זה לא תנאי שקול ויתכנו נקודות
+$p,q$
+צמודות בלי משפחה כזאת.
+ראו איור
+%TODO add fig 13.1
+\end{remark}
+
+\begin{fact}
+אוסף הזוגות
+$p,q$
+שצמודות לאורך מסילה
+$\gamma$
+כלשהי ב־%
+$M$
+הוא קבוצה זניחה ב־%
+$M \times M$.
+\end{fact}
+
+\begin{definition}[סדר של נקודות צמודות]
+אם
+$p,q$
+צמודות לאורך
+$\gamma$
+נגיד
+שה\emph{סדר \textenglish{(multiplicity)}}
+של
+$p,q$
+לאורך
+$\gamma$
+הוא מימד מרחב שדות יעקובי שמתאפסים בקצוות.
+\end{definition}
+
+\begin{example}
+במקרה של
+$p,q$
+אנטיפודליות על הספירה, הסדר שלהן הוא
+$n-1$.
+\end{example}
+
+הפונקציונל
+$E \colon \Lambda\prs{p,q} \to \mbb{R}$
+חסום מלמטה כי היא חסומה מלמטה על ידי
+$\len$.
+נסתכל על
+\[\Lambda^a \ceq \set{\gamma \in \Lambda\prs{p,q}}{E\prs{\gamma} \leq a}\]
+באנלוגיה לדיון בתחילת הקורס.
+האוסף
+$\mrm{Crit}\prs{E}$
+הוא אוסף הקווים הגיאודזיים בין
+$p,q$.
+אפשר לשחזר בקונטקסט זה את כל בניית תורת מורס כפי שעשינו אותה בקורס.
+
+\begin{remark}
+בניגוד למקרה של לולאות, אין במקרה זה בעיה של שינוי פרמטריזציה. לכן נוכל לצפות שהנקודות הקריטיות יהיו מבודדות.
+\end{remark}
+
+עבור קו גיאודזי
+$\gamma \in \Lambda\prs{p,q}$
+(כלומר
+$\gamma \in \mrm{Crit}\prs{E}$)
+\[\mrm{Hess}_\gamma E \colon T_{\gamma} \Lambda\prs{p,q} \times T_\gamma \Lambda\prs{p,q} \to \mbb{R}\]
+תבנית בילינארית סימטרית. עבור
+$X,Y \in T_\gamma \Lambda\prs{p,q}$
+ניקח הרחבות
+$\tilde{X}, \tilde{Y}$
+לסביבה של
+$\gamma$
+ונגדיר
+\[\text{.} \mrm{Hess}_\gamma E\prs{X,Y} = L_{\tilde{X}} L_{\tilde{Y}}\prs{E}_{\prs{\gamma}}\]
+
+\begin{definition}
+$\gamma$
+לא מנוונת אם
+$\ker\prs{\mrm{Hess}_\gamma \prs{E}} = \set{0}$.
+\end{definition}
+
+\begin{theorem}
+$\ker \mrm{Hess}_\gamma\prs{E}$
+הוא מרחב שדות יעקובי לאורך
+$\gamma$
+שמתאפסים ב־%
+$p,q$.
+\end{theorem}
+
+\begin{corollary}
+$\gamma$
+נקודה קריטית מנוונת אם ורק אם
+$p,q$
+צמודות לאורך
+$\gamma$.
+\end{corollary}
+
+\begin{remark}
+אם נבחר
+$p,q \in M$
+באופן מקרי, הן אינן צמודות לאורך אף קו
+$\gamma$.
+במקרה זה ל־%
+$E$
+אין נקודות קריטיות מנוונות.
+\end{remark}
+
+\begin{definition}[אינדקס]
+נגדיר את
+\emph{האינדקס של
+$\gamma$}
+להיות
+\[\mu\prs{\gamma} = \max \dim V\]
+עבור
+$V$
+תת־מרחבים של
+$T_\gamma \Lambda\prs{p,q}$
+שעליהם
+$\mrm{Hess}$
+שלילי.
+\end{definition}
+
+\begin{example}[מסילה גיאודזית שבורה]
+ראו הקלטות.
+\end{example}
+
+\begin{theorem}[מורס]
+יהי
+$\gamma \in \mrm{Crit}\prs{E}$
+קו גיאודזי לא מנוון (כלומר $p \ceq \gamma\prs{0}, q \ceq \gamma\prs{1}$ אינן צמודות לאורך
+$\gamma$).
+אזי
+\begin{enumerate}
+\item 
+\begin{align*}
+\text{.} \mu\prs{\gamma} = \sum_{\substack{r \in \im \gamma \\ \text{$r,p$ are focal in $\gamma$}}} \mrm{mult}\prs{p,r}
+\end{align*}
+
+\item $\mu\prs{\gamma} < \infty$,
+ובפרט יש מספר סופי של נקודות
+$r$
+צמודות ל־%
+$p$
+לאורך
+$\gamma$.
+\end{enumerate}
+\end{theorem}
+
+נוכל כעת לדבר על
+$-\nabla E$.
+אם
+$\gamma$
+נקודה קריטית לא מנוונת אז יש דיפאומורפיזם
+\[\text{.} W^U\prs{\gamma} \cong B^{\mu\prs{\gamma}}\]
+
+\begin{corollary}
+נניח כי
+$p,q \in M$
+אינן צמודות לאורך אף
+$\gamma$
+באורך לכל היותר
+$\sqrt{a}$
+(כאשר נסתכל על
+$a$
+חסם של אנרגיה; זה מתקיים במקרה הגנרי).
+נסמן ב־%
+$\Phi_t \colon \Lambda^a \to \Lambda^a$
+את הזרימה של
+$-\nabla E$
+עבור
+$t \geq 0$.
+מתקיים
+\begin{align*}
+\lim_{t \to \infty} \Phi_t \prs{\Lambda^a} = \bigcup_{\gamma \in \mrm{Crit}\prs{E} \cap \Lambda^a} W^U\prs{\gamma}
+\end{align*}
+וזה איחוד של כדורים פתוחים.
+\end{corollary}
+
+\begin{proposition}
+נניח כי
+$p,q \in M$
+אינן צמודות לאורך אף
+$\gamma$
+באורך לכל היותר
+$\sqrt{a}$.
+אז
+$\Lambda^a$
+שקול הומוטופית לקומפלקס
+\textenglish{CW}
+סופי עם תא במימד
+$\mu\prs{\gamma}$
+לכל קו גיאודזי
+$\gamma$
+שמחבר בין
+$p,q$
+ומקיים
+$\len\prs{\gamma} \leq \sqrt{a}$.
+\end{proposition}
+
+\begin{remark}
+על ידי בחירה סדרה עולה
+$\prs{a_n}_{n \in \mbb{N}} \subseteq \mbb{R}$
+נקבל סדרה עולה מתאימה
+$\prs{\Lambda^{a_n}}_{n \in \mbb{N}}$
+שאיחודה הוא
+$\Lambda \ceq \Lambda\prs{p,q}$.
+נקבל כי כל
+$\Lambda^{a_n}$
+הומוטופי לקומפלקס
+\textenglish{CW}
+$C_n$,
+כך ש־%
+$C_{n+1}$
+הוא הרחבה של
+$C_n$
+לכל
+$n \in \mbb{N}$.
+טופולוגיה אלגברית מראה שבמקרה זה יש קומפלקס
+$C_\infty$
+שמרחיב את כל הקומפלקסים האלו וששקול הומוטופית ל־%
+$\Lambda$.
+\end{remark}
+
+\begin{corollary}[המשפט היסודי של תורת מורס]
+תהי
+$\prs{M,g}$
+יריעה רימנית סגורה (מספיק לדרוש יריעה רימנית שלמה).
+תהיינה
+$p,q \in M$
+שאינן צמודות לאורך אף קו גיאודזי. אז
+$\Lambda\prs{p,q}$
+שקולה הומוטופית לקומפלקס
+\textenglish{CW}
+בן־מנייה עם תא במימד
+$\mu\prs{\gamma}$
+לכל קו גיאודזי
+$\gamma$
+שמחבר בין
+$p,q$.
+\end{corollary}
+
+\begin{remark}
+במימד סופי ראינו שמתקיים
+\[\text{.} M = \bigcup_{p \in \mrm{Crit}\prs{F}} W^U\prs{p}\]
+המסקנה הנ"ל אנלוגית לכך.
+\end{remark}
+
+\begin{example}
+נסתכל על
+$S^n$
+עם המטריקה האוקלידית.
+אם
+$p,q$
+צמודות, הן אנטיפודליות או שוות.
+בשני המקרים, הסדר של הזוג הוא
+$n-1$,
+כפי שניתן לחשב.
+
+ניקח
+$p,q$
+שאינן צמודות.
+קווים גיאודזיים בין
+$p,q$
+הם קשתות של מעגל גדול. ניקח את
+$\gamma_0$
+להיות הקשת הקצרה ואת
+$\gamma_1$
+להיות הארוכה.
+נסמן ב־%
+$p', q'$
+את הנקודות האנטיפודליות ל־%
+$p,q$
+בהתאמה, שנמצאות על המעגל הגדול.
+נגדיר
+$\gamma_2 \ceq \gamma_0 * \gamma_1 * \gamma_0$.
+נקודות צמודות ל־%
+$p$
+הן
+$p, p'$
+והסדר של שני הזוגות הוא
+$n-1$.
+מתקיים
+\begin{align*}
+\mu\prs{\gamma_k} = \sum_{r = \gamma\prs{s}} \mrm{mult}_{\gamma_{\brs{0,s}}}\prs{p,r}
+\end{align*}
+ולכן
+\begin{align*}
+\mu\prs{\gamma_0} &= 0 \\
+\mu\prs{\gamma_1} &= \mrm{mult}\prs{p,p'} = n- 1 \\
+\mu\prs{\gamma_2} &= 2 \prs{n-1}
+\end{align*}
+ובאופן כללי
+$\mu\prs{\gamma_k} = k\prs{n-1}$.
+
+נקבל מכאן כי
+$\Lambda\prs{p,q}$
+שקול הומוטופית לקומפלקס
+\textenglish{CW}
+עם תא יחיד במימד
+$k\prs{n-1}$
+לכל
+$k \in \mbb{N}$.
+\end{example}
+
+נסמן ב־%
+$\Omega\prs{S^n, p}$
+את מרחב הלולאות ב־%
+$H^{1,2}\prs{S^1, M}$
+עם נקודת בסיס
+$p$
+(כלומר עם
+$\gamma\prs{0} = p$).
+אז
+\begin{align*}
+\text{.} \Lambda\prs{p,q} \approx \Omega\prs{S^n, p}
+\end{align*}
+נקבע
+$\hat{\gamma}$
+מ־%
+$q$
+ל־%
+$p$.
+אז השקילות מוגדרת על ידי
+\begin{align*}
+\Omega\prs{S^n, p} &\approx \Lambda\prs{p,q} \\
+\gamma* \hat{\gamma} &\mapsfrom \gamma \\
+\text{.} \delta &\mapsto \delta * \prs{-\hat{\gamma}}
+\end{align*}
+נקבל כי
+$\Omega\prs{S^n, p}$
+הומוטופי לקומפלקס
+\textenglish{CW}.
+אם
+$n - 1 \geq 2$
+(כלומר $n \geq 3$)
+נקבל חישוב של
+$H_*\prs{\Omega}$
+ייתן
+$\del = 0$.
+אז
+\[\text{.} H_*\prs{\Omega} \cong \mbb{Z} \trs{\text{cells of the CW complex}} \cong \mbb{Z}\trs{\text{geodesics from p to q}}\]
+אז
+\begin{align*}
+\text{.} H_m\prs{\Omega\prs{S^n, p}} &= \fcases{\mbb{Z} & m = k\prs{n-1}, k \geq 0 \\ 0 & \text{otherwise}}
+\end{align*}
+
+\begin{proposition}
+תהי
+$\Lambda^1\prs{p,q}$
+אוסף המסילות
+$\gamma \colon I \to M$
+החלקות למקוטעין מ־%
+$p$
+ל־%
+$q$.
+אז
+$\Lambda^1\prs{p,q} \approx \Lambda\prs{p,q}$.
+גם
+$\Lambda''\prs{p,q} \approx \Lambda\prs{p,q}$
+כאשר
+$\Lambda''\prs{p,q}$
+אוסף המסילות הגיאומטריות למקוטעין.
+\end{proposition}
+
+\begin{corollary}
+תהי
+$\prs{S^n, g}$
+עם
+$g$
+לא אוקלידית ותהיינה
+$p,q \in S^n$
+שאינן צמודות לאורך אף קו גיאודזי.
+אז
+$\Lambda\prs{p,q} \cong \text{CW complex}$.
+לפונקציה
+$E_g \colon \Lambda\prs{p,q} \to \mbb{R}$
+אין נקודות קריטיות מנוונות ואז
+\[\text{.} \# \mrm{crit}\prs{E_g} \geq \dim H_*\prs{\Lambda\prs{p,q}} = \infty\]
+
+לכן יש אינסוף קווים גיאודזיים בין
+$p,q$
+ביחס למטריקה
+$g$
+(עם פרמטריזציה, זה לאו דווקא נכון כשמסתכלים על מסילות בלי פרמטריזציה).
+
+יתר על כך, לכל
+$k \geq 0$
+קיימת מסילה גיאודזית
+$\gamma_k$
+עם
+$\mu\prs{\gamma_k} = k \prs{n-1}$.
+\end{corollary}
+
+
 
 \backmatter
 \end{document}

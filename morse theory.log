@@ -1,23 +1,23 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.6.2)  24 JUN 2021 13:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6.28) (preloaded format=xelatex 2021.6.30)  1 JUL 2021 13:07
 entering extended mode
 **"./morse theory.tex"
 (morse theory.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-27>
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-06-18>
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
-File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: bk10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count177
-\c@chapter=\count178
-\c@section=\count179
-\c@subsection=\count180
-\c@subsubsection=\count181
-\c@paragraph=\count182
-\c@subparagraph=\count183
-\c@figure=\count184
-\c@table=\count185
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -26,7 +26,7 @@ File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 Package: maths 2018/06/16 Mathematics Macros
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
@@ -35,7 +35,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
+\@emptytoks=\toks16
 \ex@=\dimen139
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -45,41 +45,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count186
+\inf@bad=\count187
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count187
-\leftroot@=\count188
+\uproot@=\count188
+\leftroot@=\count189
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count189
-\DOTSCASE@=\count190
+\classnum@=\count190
+\DOTSCASE@=\count191
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
+\Mathstrutbox@=\box50
+\strutbox@=\box51
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count191
-\c@MaxMatrixCols=\count192
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
 \dotsspace@=\muskip16
-\c@parentequation=\count193
-\dspbrk@lvl=\count194
-\tag@help=\toks16
-\row@=\count195
-\column@=\count196
-\maxfields@=\count197
-\andhelp@=\toks17
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks17
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks18
+\@envbody=\toks19
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
@@ -102,19 +102,19 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks21
 )
-(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
+(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count198
-\calc@Bcount=\count199
+\calc@Acount=\count199
+\calc@Bcount=\count266
 \calc@Adimen=\dimen148
 \calc@Bdimen=\dimen149
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count266
+\calc@Ccount=\count267
 \calc@Cskip=\skip54
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
@@ -124,7 +124,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count267
+\g_MT_multlinerow_int=\count268
 \l_MT_multwidth_dim=\dimen150
 \origjot=\skip55
 \l_MT_shortvdotswithinadjustabove_dim=\dimen151
@@ -133,7 +133,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen154
 \l_MT_above_shortintertext_sep=\dimen155
 \l_MT_below_shortintertext_sep=\dimen156
-\xmathstrut@box=\box49
+\xmathstrut@box=\box52
 \xmathstrut@dim=\dimen157
 ) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
@@ -141,36 +141,34 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 Excluding comment 'comment')
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-05-27 L3 programming layer (loader) 
+Package: expl3 2021-06-18 L3 programming layer (loader) 
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
 ex.def
 File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
  ()
-\c__kernel_sys_dvipdfmx_version_int=\count268
-\l__color_backend_stack_int=\count269
-\g__color_backend_stack_int=\count270
-\g__graphics_track_int=\count271
-\l__pdf_internal_box=\box50
-\g__pdf_backend_object_int=\count272
-\g__pdf_backend_annotation_int=\count273
-\g__pdf_backend_link_int=\count274
+\c__kernel_sys_dvipdfmx_version_int=\count269
+\l__color_backend_stack_int=\count270
+\g__color_backend_stack_int=\count271
+\g__graphics_track_int=\count272
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count273
+\g__pdf_backend_annotation_int=\count274
+\g__pdf_backend_link_int=\count275
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
-(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e-2020-10-01.sty
-(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e-generic.tex)))
+Package: xparse 2021-06-18 L3 Experimental document command parser
+)
 Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
 File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
 )) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count275
+\integerpart=\count276
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-\decimalpart=\count276
+\decimalpart=\count277
 Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
@@ -333,7 +331,7 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -367,8 +365,8 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen164
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count277
-\c@continuedfloat=\count278
+\c@caption@flags=\count278
+\c@continuedfloat=\count279
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -376,9 +374,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count279
-\Gm@cntv=\count280
-\c@Gm@tempcnt=\count281
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
 \Gm@bindingoffset=\dimen165
 \Gm@wd@mp=\dimen166
 \Gm@odd@mp=\dimen167
@@ -387,7 +385,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen170
 \Gm@layouthoffset=\dimen171
 \Gm@layoutvoffset=\dimen172
-\Gm@dimlist=\toks21
+\Gm@dimlist=\toks22
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
@@ -412,7 +410,7 @@ pages
 Package: nth 2002/02/27
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
 keys.sty
@@ -432,15 +430,15 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen173
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
 atches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -449,9 +447,9 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count284
+\Hy@SavedSpaceFactor=\count285
  (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
 Package hyperref Info: Hyper figures OFF on input line 4192.
@@ -461,7 +459,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count285
+\c@Hy@tempcnt=\count286
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -478,42 +476,41 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
+\Fld@menulength=\count287
 \Field@Width=\dimen175
 \Fld@charsize=\dimen176
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring ON on input line 6093.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box51
-\c@Hy@AnnotLevel=\count290
-\HyField@AnnotCount=\count291
-\Fld@listcount=\count292
-\c@bookmark@seq@number=\count293
+\pdfm@box=\box54
+\c@Hy@AnnotLevel=\count291
+\HyField@AnnotCount=\count292
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -559,7 +556,7 @@ sty
 y
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen178
 \pgfutil@tempdimb=\dimen179
 
@@ -567,7 +564,7 @@ y
 -common-lists.tex))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box52
+\pgfutil@abb=\box55
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -579,10 +576,10 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
 sty
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -591,7 +588,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen180
 \Gin@req@width=\dimen181
@@ -604,12 +601,12 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen182
 \pgf@y=\dimen183
@@ -623,14 +620,14 @@ filtered.code.tex
 \pgf@yd=\dimen191
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count294
-\c@pgf@countb=\count295
-\c@pgf@countc=\count296
-\c@pgf@countd=\count297
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count298
+\c@pgf@counta=\count295
+\c@pgf@countb=\count296
+\c@pgf@countc=\count297
+\c@pgf@countd=\count298
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count299
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -650,13 +647,13 @@ File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfsys@objnum=\count299
+\pgfsys@objnum=\count300
 )))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count300
-\pgfsyssoftpath@bigbuffer@items=\count301
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -675,11 +672,11 @@ code.tex)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen192
-\pgfmath@count=\count302
-\pgfmath@box=\box53
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@count=\count303
+\pgfmath@box=\box56
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
@@ -701,7 +698,7 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count303
+\c@pgfmathroundto@lastzeros=\count304
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -738,10 +735,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count304
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count305
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -776,8 +773,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen272
-\pgf@sys@shading@range@num=\count305
-\pgf@shadingcount=\count306
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -786,7 +783,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box57
+\pgfexternal@startupbox=\box60
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -807,7 +804,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box58
+\pgfnodeparttextbox=\box61
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -840,8 +837,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 .tex)
 \pgffor@iter=\dimen275
 \pgffor@skip=\dimen276
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -850,7 +847,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count307
+\pgf@plot@mark@count=\count308
 \pgfplotmarksize=\dimen277
 )
 \tikz@lastx=\dimen278
@@ -861,23 +858,23 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen283
 \tikzleveldistance=\dimen284
 \tikzsiblingdistance=\dimen285
-\tikz@figbox=\box59
-\tikz@figbox@bg=\box60
-\tikz@tempbox=\box61
-\tikz@tempbox@bg=\box62
-\tikztreelevel=\count308
-\tikznumberofchildren=\count309
-\tikznumberofcurrentchild=\count310
-\tikz@fig@count=\count311
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count312
-\pgfmatrixcurrentcolumn=\count313
-\pgf@matrix@numberofcolumns=\count314
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
 )
-\tikz@expandcount=\count315
+\tikz@expandcount=\count316
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -887,13 +884,12 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 .sty
 Package: tikzsymbols 2019/02/08 v4.10c Some symbols created using tikz and LaTe
 X3.
-
-(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\xspace.sty
+ (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
-Package: l3keys2e 2021-05-27 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-06-18 LaTeX2e option processing using LaTeX3 keys
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryarrows.code.tex
@@ -915,11 +911,11 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen289
 \pgfdecoratedinputsegmentremainingdistance=\dimen290
 \pgf@decorate@distancetomove=\dimen291
-\pgf@decorate@repeatstate=\count316
+\pgf@decorate@repeatstate=\count317
 \pgfdecorationsegmentamplitude=\dimen292
 \pgfdecorationsegmentlength=\dimen293
 )
-\tikz@lib@dec@box=\box63
+\tikz@lib@dec@box=\box66
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
 ions\pgflibrarydecorations.pathmorphing.code.tex))
@@ -1022,172 +1018,172 @@ File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box64
-\pgfnodeparttwobox=\box65
-\pgfnodepartthreebox=\box66
-\pgfnodepartfourbox=\box67
-\pgfnodeparttwentybox=\box68
-\pgfnodepartnineteenbox=\box69
-\pgfnodeparteighteenbox=\box70
-\pgfnodepartseventeenbox=\box71
-\pgfnodepartsixteenbox=\box72
-\pgfnodepartfifteenbox=\box73
-\pgfnodepartfourteenbox=\box74
-\pgfnodepartthirteenbox=\box75
-\pgfnodeparttwelvebox=\box76
-\pgfnodepartelevenbox=\box77
-\pgfnodeparttenbox=\box78
-\pgfnodepartninebox=\box79
-\pgfnodeparteightbox=\box80
-\pgfnodepartsevenbox=\box81
-\pgfnodepartsixbox=\box82
-\pgfnodepartfivebox=\box83
+\pgfnodepartlowerbox=\box67
+\pgfnodeparttwobox=\box68
+\pgfnodepartthreebox=\box69
+\pgfnodepartfourbox=\box70
+\pgfnodeparttwentybox=\box71
+\pgfnodepartnineteenbox=\box72
+\pgfnodeparteighteenbox=\box73
+\pgfnodepartseventeenbox=\box74
+\pgfnodepartsixteenbox=\box75
+\pgfnodepartfifteenbox=\box76
+\pgfnodepartfourteenbox=\box77
+\pgfnodepartthirteenbox=\box78
+\pgfnodeparttwelvebox=\box79
+\pgfnodepartelevenbox=\box80
+\pgfnodeparttenbox=\box81
+\pgfnodepartninebox=\box82
+\pgfnodeparteightbox=\box83
+\pgfnodepartsevenbox=\box84
+\pgfnodepartsixbox=\box85
+\pgfnodepartfivebox=\box86
 )))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count317
+\etb@tempcnta=\count318
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/ntheorem\ntheorem.sty
 Style `ntheorem', Version 1.33 <2011/08/15>
 Package: ntheorem 2011/08/15 1.33
-\theorem@style=\toks34
-\theorem@@style=\toks35
-\theorembodyfont=\toks36
-\theoremnumbering=\toks37
+\theorem@style=\toks35
+\theorem@@style=\toks36
+\theorembodyfont=\toks37
+\theoremnumbering=\toks38
 \theorempreskipamount=\skip67
 \theorempostskipamount=\skip68
 \theoremframepreskipamount=\skip69
 \theoremframepostskipamount=\skip70
 \theoreminframepreskipamount=\skip71
 \theoreminframepostskipamount=\skip72
-\theorem@preskip=\toks38
-\theorem@postskip=\toks39
-\theorem@framepreskip=\toks40
-\theorem@framepostskip=\toks41
-\theorem@inframepreskip=\toks42
-\theorem@inframepostskip=\toks43
+\theorem@preskip=\toks39
+\theorem@postskip=\toks40
+\theorem@framepreskip=\toks41
+\theorem@framepostskip=\toks42
+\theorem@inframepreskip=\toks43
+\theorem@inframepostskip=\toks44
 \theoremindent=\dimen306
 \theorem@indent=\dimen307
 \theoremrightindent=\dimen308
 \theorem@rightindent=\dimen309
-\theoremheaderfont=\toks44
-\theoremseparator=\toks45
-\theoremprework=\toks46
-\theorempostwork=\toks47
-\theoremsymbol=\toks48
-\qedsymbol=\toks49
-\theoremkeyword=\toks50
-\qedsymbol=\toks51
+\theoremheaderfont=\toks45
+\theoremseparator=\toks46
+\theoremprework=\toks47
+\theorempostwork=\toks48
+\theoremsymbol=\toks49
+\qedsymbol=\toks50
+\theoremkeyword=\toks51
+\qedsymbol=\toks52
 \thm@topsep=\skip73
 \thm@topsepadd=\skip74
 Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
-\c@endNonectr=\count318
-\c@currNonectr=\count319
+\c@endNonectr=\count319
+\c@currNonectr=\count320
 \mysavskip=\skip75
 Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
  line 1175.
 \thm@amstmpdepth=\dimen310
 \tagwidth=\dimen311
 )
-\c@currproofctr=\count320
-\c@endproofctr=\count321
-\c@proof=\count322
-\c@currtheoremxctr=\count323
-\c@endtheoremxctr=\count324
-\c@theoremx=\count325
-\c@currtheoremstarredctr=\count326
-\c@endtheoremstarredctr=\count327
-\c@theoremstarred=\count328
-\c@currlemmactr=\count329
-\c@endlemmactr=\count330
-\c@currcorollaryctr=\count331
-\c@endcorollaryctr=\count332
-\c@currpropositionctr=\count333
-\c@endpropositionctr=\count334
-\c@currconjecturectr=\count335
-\c@endconjecturectr=\count336
-\c@currcriterionctr=\count337
-\c@endcriterionctr=\count338
-\c@currassertionctr=\count339
-\c@endassertionctr=\count340
-\c@currfactctr=\count341
-\c@endfactctr=\count342
-\c@currhypothesisctr=\count343
-\c@endhypothesisctr=\count344
-\c@currdefinitionxctr=\count345
-\c@enddefinitionxctr=\count346
-\c@currdefinitionstarredctr=\count347
-\c@enddefinitionstarredctr=\count348
-\c@definitionstarred=\count349
-\c@currconditionctr=\count350
-\c@endconditionctr=\count351
-\c@curraxiomctr=\count352
-\c@endaxiomctr=\count353
-\c@axiom=\count354
-\c@currpostulatectr=\count355
-\c@endpostulatectr=\count356
-\c@currpropertyctr=\count357
-\c@endpropertyctr=\count358
-\c@currterminologyxctr=\count359
-\c@endterminologyxctr=\count360
-\c@currterminologystarredctr=\count361
-\c@endterminologystarredctr=\count362
-\c@terminologystarred=\count363
-\c@currproblemctr=\count364
-\c@endproblemctr=\count365
-\c@currexamplectr=\count366
-\c@endexamplectr=\count367
-\c@currexercisectr=\count368
-\c@endexercisectr=\count369
-\c@exercise=\count370
-\c@currexercisexctr=\count371
-\c@endexercisexctr=\count372
-\c@exercisex=\count373
-\c@curralgorithmxctr=\count374
-\c@endalgorithmxctr=\count375
-\c@curralgorithmstarredctr=\count376
-\c@endalgorithmstarredctr=\count377
-\c@algorithmstarred=\count378
-\c@currquestionctr=\count379
-\c@endquestionctr=\count380
-\c@currassumptionctr=\count381
-\c@endassumptionctr=\count382
-\c@currremarkctr=\count383
-\c@endremarkctr=\count384
-\c@currnotectr=\count385
-\c@endnotectr=\count386
-\c@currobservationctr=\count387
-\c@endobservationctr=\count388
-\c@currnotationctr=\count389
-\c@endnotationctr=\count390
-\c@currclaimctr=\count391
-\c@endclaimctr=\count392
-\c@currsummaryctr=\count393
-\c@endsummaryctr=\count394
-\c@summary=\count395
-\c@curracknowledgementctr=\count396
-\c@endacknowledgementctr=\count397
-\c@currcasectr=\count398
-\c@endcasectr=\count399
-\c@case=\count400
-\c@curroptionctr=\count401
-\c@endoptionctr=\count402
-\c@option=\count403
-\c@currconclusionctr=\count404
-\c@endconclusionctr=\count405
-\c@conclusion=\count406
-\c@currsolutionctr=\count407
-\c@endsolutionctr=\count408
-\c@solution=\count409
-\c@currmotivationctr=\count410
-\c@endmotivationctr=\count411
-\c@motivation=\count412
-\c@currexms_rawctr=\count413
-\c@endexms_rawctr=\count414
-\c@exms_raw=\count415
-\c@currexrs_rawctr=\count416
-\c@endexrs_rawctr=\count417
-\c@exrs_raw=\count418
+\c@currproofctr=\count321
+\c@endproofctr=\count322
+\c@proof=\count323
+\c@currtheoremxctr=\count324
+\c@endtheoremxctr=\count325
+\c@theoremx=\count326
+\c@currtheoremstarredctr=\count327
+\c@endtheoremstarredctr=\count328
+\c@theoremstarred=\count329
+\c@currlemmactr=\count330
+\c@endlemmactr=\count331
+\c@currcorollaryctr=\count332
+\c@endcorollaryctr=\count333
+\c@currpropositionctr=\count334
+\c@endpropositionctr=\count335
+\c@currconjecturectr=\count336
+\c@endconjecturectr=\count337
+\c@currcriterionctr=\count338
+\c@endcriterionctr=\count339
+\c@currassertionctr=\count340
+\c@endassertionctr=\count341
+\c@currfactctr=\count342
+\c@endfactctr=\count343
+\c@currhypothesisctr=\count344
+\c@endhypothesisctr=\count345
+\c@currdefinitionxctr=\count346
+\c@enddefinitionxctr=\count347
+\c@currdefinitionstarredctr=\count348
+\c@enddefinitionstarredctr=\count349
+\c@definitionstarred=\count350
+\c@currconditionctr=\count351
+\c@endconditionctr=\count352
+\c@curraxiomctr=\count353
+\c@endaxiomctr=\count354
+\c@axiom=\count355
+\c@currpostulatectr=\count356
+\c@endpostulatectr=\count357
+\c@currpropertyctr=\count358
+\c@endpropertyctr=\count359
+\c@currterminologyxctr=\count360
+\c@endterminologyxctr=\count361
+\c@currterminologystarredctr=\count362
+\c@endterminologystarredctr=\count363
+\c@terminologystarred=\count364
+\c@currproblemctr=\count365
+\c@endproblemctr=\count366
+\c@currexamplectr=\count367
+\c@endexamplectr=\count368
+\c@currexercisectr=\count369
+\c@endexercisectr=\count370
+\c@exercise=\count371
+\c@currexercisexctr=\count372
+\c@endexercisexctr=\count373
+\c@exercisex=\count374
+\c@curralgorithmxctr=\count375
+\c@endalgorithmxctr=\count376
+\c@curralgorithmstarredctr=\count377
+\c@endalgorithmstarredctr=\count378
+\c@algorithmstarred=\count379
+\c@currquestionctr=\count380
+\c@endquestionctr=\count381
+\c@currassumptionctr=\count382
+\c@endassumptionctr=\count383
+\c@currremarkctr=\count384
+\c@endremarkctr=\count385
+\c@currnotectr=\count386
+\c@endnotectr=\count387
+\c@currobservationctr=\count388
+\c@endobservationctr=\count389
+\c@currnotationctr=\count390
+\c@endnotationctr=\count391
+\c@currclaimctr=\count392
+\c@endclaimctr=\count393
+\c@currsummaryctr=\count394
+\c@endsummaryctr=\count395
+\c@summary=\count396
+\c@curracknowledgementctr=\count397
+\c@endacknowledgementctr=\count398
+\c@currcasectr=\count399
+\c@endcasectr=\count400
+\c@case=\count401
+\c@curroptionctr=\count402
+\c@endoptionctr=\count403
+\c@option=\count404
+\c@currconclusionctr=\count405
+\c@endconclusionctr=\count406
+\c@conclusion=\count407
+\c@currsolutionctr=\count408
+\c@endsolutionctr=\count409
+\c@solution=\count410
+\c@currmotivationctr=\count411
+\c@endmotivationctr=\count412
+\c@motivation=\count413
+\c@currexms_rawctr=\count414
+\c@endexms_rawctr=\count415
+\c@exms_raw=\count416
+\c@currexrs_rawctr=\count417
+\c@endexrs_rawctr=\count418
+\c@exrs_raw=\count419
 ) (C:/localtexmf\tex/latex/hebrewdoc\hebrewdoc.sty
 Package: hebrewdoc 2018/10/05 Hebrew Macros
 
@@ -1204,10 +1200,10 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks52
-\XKV@tempa@toks=\toks53
+\XKV@toks=\toks53
+\XKV@tempa@toks=\toks54
 )
-\XKV@depth=\count419
+\XKV@depth=\count420
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
@@ -1217,22 +1213,22 @@ Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 .sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count420
-\l__fontspec_language_int=\count421
-\l__fontspec_strnum_int=\count422
-\l__fontspec_tmp_int=\count423
-\l__fontspec_tmpa_int=\count424
-\l__fontspec_tmpb_int=\count425
-\l__fontspec_tmpc_int=\count426
-\l__fontspec_em_int=\count427
-\l__fontspec_emdef_int=\count428
-\l__fontspec_strong_int=\count429
-\l__fontspec_strongdef_int=\count430
+\l__fontspec_script_int=\count421
+\l__fontspec_language_int=\count422
+\l__fontspec_strnum_int=\count423
+\l__fontspec_tmp_int=\count424
+\l__fontspec_tmpa_int=\count425
+\l__fontspec_tmpb_int=\count426
+\l__fontspec_tmpc_int=\count427
+\l__fontspec_em_int=\count428
+\l__fontspec_emdef_int=\count429
+\l__fontspec_strong_int=\count430
+\l__fontspec_strongdef_int=\count431
 \l__fontspec_tmpa_dim=\dimen312
 \l__fontspec_tmpb_dim=\dimen313
 \l__fontspec_tmpc_dim=\dimen314
  (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
 )
@@ -1292,23 +1288,23 @@ Package: bidi 2020/05/17 v36.3 Bidirectional typesetting in plain TeX and LaTeX
 ****************************************************
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\biditools.sty
 Package: biditools 2020/05/13 v2 Programming tools for bidi package
-\@bidi@envbody=\toks54
-\@bidi@emptytoks=\toks55
-\bidi@poscount=\count431
+\@bidi@envbody=\toks55
+\@bidi@emptytoks=\toks56
+\bidi@poscount=\count432
 
 
 Package biditools Warning: Patching `\enddocument' failed on input line 916.
 
-\bidi@tempcountb=\count432
-\bidi@temptoksa=\toks56
-\bidi@temptoksb=\toks57
-\bidi@dummies=\count433
-\bidi@are@these@correct=\toks58
-\bidi@toks@lista=\toks59
-\bidi@toks@listb=\toks60
-\bidi@stack@length=\count434
-\bidi@empty@stack=\toks61
-\bidi@looprepeat@depth=\count435
+\bidi@tempcountb=\count433
+\bidi@temptoksa=\toks57
+\bidi@temptoksb=\toks58
+\bidi@dummies=\count434
+\bidi@are@these@correct=\toks59
+\bidi@toks@lista=\toks60
+\bidi@toks@listb=\toks61
+\bidi@stack@length=\count435
+\bidi@empty@stack=\toks62
+\bidi@looprepeat@depth=\count436
 ) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
@@ -1317,7 +1313,7 @@ Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count436
+\c@abspage=\count437
 Package zref Info: New property: abspage on input line 66.
 )
 \@bidi@copyins@=\insert252
@@ -1326,15 +1322,15 @@ Package zref Info: New property: abspage on input line 66.
 .def
 File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks62
-\bidi@column@check@number=\count437
+\bidi@n@everypar=\toks63
+\bidi@column@check@number=\count438
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\footnote-xetex-b
 idi.def
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count438
-\footdir@toks=\toks63
+\c@footdir@label=\count439
+\footdir@toks=\toks64
 )
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\book-xetex-bidi.
 def
@@ -1414,7 +1410,7 @@ ex-bidi.def
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count439
+\bidi@digits=\count440
 \bidi@digits@charclass=\XeTeXcharclass2
 \bidi@sepmark@charclass=\XeTeXcharclass3
 )
@@ -1429,17 +1425,17 @@ m hebcal.sty in Babel)
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\cal-util.de
 f
-\c@tmpA=\count440
-\c@tmpB=\count441
-\c@tmpC=\count442
-\c@tmpD=\count443
-\c@tmpE=\count444
-\c@tmpF=\count445
+\c@tmpA=\count441
+\c@tmpB=\count442
+\c@tmpC=\count443
+\c@tmpD=\count444
+\c@tmpE=\count445
+\c@tmpF=\count446
 )
-\hebrewday=\count446
-\hebrewmonth=\count447
-\hebrewyear=\count448
-\@common=\count449
+\hebrewday=\count447
+\hebrewmonth=\count448
+\hebrewyear=\count449
+\@common=\count450
 )
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -1582,12 +1578,8 @@ Package fontspec Info: Font family 'OpenSansHebrew(1)' created for font 'Open
 
 
 
-Package fontspec Warning: Font "Open Sans" does not contain requested Script
-(fontspec)                "Latin".
-
-
 Package fontspec Warning: Language 'English' not available for font 'Open
-(fontspec)                Sans' with script ''.
+(fontspec)                Sans' with script 'Latin'.
 
 
 Package fontspec Info: Font family 'OpenSans(0)' created for font 'Open Sans'
@@ -1598,16 +1590,16 @@ Package fontspec Info: Font family 'OpenSans(0)' created for font 'Open Sans'
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Open
-(fontspec)             Sans/OT:language=dflt;mapping=tex-text;"
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Open
-(fontspec)             Sans/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             Sans/B/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Open
-(fontspec)             Sans/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             Sans/I/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Open
-(fontspec)             Sans/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 ) (C:/localtexmf\tex/latex/stylish\stylish.sty
@@ -1615,13 +1607,13 @@ Package: stylish 2018/10/05 Stylish Book Design
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count450
-\csq@gtype=\count451
-\csq@glevel=\count452
-\csq@qlevel=\count453
-\csq@maxlvl=\count454
-\csq@tshold=\count455
-\csq@ltx@everypar=\toks64
+\csq@reset=\count451
+\csq@gtype=\count452
+\csq@glevel=\count453
+\csq@qlevel=\count454
+\csq@maxlvl=\count455
+\csq@tshold=\count456
+\csq@ltx@everypar=\toks65
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -1636,21 +1628,26 @@ Package csquotes Info: Disabling multilingual quotes.
 Package csquotes Info: Redefining alias 'default' -> 'british'.
 ) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box84
+\fn@notes=\box87
 \fn@width=\dimen315
 ) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip76
 \enit@outerparindent=\dimen316
-\enit@toks=\toks65
-\enit@inbox=\box85
-\enit@count@id=\count456
-\enitdp@description=\count457
+\enit@toks=\toks66
+\enit@inbox=\box88
+\enit@count@id=\count457
+\enitdp@description=\count458
 ))
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count458
-\c@subtable=\count459
+\c@subfigure=\count459
+\c@subtable=\count460
+) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 ) (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
@@ -1660,7 +1657,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
-\symitalic=\mathgroup7
+\symitalic=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
 (Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
@@ -1696,7 +1693,7 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
-\symlettersA=\mathgroup8
+\symlettersA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
 (Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
 LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
@@ -1721,7 +1718,7 @@ LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
 (Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
 (Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
-\symsymbolsC=\mathgroup9
+\symsymbolsC=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
 (Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
@@ -1731,19 +1728,19 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
-\symlargesymbolsA=\mathgroup10
+\symlargesymbolsA=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
 LaTeX Info: Redefining \not on input line 1043.
 )
-LaTeX Font Info:    Trying to load font information for TU+txr on input line 21
+LaTeX Font Info:    Trying to load font information for TU+txr on input line 23
 .
-LaTeX Font Info:    No file TUtxr.fd. on input line 21.
+LaTeX Font Info:    No file TUtxr.fd. on input line 23.
 
 
 LaTeX Font Warning: Font shape `TU/txr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 21.
+(Font)              using `TU/lmr/m/n' instead on input line 23.
 
 (morse theory.aux Setting \if@calendar@hebrew Setting \if@calendar@hebrew
 LaTeX Info: Redefining \rmfamily on input line 20.
@@ -1763,56 +1760,56 @@ LaTeX Info: Redefining \ttfamily on input line 40.
 Setting \if@calendar@hebrew Setting \if@calendar@hebrew)
 \openout1 = `"morse theory.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 21.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 23.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-21.
+23.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-21.
+23.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-1.
+3.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-21.
+23.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
-1.
+3.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1851,7 +1848,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 23.
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1862,23 +1859,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count460
+\c@section@level=\count461
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
  (morse theory.out) (morse theory.out)
 \@outlinefile=\write5
 \openout5 = `"morse theory.out"'.
 
-LaTeX Info: Redefining \rmfamily on input line 21.
-LaTeX Info: Redefining \sffamily on input line 21.
-LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
 
 Setting \if@calendar@hebrew Setting \if@calendar@hebrew
-LaTeX Info: Redefining \rmfamily on input line 21.
-LaTeX Info: Redefining \sffamily on input line 21.
-LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
 
 Setting \if@calendar@hebrew Setting \if@calendar@hebrew
 File: sources/cover.png Graphic file (type bmp)
@@ -1918,6 +1915,10 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
+.
+
+(C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
 .
 
@@ -1957,24 +1958,27 @@ LaTeX Info: Redefining \ttfamily on input line 39.
 LaTeX Font Warning: Font shape `TU/txr/b/n' undefined
 (Font)              using `TU/txr/m/n' instead on input line 39.
 
+LaTeX Info: Redefining \rmfamily on input line 43.
+LaTeX Info: Redefining \sffamily on input line 43.
+LaTeX Info: Redefining \ttfamily on input line 43.
 )
 \tf@toc=\write6
 \openout6 = `"morse theory.toc"'.
 
-\c@lecturenumber=\count461
+\c@lecturenumber=\count462
  [2
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 39.
-LaTeX Info: Redefining \sffamily on input line 39.
-LaTeX Info: Redefining \ttfamily on input line 39.
-LaTeX Info: Redefining \rmfamily on input line 48.
-LaTeX Info: Redefining \sffamily on input line 48.
-LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 41.
+LaTeX Info: Redefining \sffamily on input line 41.
+LaTeX Info: Redefining \ttfamily on input line 41.
+LaTeX Info: Redefining \rmfamily on input line 50.
+LaTeX Info: Redefining \sffamily on input line 50.
+LaTeX Info: Redefining \ttfamily on input line 50.
  Setting \if@calendar@hebrew
-LaTeX Info: Redefining \rmfamily on input line 55.
-LaTeX Info: Redefining \sffamily on input line 55.
-LaTeX Info: Redefining \ttfamily on input line 55.
+LaTeX Info: Redefining \rmfamily on input line 57.
+LaTeX Info: Redefining \sffamily on input line 57.
+LaTeX Info: Redefining \ttfamily on input line 57.
  Setting \if@calendar@hebrew [3
 
 ] [4
@@ -1982,7 +1986,7 @@ LaTeX Info: Redefining \ttfamily on input line 55.
 ]
 פרק 1.
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 70.
+t line 72.
 File: sources/1.1.png Graphic file (type bmp)
 <sources/1.1.png>
 File: sources/1.2.png Graphic file (type bmp)
@@ -1990,7 +1994,7 @@ File: sources/1.2.png Graphic file (type bmp)
 File: sources/1.3.png Graphic file (type bmp)
 <sources/1.3.png>
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
-put line 130.
+put line 132.
 File: sources/1.4.png Graphic file (type bmp)
 <sources/1.4.png>
 File: sources/1.5.jpg Graphic file (type bmp)
@@ -1999,59 +2003,59 @@ File: sources/1.6.png Graphic file (type bmp)
 <sources/1.6.png>
 File: sources/1.7.png Graphic file (type bmp)
 <sources/1.7.png>
-LaTeX Info: Redefining \rmfamily on input line 218.
-LaTeX Info: Redefining \sffamily on input line 218.
-LaTeX Info: Redefining \ttfamily on input line 218.
+LaTeX Info: Redefining \rmfamily on input line 220.
+LaTeX Info: Redefining \sffamily on input line 220.
+LaTeX Info: Redefining \ttfamily on input line 220.
 [1
 
 ] [2] [3]
 Package hyperref Info: bookmark level for unknown definitionx defaults to 0 on 
-input line 250.
+input line 252.
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 264.
+ line 266.
 
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
  [4]
 Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
-input line 395.
+input line 397.
 File: sources/1.8.png Graphic file (type bmp)
 <sources/1.8.png>
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
-line 419.
+line 421.
 
 [5]
-LaTeX Info: Redefining \rmfamily on input line 507.
-LaTeX Info: Redefining \sffamily on input line 507.
-LaTeX Info: Redefining \ttfamily on input line 507.
+LaTeX Info: Redefining \rmfamily on input line 509.
+LaTeX Info: Redefining \sffamily on input line 509.
+LaTeX Info: Redefining \ttfamily on input line 509.
  [6]
 Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
-ut line 618.
+ut line 620.
 Package hyperref Info: bookmark level for unknown notation defaults to 0 on inp
-ut line 635.
-LaTeX Info: Redefining \rmfamily on input line 644.
-LaTeX Info: Redefining \sffamily on input line 644.
-LaTeX Info: Redefining \ttfamily on input line 644.
+ut line 637.
+LaTeX Info: Redefining \rmfamily on input line 646.
+LaTeX Info: Redefining \sffamily on input line 646.
+LaTeX Info: Redefining \ttfamily on input line 646.
 
 
 LaTeX Font Warning: Font shape `TU/txr/m/it' undefined
-(Font)              using `TU/txr/m/n' instead on input line 644.
+(Font)              using `TU/txr/m/n' instead on input line 646.
 
 [7]
 Package hyperref Info: bookmark level for unknown theoremx defaults to 0 on inp
-ut line 733.
+ut line 735.
  [8] [9]
 LaTeX Font Info:    Trying to load font information for U+dsrom on input line 9
-31.
+33.
 
 (C:\Users\EladT\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-LaTeX Info: Redefining \rmfamily on input line 957.
-LaTeX Info: Redefining \sffamily on input line 957.
-LaTeX Info: Redefining \ttfamily on input line 957.
+LaTeX Info: Redefining \rmfamily on input line 959.
+LaTeX Info: Redefining \sffamily on input line 959.
+LaTeX Info: Redefining \ttfamily on input line 959.
 
-Overfull \hbox (0.54303pt too wide) in paragraph at lines 951--958
+Overfull \hbox (0.54303pt too wide) in paragraph at lines 953--960
 [][]\TU/OpenSansHebrew(0)/m/n/10 מפה $[]$ כמו במשפט נקראת \TU/OpenSansHebrew(0)
 /m/it/10 מפת מורס [][]\TU/txr/m/it/10 (Morse chart)[] []\TU/OpenSansHebrew(0)/m
 /it/10 סביב הנקודה הקריטית[]
@@ -2065,63 +2069,63 @@ File: sources/2.2.png Graphic file (type bmp)
 File: sources/2.3.png Graphic file (type bmp)
 <sources/2.3.png>
  [11] [12]
-LaTeX Info: Redefining \rmfamily on input line 1203.
-LaTeX Info: Redefining \sffamily on input line 1203.
-LaTeX Info: Redefining \ttfamily on input line 1203.
+LaTeX Info: Redefining \rmfamily on input line 1205.
+LaTeX Info: Redefining \sffamily on input line 1205.
+LaTeX Info: Redefining \ttfamily on input line 1205.
  [13] [14]
 File: sources/2.4.png Graphic file (type bmp)
 <sources/2.4.png>
 
-Overfull \hbox (21.19351pt too wide) in paragraph at lines 1379--1380
+Overfull \hbox (21.19351pt too wide) in paragraph at lines 1381--1382
  [][][][][][] 
  []
 
 File: sources/2.5.png Graphic file (type bmp)
 <sources/2.5.png>
 
-Overfull \hbox (24.58162pt too wide) in paragraph at lines 1386--1387
+Overfull \hbox (24.58162pt too wide) in paragraph at lines 1388--1389
  [][][][][][] 
  []
 
 
-Overfull \hbox (8.85576pt too wide) in paragraph at lines 1403--1426
+Overfull \hbox (8.85576pt too wide) in paragraph at lines 1405--1428
 []$\OML/txmi/m/it/10 @ []$\TU/OpenSansHebrew(0)/m/n/10 . כמו מקודם, ניתן לעשות 
 רפרמטריזציה של $\OMS/txsy/m/n/10 ^^@r\OML/txmi/m/it/10 F$ \TU/OpenSansHebrew(0)
 /m/n/10 כך שהזרימה תביא את $[]$ ל־$\OML/txmi/m/it/10 @ []$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1442.
-LaTeX Info: Redefining \sffamily on input line 1442.
-LaTeX Info: Redefining \ttfamily on input line 1442.
+LaTeX Info: Redefining \rmfamily on input line 1444.
+LaTeX Info: Redefining \sffamily on input line 1444.
+LaTeX Info: Redefining \ttfamily on input line 1444.
 File: sources/3.1.png Graphic file (type bmp)
 <sources/3.1.png>
 [15] [16]
 File: sources/3.2.png Graphic file (type bmp)
 <sources/3.2.png>
-LaTeX Info: Redefining \rmfamily on input line 1580.
-LaTeX Info: Redefining \sffamily on input line 1580.
-LaTeX Info: Redefining \ttfamily on input line 1580.
+LaTeX Info: Redefining \rmfamily on input line 1582.
+LaTeX Info: Redefining \sffamily on input line 1582.
+LaTeX Info: Redefining \ttfamily on input line 1582.
 File: sources/3.3.png Graphic file (type bmp)
 <sources/3.3.png>
  [17]
-LaTeX Info: Redefining \rmfamily on input line 1652.
-LaTeX Info: Redefining \sffamily on input line 1652.
-LaTeX Info: Redefining \ttfamily on input line 1652.
+LaTeX Info: Redefining \rmfamily on input line 1654.
+LaTeX Info: Redefining \sffamily on input line 1654.
+LaTeX Info: Redefining \ttfamily on input line 1654.
 
 
 LaTeX Font Warning: Font shape `TU/txr/b/it' undefined
-(Font)              using `TU/txr/b/n' instead on input line 1652.
+(Font)              using `TU/txr/b/n' instead on input line 1654.
 
 [18]
 Package hyperref Info: bookmark level for unknown fact defaults to 0 on input l
-ine 1740.
+ine 1742.
  [19]
-LaTeX Info: Redefining \rmfamily on input line 1927.
-LaTeX Info: Redefining \sffamily on input line 1927.
-LaTeX Info: Redefining \ttfamily on input line 1927.
-LaTeX Info: Redefining \rmfamily on input line 1984.
-LaTeX Info: Redefining \sffamily on input line 1984.
-LaTeX Info: Redefining \ttfamily on input line 1984.
+LaTeX Info: Redefining \rmfamily on input line 1929.
+LaTeX Info: Redefining \sffamily on input line 1929.
+LaTeX Info: Redefining \ttfamily on input line 1929.
+LaTeX Info: Redefining \rmfamily on input line 1986.
+LaTeX Info: Redefining \sffamily on input line 1986.
+LaTeX Info: Redefining \ttfamily on input line 1986.
  [20]
 File: sources/3.5.png Graphic file (type bmp)
 <sources/3.5.png>
@@ -2132,24 +2136,24 @@ File: sources/3.7.png Graphic file (type bmp)
 File: sources/3.8.png Graphic file (type bmp)
 <sources/3.8.png>
  [21] [22]
-LaTeX Info: Redefining \rmfamily on input line 2199.
-LaTeX Info: Redefining \sffamily on input line 2199.
-LaTeX Info: Redefining \ttfamily on input line 2199.
+LaTeX Info: Redefining \rmfamily on input line 2201.
+LaTeX Info: Redefining \sffamily on input line 2201.
+LaTeX Info: Redefining \ttfamily on input line 2201.
  [23] [24]
-LaTeX Info: Redefining \rmfamily on input line 2326.
-LaTeX Info: Redefining \sffamily on input line 2326.
-LaTeX Info: Redefining \ttfamily on input line 2326.
 LaTeX Info: Redefining \rmfamily on input line 2328.
 LaTeX Info: Redefining \sffamily on input line 2328.
 LaTeX Info: Redefining \ttfamily on input line 2328.
-LaTeX Info: Redefining \rmfamily on input line 2366.
-LaTeX Info: Redefining \sffamily on input line 2366.
-LaTeX Info: Redefining \ttfamily on input line 2366.
-LaTeX Info: Redefining \rmfamily on input line 2374.
-LaTeX Info: Redefining \sffamily on input line 2374.
-LaTeX Info: Redefining \ttfamily on input line 2374.
+LaTeX Info: Redefining \rmfamily on input line 2330.
+LaTeX Info: Redefining \sffamily on input line 2330.
+LaTeX Info: Redefining \ttfamily on input line 2330.
+LaTeX Info: Redefining \rmfamily on input line 2368.
+LaTeX Info: Redefining \sffamily on input line 2368.
+LaTeX Info: Redefining \ttfamily on input line 2368.
+LaTeX Info: Redefining \rmfamily on input line 2376.
+LaTeX Info: Redefining \sffamily on input line 2376.
+LaTeX Info: Redefining \ttfamily on input line 2376.
 
-Overfull \hbox (6.27408pt too wide) in paragraph at lines 2363--2380
+Overfull \hbox (6.27408pt too wide) in paragraph at lines 2365--2382
 [][]\TU/OpenSansHebrew(0)/m/n/10 הפירוק $\OML/txmi/m/it/10 M \OT1/txr/m/n/10 = 
 [] \OML/txmi/m/it/10 W[]$ \TU/OpenSansHebrew(0)/m/n/10 לא תמיד מתאים לקומפלקס [
 ][]\TU/txr/m/it/10 CW[][]\TU/OpenSansHebrew(0)/m/n/10 . בדוגמא שבאיור [][][][][
@@ -2159,53 +2163,53 @@ Overfull \hbox (6.27408pt too wide) in paragraph at lines 2363--2380
 File: sources/5.1.png Graphic file (type bmp)
 <sources/5.1.png>
 [25]
-LaTeX Info: Redefining \rmfamily on input line 2439.
-LaTeX Info: Redefining \sffamily on input line 2439.
-LaTeX Info: Redefining \ttfamily on input line 2439.
-LaTeX Info: Redefining \rmfamily on input line 2439.
-LaTeX Info: Redefining \sffamily on input line 2439.
-LaTeX Info: Redefining \ttfamily on input line 2439.
+LaTeX Info: Redefining \rmfamily on input line 2441.
+LaTeX Info: Redefining \sffamily on input line 2441.
+LaTeX Info: Redefining \ttfamily on input line 2441.
+LaTeX Info: Redefining \rmfamily on input line 2441.
+LaTeX Info: Redefining \sffamily on input line 2441.
+LaTeX Info: Redefining \ttfamily on input line 2441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textenglish' on input line 2439.
+(hyperref)                removing `\textenglish' on input line 2441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textenglish' on input line 2439.
+(hyperref)                removing `\textenglish' on input line 2441.
 
-LaTeX Info: Redefining \rmfamily on input line 2450.
-LaTeX Info: Redefining \sffamily on input line 2450.
-LaTeX Info: Redefining \ttfamily on input line 2450.
-LaTeX Info: Redefining \rmfamily on input line 2465.
-LaTeX Info: Redefining \sffamily on input line 2465.
-LaTeX Info: Redefining \ttfamily on input line 2465.
-LaTeX Info: Redefining \rmfamily on input line 2489.
-LaTeX Info: Redefining \sffamily on input line 2489.
-LaTeX Info: Redefining \ttfamily on input line 2489.
-LaTeX Info: Redefining \rmfamily on input line 2493.
-LaTeX Info: Redefining \sffamily on input line 2493.
-LaTeX Info: Redefining \ttfamily on input line 2493.
-LaTeX Info: Redefining \rmfamily on input line 2498.
-LaTeX Info: Redefining \sffamily on input line 2498.
-LaTeX Info: Redefining \ttfamily on input line 2498.
-LaTeX Info: Redefining \rmfamily on input line 2526.
-LaTeX Info: Redefining \sffamily on input line 2526.
-LaTeX Info: Redefining \ttfamily on input line 2526.
+LaTeX Info: Redefining \rmfamily on input line 2452.
+LaTeX Info: Redefining \sffamily on input line 2452.
+LaTeX Info: Redefining \ttfamily on input line 2452.
+LaTeX Info: Redefining \rmfamily on input line 2467.
+LaTeX Info: Redefining \sffamily on input line 2467.
+LaTeX Info: Redefining \ttfamily on input line 2467.
+LaTeX Info: Redefining \rmfamily on input line 2491.
+LaTeX Info: Redefining \sffamily on input line 2491.
+LaTeX Info: Redefining \ttfamily on input line 2491.
+LaTeX Info: Redefining \rmfamily on input line 2495.
+LaTeX Info: Redefining \sffamily on input line 2495.
+LaTeX Info: Redefining \ttfamily on input line 2495.
+LaTeX Info: Redefining \rmfamily on input line 2500.
+LaTeX Info: Redefining \sffamily on input line 2500.
+LaTeX Info: Redefining \ttfamily on input line 2500.
 LaTeX Info: Redefining \rmfamily on input line 2528.
 LaTeX Info: Redefining \sffamily on input line 2528.
 LaTeX Info: Redefining \ttfamily on input line 2528.
-LaTeX Info: Redefining \rmfamily on input line 2532.
-LaTeX Info: Redefining \sffamily on input line 2532.
-LaTeX Info: Redefining \ttfamily on input line 2532.
+LaTeX Info: Redefining \rmfamily on input line 2530.
+LaTeX Info: Redefining \sffamily on input line 2530.
+LaTeX Info: Redefining \ttfamily on input line 2530.
 LaTeX Info: Redefining \rmfamily on input line 2534.
 LaTeX Info: Redefining \sffamily on input line 2534.
 LaTeX Info: Redefining \ttfamily on input line 2534.
-LaTeX Info: Redefining \rmfamily on input line 2555.
-LaTeX Info: Redefining \sffamily on input line 2555.
-LaTeX Info: Redefining \ttfamily on input line 2555.
+LaTeX Info: Redefining \rmfamily on input line 2536.
+LaTeX Info: Redefining \sffamily on input line 2536.
+LaTeX Info: Redefining \ttfamily on input line 2536.
+LaTeX Info: Redefining \rmfamily on input line 2557.
+LaTeX Info: Redefining \sffamily on input line 2557.
+LaTeX Info: Redefining \ttfamily on input line 2557.
 
-Overfull \hbox (2.0625pt too wide) in paragraph at lines 2546--2558
+Overfull \hbox (2.0625pt too wide) in paragraph at lines 2548--2560
 [][]\TU/OpenSansHebrew(0)/m/n/10 תהי $\OML/txmi/m/it/10 g$ \TU/OpenSansHebrew(0
 )/m/n/10 מטריקה רימנית על $\OML/txmi/m/it/10 M$\TU/OpenSansHebrew(0)/m/n/10 . פ
 ונקציות מורס $\OML/txmi/m/it/10 F$ \TU/OpenSansHebrew(0)/m/n/10 עבורן $[]$ זוג 
@@ -2213,82 +2217,82 @@ Overfull \hbox (2.0625pt too wide) in paragraph at lines 2546--2558
  ב־$\OMS/txsy/m/n/10 C[] []$\TU/OpenSansHebrew(0)/m/n/10 . []
  []
 
-LaTeX Info: Redefining \rmfamily on input line 2586.
-LaTeX Info: Redefining \sffamily on input line 2586.
-LaTeX Info: Redefining \ttfamily on input line 2586.
-LaTeX Info: Redefining \rmfamily on input line 2603.
-LaTeX Info: Redefining \sffamily on input line 2603.
-LaTeX Info: Redefining \ttfamily on input line 2603.
-LaTeX Info: Redefining \rmfamily on input line 2603.
-LaTeX Info: Redefining \sffamily on input line 2603.
-LaTeX Info: Redefining \ttfamily on input line 2603.
+LaTeX Info: Redefining \rmfamily on input line 2588.
+LaTeX Info: Redefining \sffamily on input line 2588.
+LaTeX Info: Redefining \ttfamily on input line 2588.
+LaTeX Info: Redefining \rmfamily on input line 2605.
+LaTeX Info: Redefining \sffamily on input line 2605.
+LaTeX Info: Redefining \ttfamily on input line 2605.
+LaTeX Info: Redefining \rmfamily on input line 2605.
+LaTeX Info: Redefining \sffamily on input line 2605.
+LaTeX Info: Redefining \ttfamily on input line 2605.
 [26]
 Package hyperref Info: bookmark level for unknown solution defaults to 0 on inp
-ut line 2615.
-LaTeX Info: Redefining \rmfamily on input line 2649.
-LaTeX Info: Redefining \sffamily on input line 2649.
-LaTeX Info: Redefining \ttfamily on input line 2649.
+ut line 2617.
+LaTeX Info: Redefining \rmfamily on input line 2651.
+LaTeX Info: Redefining \sffamily on input line 2651.
+LaTeX Info: Redefining \ttfamily on input line 2651.
 File: sources/5.2.png Graphic file (type bmp)
 <sources/5.2.png>
-LaTeX Info: Redefining \rmfamily on input line 2713.
-LaTeX Info: Redefining \sffamily on input line 2713.
-LaTeX Info: Redefining \ttfamily on input line 2713.
+LaTeX Info: Redefining \rmfamily on input line 2715.
+LaTeX Info: Redefining \sffamily on input line 2715.
+LaTeX Info: Redefining \ttfamily on input line 2715.
  [27]
-LaTeX Info: Redefining \rmfamily on input line 2731.
-LaTeX Info: Redefining \sffamily on input line 2731.
-LaTeX Info: Redefining \ttfamily on input line 2731.
-LaTeX Info: Redefining \rmfamily on input line 2857.
-LaTeX Info: Redefining \sffamily on input line 2857.
-LaTeX Info: Redefining \ttfamily on input line 2857.
-LaTeX Info: Redefining \rmfamily on input line 2857.
-LaTeX Info: Redefining \sffamily on input line 2857.
-LaTeX Info: Redefining \ttfamily on input line 2857.
+LaTeX Info: Redefining \rmfamily on input line 2733.
+LaTeX Info: Redefining \sffamily on input line 2733.
+LaTeX Info: Redefining \ttfamily on input line 2733.
+LaTeX Info: Redefining \rmfamily on input line 2859.
+LaTeX Info: Redefining \sffamily on input line 2859.
+LaTeX Info: Redefining \ttfamily on input line 2859.
+LaTeX Info: Redefining \rmfamily on input line 2859.
+LaTeX Info: Redefining \sffamily on input line 2859.
+LaTeX Info: Redefining \ttfamily on input line 2859.
  [28]
-LaTeX Info: Redefining \rmfamily on input line 2871.
-LaTeX Info: Redefining \sffamily on input line 2871.
-LaTeX Info: Redefining \ttfamily on input line 2871.
+LaTeX Info: Redefining \rmfamily on input line 2873.
+LaTeX Info: Redefining \sffamily on input line 2873.
+LaTeX Info: Redefining \ttfamily on input line 2873.
 File: sources/5.3.png Graphic file (type bmp)
 <sources/5.3.png>
 File: sources/5.4.png Graphic file (type bmp)
 <sources/5.4.png>
 File: sources/5.5.png Graphic file (type bmp)
 <sources/5.5.png>
-LaTeX Info: Redefining \rmfamily on input line 2953.
-LaTeX Info: Redefining \sffamily on input line 2953.
-LaTeX Info: Redefining \ttfamily on input line 2953.
-LaTeX Info: Redefining \rmfamily on input line 2959.
-LaTeX Info: Redefining \sffamily on input line 2959.
-LaTeX Info: Redefining \ttfamily on input line 2959.
+LaTeX Info: Redefining \rmfamily on input line 2955.
+LaTeX Info: Redefining \sffamily on input line 2955.
+LaTeX Info: Redefining \ttfamily on input line 2955.
+LaTeX Info: Redefining \rmfamily on input line 2961.
+LaTeX Info: Redefining \sffamily on input line 2961.
+LaTeX Info: Redefining \ttfamily on input line 2961.
 File: sources/5.6.png Graphic file (type bmp)
 <sources/5.6.png>
  [29]
-LaTeX Info: Redefining \rmfamily on input line 2967.
-LaTeX Info: Redefining \sffamily on input line 2967.
-LaTeX Info: Redefining \ttfamily on input line 2967.
-LaTeX Info: Redefining \rmfamily on input line 2967.
-LaTeX Info: Redefining \sffamily on input line 2967.
-LaTeX Info: Redefining \ttfamily on input line 2967.
+LaTeX Info: Redefining \rmfamily on input line 2969.
+LaTeX Info: Redefining \sffamily on input line 2969.
+LaTeX Info: Redefining \ttfamily on input line 2969.
+LaTeX Info: Redefining \rmfamily on input line 2969.
+LaTeX Info: Redefining \sffamily on input line 2969.
+LaTeX Info: Redefining \ttfamily on input line 2969.
  [30]
 File: sources/6.1.a.png Graphic file (type bmp)
 <sources/6.1.a.png>
 File: sources/6.1.b.png Graphic file (type bmp)
 <sources/6.1.b.png>
 
-Overfull \hbox (88.82703pt too wide) in paragraph at lines 2973--2984
+Overfull \hbox (88.82703pt too wide) in paragraph at lines 2975--2986
  [][][]  [][] 
  []
 
 [31]
-LaTeX Info: Redefining \rmfamily on input line 3063.
-LaTeX Info: Redefining \sffamily on input line 3063.
-LaTeX Info: Redefining \ttfamily on input line 3063.
-LaTeX Info: Redefining \rmfamily on input line 3063.
-LaTeX Info: Redefining \sffamily on input line 3063.
-LaTeX Info: Redefining \ttfamily on input line 3063.
+LaTeX Info: Redefining \rmfamily on input line 3065.
+LaTeX Info: Redefining \sffamily on input line 3065.
+LaTeX Info: Redefining \ttfamily on input line 3065.
+LaTeX Info: Redefining \rmfamily on input line 3065.
+LaTeX Info: Redefining \sffamily on input line 3065.
+LaTeX Info: Redefining \ttfamily on input line 3065.
  [32]
-LaTeX Info: Redefining \rmfamily on input line 3117.
-LaTeX Info: Redefining \sffamily on input line 3117.
-LaTeX Info: Redefining \ttfamily on input line 3117.
+LaTeX Info: Redefining \rmfamily on input line 3119.
+LaTeX Info: Redefining \sffamily on input line 3119.
+LaTeX Info: Redefining \ttfamily on input line 3119.
 File: sources/6.2.a.png Graphic file (type bmp)
 <sources/6.2.a.png>
 File: sources/6.2.b.png Graphic file (type bmp)
@@ -2296,208 +2300,208 @@ File: sources/6.2.b.png Graphic file (type bmp)
  [33]
 File: sources/6.3.png Graphic file (type bmp)
 <sources/6.3.png>
-LaTeX Info: Redefining \rmfamily on input line 3273.
-LaTeX Info: Redefining \sffamily on input line 3273.
-LaTeX Info: Redefining \ttfamily on input line 3273.
-LaTeX Info: Redefining \rmfamily on input line 3273.
-LaTeX Info: Redefining \sffamily on input line 3273.
-LaTeX Info: Redefining \ttfamily on input line 3273.
+LaTeX Info: Redefining \rmfamily on input line 3275.
+LaTeX Info: Redefining \sffamily on input line 3275.
+LaTeX Info: Redefining \ttfamily on input line 3275.
+LaTeX Info: Redefining \rmfamily on input line 3275.
+LaTeX Info: Redefining \sffamily on input line 3275.
+LaTeX Info: Redefining \ttfamily on input line 3275.
  [34]
-LaTeX Info: Redefining \rmfamily on input line 3293.
-LaTeX Info: Redefining \sffamily on input line 3293.
-LaTeX Info: Redefining \ttfamily on input line 3293.
+LaTeX Info: Redefining \rmfamily on input line 3295.
+LaTeX Info: Redefining \sffamily on input line 3295.
+LaTeX Info: Redefining \ttfamily on input line 3295.
 
-Overfull \hbox (3.50081pt too wide) in paragraph at lines 3296--3298
+Overfull \hbox (3.50081pt too wide) in paragraph at lines 3298--3300
 [][]\TU/OpenSansHebrew(0)/m/it/10 טרקטוריה שבורה בין נקודות $\OML/txmi/m/it/10 
 x; y \OMS/txsy/m/n/10 2 [] []$ \TU/OpenSansHebrew(0)/m/n/10 היא סדרה[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 3318.
-LaTeX Info: Redefining \sffamily on input line 3318.
-LaTeX Info: Redefining \ttfamily on input line 3318.
-LaTeX Info: Redefining \rmfamily on input line 3367.
-LaTeX Info: Redefining \sffamily on input line 3367.
-LaTeX Info: Redefining \ttfamily on input line 3367.
+LaTeX Info: Redefining \rmfamily on input line 3320.
+LaTeX Info: Redefining \sffamily on input line 3320.
+LaTeX Info: Redefining \ttfamily on input line 3320.
 LaTeX Info: Redefining \rmfamily on input line 3369.
 LaTeX Info: Redefining \sffamily on input line 3369.
 LaTeX Info: Redefining \ttfamily on input line 3369.
-LaTeX Info: Redefining \rmfamily on input line 3385.
-LaTeX Info: Redefining \sffamily on input line 3385.
-LaTeX Info: Redefining \ttfamily on input line 3385.
-LaTeX Info: Redefining \rmfamily on input line 3400.
-LaTeX Info: Redefining \sffamily on input line 3400.
-LaTeX Info: Redefining \ttfamily on input line 3400.
+LaTeX Info: Redefining \rmfamily on input line 3371.
+LaTeX Info: Redefining \sffamily on input line 3371.
+LaTeX Info: Redefining \ttfamily on input line 3371.
+LaTeX Info: Redefining \rmfamily on input line 3387.
+LaTeX Info: Redefining \sffamily on input line 3387.
+LaTeX Info: Redefining \ttfamily on input line 3387.
+LaTeX Info: Redefining \rmfamily on input line 3402.
+LaTeX Info: Redefining \sffamily on input line 3402.
+LaTeX Info: Redefining \ttfamily on input line 3402.
 [35]
-LaTeX Info: Redefining \rmfamily on input line 3511.
-LaTeX Info: Redefining \sffamily on input line 3511.
-LaTeX Info: Redefining \ttfamily on input line 3511.
-LaTeX Info: Redefining \rmfamily on input line 3511.
-LaTeX Info: Redefining \sffamily on input line 3511.
-LaTeX Info: Redefining \ttfamily on input line 3511.
+LaTeX Info: Redefining \rmfamily on input line 3513.
+LaTeX Info: Redefining \sffamily on input line 3513.
+LaTeX Info: Redefining \ttfamily on input line 3513.
+LaTeX Info: Redefining \rmfamily on input line 3513.
+LaTeX Info: Redefining \sffamily on input line 3513.
+LaTeX Info: Redefining \ttfamily on input line 3513.
  [36]
 File: sources/7.1.png Graphic file (type bmp)
 <sources/7.1.png>
  [37]
-LaTeX Info: Redefining \rmfamily on input line 3652.
-LaTeX Info: Redefining \sffamily on input line 3652.
-LaTeX Info: Redefining \ttfamily on input line 3652.
-LaTeX Info: Redefining \rmfamily on input line 3682.
-LaTeX Info: Redefining \sffamily on input line 3682.
-LaTeX Info: Redefining \ttfamily on input line 3682.
+LaTeX Info: Redefining \rmfamily on input line 3654.
+LaTeX Info: Redefining \sffamily on input line 3654.
+LaTeX Info: Redefining \ttfamily on input line 3654.
+LaTeX Info: Redefining \rmfamily on input line 3684.
+LaTeX Info: Redefining \sffamily on input line 3684.
+LaTeX Info: Redefining \ttfamily on input line 3684.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3692.
+(hyperref)                removing `math shift' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 3692.
+(hyperref)                removing `subscript' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\left' on input line 3692.
+(hyperref)                removing `\left' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 3692.
+(hyperref)                removing `\rho' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\right' on input line 3692.
+(hyperref)                removing `\right' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3692.
+(hyperref)                removing `math shift' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3692.
+(hyperref)                removing `math shift' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\left' on input line 3692.
+(hyperref)                removing `\left' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 3692.
+(hyperref)                removing `\rho' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\right' on input line 3692.
+(hyperref)                removing `\right' on input line 3694.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 3692.
+(hyperref)                removing `math shift' on input line 3694.
 
-LaTeX Info: Redefining \rmfamily on input line 3698.
-LaTeX Info: Redefining \sffamily on input line 3698.
-LaTeX Info: Redefining \ttfamily on input line 3698.
-LaTeX Info: Redefining \rmfamily on input line 3737.
-LaTeX Info: Redefining \sffamily on input line 3737.
-LaTeX Info: Redefining \ttfamily on input line 3737.
-LaTeX Info: Redefining \rmfamily on input line 3742.
-LaTeX Info: Redefining \sffamily on input line 3742.
-LaTeX Info: Redefining \ttfamily on input line 3742.
+LaTeX Info: Redefining \rmfamily on input line 3700.
+LaTeX Info: Redefining \sffamily on input line 3700.
+LaTeX Info: Redefining \ttfamily on input line 3700.
+LaTeX Info: Redefining \rmfamily on input line 3739.
+LaTeX Info: Redefining \sffamily on input line 3739.
+LaTeX Info: Redefining \ttfamily on input line 3739.
+LaTeX Info: Redefining \rmfamily on input line 3744.
+LaTeX Info: Redefining \sffamily on input line 3744.
+LaTeX Info: Redefining \ttfamily on input line 3744.
 File: sources/7.2.png Graphic file (type bmp)
 <sources/7.2.png>
-LaTeX Info: Redefining \rmfamily on input line 3759.
-LaTeX Info: Redefining \sffamily on input line 3759.
-LaTeX Info: Redefining \ttfamily on input line 3759.
-LaTeX Info: Redefining \rmfamily on input line 3759.
-LaTeX Info: Redefining \sffamily on input line 3759.
-LaTeX Info: Redefining \ttfamily on input line 3759.
+LaTeX Info: Redefining \rmfamily on input line 3761.
+LaTeX Info: Redefining \sffamily on input line 3761.
+LaTeX Info: Redefining \ttfamily on input line 3761.
+LaTeX Info: Redefining \rmfamily on input line 3761.
+LaTeX Info: Redefining \sffamily on input line 3761.
+LaTeX Info: Redefining \ttfamily on input line 3761.
 [38] [39]
-LaTeX Info: Redefining \rmfamily on input line 3800.
-LaTeX Info: Redefining \sffamily on input line 3800.
-LaTeX Info: Redefining \ttfamily on input line 3800.
-LaTeX Info: Redefining \rmfamily on input line 3854.
-LaTeX Info: Redefining \sffamily on input line 3854.
-LaTeX Info: Redefining \ttfamily on input line 3854.
-LaTeX Info: Redefining \rmfamily on input line 3939.
-LaTeX Info: Redefining \sffamily on input line 3939.
-LaTeX Info: Redefining \ttfamily on input line 3939.
+LaTeX Info: Redefining \rmfamily on input line 3802.
+LaTeX Info: Redefining \sffamily on input line 3802.
+LaTeX Info: Redefining \ttfamily on input line 3802.
+LaTeX Info: Redefining \rmfamily on input line 3856.
+LaTeX Info: Redefining \sffamily on input line 3856.
+LaTeX Info: Redefining \ttfamily on input line 3856.
+LaTeX Info: Redefining \rmfamily on input line 3941.
+LaTeX Info: Redefining \sffamily on input line 3941.
+LaTeX Info: Redefining \ttfamily on input line 3941.
 File: sources/7.3.a.png Graphic file (type bmp)
 <sources/7.3.a.png>
 File: sources/7.3.b.png Graphic file (type bmp)
 <sources/7.3.b.png>
-LaTeX Info: Redefining \rmfamily on input line 3980.
-LaTeX Info: Redefining \sffamily on input line 3980.
-LaTeX Info: Redefining \ttfamily on input line 3980.
-LaTeX Info: Redefining \rmfamily on input line 3985.
-LaTeX Info: Redefining \sffamily on input line 3985.
-LaTeX Info: Redefining \ttfamily on input line 3985.
-LaTeX Info: Redefining \rmfamily on input line 3991.
-LaTeX Info: Redefining \sffamily on input line 3991.
-LaTeX Info: Redefining \ttfamily on input line 3991.
-LaTeX Info: Redefining \rmfamily on input line 3997.
-LaTeX Info: Redefining \sffamily on input line 3997.
-LaTeX Info: Redefining \ttfamily on input line 3997.
-LaTeX Info: Redefining \rmfamily on input line 4009.
-LaTeX Info: Redefining \sffamily on input line 4009.
-LaTeX Info: Redefining \ttfamily on input line 4009.
-LaTeX Info: Redefining \rmfamily on input line 4009.
-LaTeX Info: Redefining \sffamily on input line 4009.
-LaTeX Info: Redefining \ttfamily on input line 4009.
+LaTeX Info: Redefining \rmfamily on input line 3982.
+LaTeX Info: Redefining \sffamily on input line 3982.
+LaTeX Info: Redefining \ttfamily on input line 3982.
+LaTeX Info: Redefining \rmfamily on input line 3987.
+LaTeX Info: Redefining \sffamily on input line 3987.
+LaTeX Info: Redefining \ttfamily on input line 3987.
+LaTeX Info: Redefining \rmfamily on input line 3993.
+LaTeX Info: Redefining \sffamily on input line 3993.
+LaTeX Info: Redefining \ttfamily on input line 3993.
+LaTeX Info: Redefining \rmfamily on input line 3999.
+LaTeX Info: Redefining \sffamily on input line 3999.
+LaTeX Info: Redefining \ttfamily on input line 3999.
+LaTeX Info: Redefining \rmfamily on input line 4011.
+LaTeX Info: Redefining \sffamily on input line 4011.
+LaTeX Info: Redefining \ttfamily on input line 4011.
+LaTeX Info: Redefining \rmfamily on input line 4011.
+LaTeX Info: Redefining \sffamily on input line 4011.
+LaTeX Info: Redefining \ttfamily on input line 4011.
  [40] [41]
-LaTeX Info: Redefining \rmfamily on input line 4028.
-LaTeX Info: Redefining \sffamily on input line 4028.
-LaTeX Info: Redefining \ttfamily on input line 4028.
-LaTeX Info: Redefining \rmfamily on input line 4128.
-LaTeX Info: Redefining \sffamily on input line 4128.
-LaTeX Info: Redefining \ttfamily on input line 4128.
-LaTeX Info: Redefining \rmfamily on input line 4128.
-LaTeX Info: Redefining \sffamily on input line 4128.
-LaTeX Info: Redefining \ttfamily on input line 4128.
+LaTeX Info: Redefining \rmfamily on input line 4030.
+LaTeX Info: Redefining \sffamily on input line 4030.
+LaTeX Info: Redefining \ttfamily on input line 4030.
+LaTeX Info: Redefining \rmfamily on input line 4130.
+LaTeX Info: Redefining \sffamily on input line 4130.
+LaTeX Info: Redefining \ttfamily on input line 4130.
+LaTeX Info: Redefining \rmfamily on input line 4130.
+LaTeX Info: Redefining \sffamily on input line 4130.
+LaTeX Info: Redefining \ttfamily on input line 4130.
  [42]
 
-LaTeX Warning: Command \u invalid in math mode on input line 4153.
+LaTeX Warning: Command \u invalid in math mode on input line 4155.
 
 Missing character: There is no ̆ in font txmi!
 File: sources/7.4.a.png Graphic file (type bmp)
 <sources/7.4.a.png>
 
-Overfull \hbox (40.76933pt too wide) in paragraph at lines 4160--4161
+Overfull \hbox (40.76933pt too wide) in paragraph at lines 4162--4163
  [][][][][][] 
  []
 
 File: sources/7.4.b.png Graphic file (type bmp)
 <sources/7.4.b.png>
 
-Overfull \hbox (29.4756pt too wide) in paragraph at lines 4167--4168
+Overfull \hbox (29.4756pt too wide) in paragraph at lines 4169--4170
  [][][][][][] 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 4180.
-LaTeX Info: Redefining \sffamily on input line 4180.
-LaTeX Info: Redefining \ttfamily on input line 4180.
+LaTeX Info: Redefining \rmfamily on input line 4182.
+LaTeX Info: Redefining \sffamily on input line 4182.
+LaTeX Info: Redefining \ttfamily on input line 4182.
 File: sources/7.5.png Graphic file (type bmp)
 <sources/7.5.png>
 
-Overfull \hbox (142.41295pt too wide) in paragraph at lines 4188--4189
+Overfull \hbox (142.41295pt too wide) in paragraph at lines 4190--4191
  [][][][][][] 
  []
 
 [43]
-LaTeX Info: Redefining \rmfamily on input line 4220.
-LaTeX Info: Redefining \sffamily on input line 4220.
-LaTeX Info: Redefining \ttfamily on input line 4220.
-LaTeX Info: Redefining \rmfamily on input line 4220.
-LaTeX Info: Redefining \sffamily on input line 4220.
-LaTeX Info: Redefining \ttfamily on input line 4220.
+LaTeX Info: Redefining \rmfamily on input line 4222.
+LaTeX Info: Redefining \sffamily on input line 4222.
+LaTeX Info: Redefining \ttfamily on input line 4222.
+LaTeX Info: Redefining \rmfamily on input line 4222.
+LaTeX Info: Redefining \sffamily on input line 4222.
+LaTeX Info: Redefining \ttfamily on input line 4222.
  [44]
-LaTeX Info: Redefining \rmfamily on input line 4291.
-LaTeX Info: Redefining \sffamily on input line 4291.
-LaTeX Info: Redefining \ttfamily on input line 4291.
+LaTeX Info: Redefining \rmfamily on input line 4293.
+LaTeX Info: Redefining \sffamily on input line 4293.
+LaTeX Info: Redefining \ttfamily on input line 4293.
  [45]
-LaTeX Info: Redefining \rmfamily on input line 4343.
-LaTeX Info: Redefining \sffamily on input line 4343.
-LaTeX Info: Redefining \ttfamily on input line 4343.
-LaTeX Info: Redefining \rmfamily on input line 4394.
-LaTeX Info: Redefining \sffamily on input line 4394.
-LaTeX Info: Redefining \ttfamily on input line 4394.
-LaTeX Info: Redefining \rmfamily on input line 4410.
-LaTeX Info: Redefining \sffamily on input line 4410.
-LaTeX Info: Redefining \ttfamily on input line 4410.
+LaTeX Info: Redefining \rmfamily on input line 4345.
+LaTeX Info: Redefining \sffamily on input line 4345.
+LaTeX Info: Redefining \ttfamily on input line 4345.
+LaTeX Info: Redefining \rmfamily on input line 4396.
+LaTeX Info: Redefining \sffamily on input line 4396.
+LaTeX Info: Redefining \ttfamily on input line 4396.
+LaTeX Info: Redefining \rmfamily on input line 4412.
+LaTeX Info: Redefining \sffamily on input line 4412.
+LaTeX Info: Redefining \ttfamily on input line 4412.
  [46]
 File: sources/7.6.png Graphic file (type bmp)
 <sources/7.6.png>
@@ -2511,110 +2515,110 @@ File: sources/9.3.png Graphic file (type bmp)
 File: sources/9.4.png Graphic file (type bmp)
 <sources/9.4.png>
 
-Overfull \hbox (6.53172pt too wide) in paragraph at lines 4576--4592
+Overfull \hbox (6.53172pt too wide) in paragraph at lines 4578--4594
 [][]\TU/OpenSansHebrew(0)/m/n/10 נרצה לחשב את $\OML/txmi/m/it/10 ^^Z []$\TU/Ope
 nSansHebrew(0)/m/n/10 . נצטרך לחשב טרקטוריות שבורות מהצורה באיור [][][][][][]1.
 42[][][][][][] אבל, אלו בדיוק הטרקטוריות[]
  []
 
 [48] [49]
-LaTeX Info: Redefining \rmfamily on input line 4617.
-LaTeX Info: Redefining \sffamily on input line 4617.
-LaTeX Info: Redefining \ttfamily on input line 4617.
-LaTeX Info: Redefining \rmfamily on input line 4644.
-LaTeX Info: Redefining \sffamily on input line 4644.
-LaTeX Info: Redefining \ttfamily on input line 4644.
-LaTeX Info: Redefining \rmfamily on input line 4652.
-LaTeX Info: Redefining \sffamily on input line 4652.
-LaTeX Info: Redefining \ttfamily on input line 4652.
+LaTeX Info: Redefining \rmfamily on input line 4619.
+LaTeX Info: Redefining \sffamily on input line 4619.
+LaTeX Info: Redefining \ttfamily on input line 4619.
+LaTeX Info: Redefining \rmfamily on input line 4646.
+LaTeX Info: Redefining \sffamily on input line 4646.
+LaTeX Info: Redefining \ttfamily on input line 4646.
 LaTeX Info: Redefining \rmfamily on input line 4654.
 LaTeX Info: Redefining \sffamily on input line 4654.
 LaTeX Info: Redefining \ttfamily on input line 4654.
+LaTeX Info: Redefining \rmfamily on input line 4656.
+LaTeX Info: Redefining \sffamily on input line 4656.
+LaTeX Info: Redefining \ttfamily on input line 4656.
 
-Overfull \hbox (7.00505pt too wide) in paragraph at lines 4651--4656
+Overfull \hbox (7.00505pt too wide) in paragraph at lines 4653--4658
 [][]\TU/OpenSansHebrew(0)/m/n/10 כאשר מוגדר ה־[][]\TU/txr/b/it/10 intersection 
 product[] []\TU/OpenSansHebrew(0)/m/n/10 הוא מתקבל על ידי ה־[][]\TU/txr/b/it/10
  cup product[] []\TU/OpenSansHebrew(0)/m/n/10 על ידי דואליות פואנקרה. []
  []
 
-LaTeX Info: Redefining \rmfamily on input line 4658.
-LaTeX Info: Redefining \sffamily on input line 4658.
-LaTeX Info: Redefining \ttfamily on input line 4658.
 LaTeX Info: Redefining \rmfamily on input line 4660.
 LaTeX Info: Redefining \sffamily on input line 4660.
 LaTeX Info: Redefining \ttfamily on input line 4660.
+LaTeX Info: Redefining \rmfamily on input line 4662.
+LaTeX Info: Redefining \sffamily on input line 4662.
+LaTeX Info: Redefining \ttfamily on input line 4662.
 [50]
-LaTeX Info: Redefining \rmfamily on input line 4753.
-LaTeX Info: Redefining \sffamily on input line 4753.
-LaTeX Info: Redefining \ttfamily on input line 4753.
+LaTeX Info: Redefining \rmfamily on input line 4755.
+LaTeX Info: Redefining \sffamily on input line 4755.
+LaTeX Info: Redefining \ttfamily on input line 4755.
 File: sources/9.5.png Graphic file (type bmp)
 <sources/9.5.png>
-LaTeX Info: Redefining \rmfamily on input line 4858.
-LaTeX Info: Redefining \sffamily on input line 4858.
-LaTeX Info: Redefining \ttfamily on input line 4858.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textenglish' on input line 4858.
-
-[51]
 LaTeX Info: Redefining \rmfamily on input line 4860.
 LaTeX Info: Redefining \sffamily on input line 4860.
 LaTeX Info: Redefining \ttfamily on input line 4860.
-LaTeX Info: Redefining \rmfamily on input line 4877.
-LaTeX Info: Redefining \sffamily on input line 4877.
-LaTeX Info: Redefining \ttfamily on input line 4877.
-LaTeX Info: Redefining \rmfamily on input line 4883.
-LaTeX Info: Redefining \sffamily on input line 4883.
-LaTeX Info: Redefining \ttfamily on input line 4883.
 
-Overfull \hbox (17.27168pt too wide) in paragraph at lines 4868--4886
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textenglish' on input line 4860.
+
+[51]
+LaTeX Info: Redefining \rmfamily on input line 4862.
+LaTeX Info: Redefining \sffamily on input line 4862.
+LaTeX Info: Redefining \ttfamily on input line 4862.
+LaTeX Info: Redefining \rmfamily on input line 4879.
+LaTeX Info: Redefining \sffamily on input line 4879.
+LaTeX Info: Redefining \ttfamily on input line 4879.
+LaTeX Info: Redefining \rmfamily on input line 4885.
+LaTeX Info: Redefining \sffamily on input line 4885.
+LaTeX Info: Redefining \ttfamily on input line 4885.
+
+Overfull \hbox (17.27168pt too wide) in paragraph at lines 4870--4888
 [][]\TU/OpenSansHebrew(0)/m/n/10 נבחר זוגות מורס $[]$ עבור $\OML/txmi/m/it/10 M
 $ \TU/OpenSansHebrew(0)/m/n/10 ו־$[]$ עבור $\OML/txmi/m/it/10 N$\TU/OpenSansHeb
 rew(0)/m/n/10 , שמקיימים את תנאי [][]\TU/txr/b/it/10 Morse-Smale[][]\TU/OpenSan
 sHebrew(0)/m/n/10 . נקבל זוג $[]$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 4911.
-LaTeX Info: Redefining \sffamily on input line 4911.
-LaTeX Info: Redefining \ttfamily on input line 4911.
+LaTeX Info: Redefining \rmfamily on input line 4913.
+LaTeX Info: Redefining \sffamily on input line 4913.
+LaTeX Info: Redefining \ttfamily on input line 4913.
 
-Overfull \hbox (66.92964pt too wide) in paragraph at lines 4894--4916
+Overfull \hbox (66.92964pt too wide) in paragraph at lines 4896--4918
 [][]\TU/OpenSansHebrew(0)/m/n/10 כדי לחשב את $\OML/txmi/m/it/10 @$ \TU/OpenSans
 Hebrew(0)/m/n/10 נרצה מרחב חד־מימדי כדי שזה יהיה מורכב ממספר סופי של טרקטוריות.
  כלומר, נדרוש $[] [] [] \OT1/txr/m/n/10 =$[]
  []
 
 [52]
-LaTeX Info: Redefining \rmfamily on input line 5034.
-LaTeX Info: Redefining \sffamily on input line 5034.
-LaTeX Info: Redefining \ttfamily on input line 5034.
-LaTeX Info: Redefining \rmfamily on input line 5039.
-LaTeX Info: Redefining \sffamily on input line 5039.
-LaTeX Info: Redefining \ttfamily on input line 5039.
-LaTeX Info: Redefining \rmfamily on input line 5054.
-LaTeX Info: Redefining \sffamily on input line 5054.
-LaTeX Info: Redefining \ttfamily on input line 5054.
-LaTeX Info: Redefining \rmfamily on input line 5087.
-LaTeX Info: Redefining \sffamily on input line 5087.
-LaTeX Info: Redefining \ttfamily on input line 5087.
-LaTeX Info: Redefining \rmfamily on input line 5094.
-LaTeX Info: Redefining \sffamily on input line 5094.
-LaTeX Info: Redefining \ttfamily on input line 5094.
+LaTeX Info: Redefining \rmfamily on input line 5036.
+LaTeX Info: Redefining \sffamily on input line 5036.
+LaTeX Info: Redefining \ttfamily on input line 5036.
+LaTeX Info: Redefining \rmfamily on input line 5041.
+LaTeX Info: Redefining \sffamily on input line 5041.
+LaTeX Info: Redefining \ttfamily on input line 5041.
+LaTeX Info: Redefining \rmfamily on input line 5056.
+LaTeX Info: Redefining \sffamily on input line 5056.
+LaTeX Info: Redefining \ttfamily on input line 5056.
+LaTeX Info: Redefining \rmfamily on input line 5089.
+LaTeX Info: Redefining \sffamily on input line 5089.
+LaTeX Info: Redefining \ttfamily on input line 5089.
+LaTeX Info: Redefining \rmfamily on input line 5096.
+LaTeX Info: Redefining \sffamily on input line 5096.
+LaTeX Info: Redefining \ttfamily on input line 5096.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 5106.
+(hyperref)                removing `math shift' on input line 5108.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 5106.
+(hyperref)                removing `math shift' on input line 5108.
 
-LaTeX Info: Redefining \rmfamily on input line 5111.
-LaTeX Info: Redefining \sffamily on input line 5111.
-LaTeX Info: Redefining \ttfamily on input line 5111.
+LaTeX Info: Redefining \rmfamily on input line 5113.
+LaTeX Info: Redefining \sffamily on input line 5113.
+LaTeX Info: Redefining \ttfamily on input line 5113.
 [53]
-Overfull \hbox (5.42151pt too wide) in paragraph at lines 5162--5177
+Overfull \hbox (5.42151pt too wide) in paragraph at lines 5164--5179
 []\TU/OpenSansHebrew(0)/m/n/10 של $\OML/txmi/m/it/10 T[]W[] []$ \TU/OpenSansHeb
 rew(0)/m/n/10 ושל $\OML/txmi/m/it/10 T[]W[] []$ \TU/OpenSansHebrew(0)/m/n/10 בה
 תאמה. נקרא לבסיס $[]$ בסיס חיובי אם $[]$[]
@@ -2624,166 +2628,273 @@ rew(0)/m/n/10 ושל $\OML/txmi/m/it/10 T[]W[] []$ \TU/OpenSansHebrew(0)/m/n/10 
 פרק 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textenglish' on input line 5324.
+(hyperref)                removing `\textenglish' on input line 5326.
 
-LaTeX Info: Redefining \rmfamily on input line 5324.
-LaTeX Info: Redefining \sffamily on input line 5324.
-LaTeX Info: Redefining \ttfamily on input line 5324.
-LaTeX Info: Redefining \rmfamily on input line 5434.
-LaTeX Info: Redefining \sffamily on input line 5434.
-LaTeX Info: Redefining \ttfamily on input line 5434.
+LaTeX Info: Redefining \rmfamily on input line 5326.
+LaTeX Info: Redefining \sffamily on input line 5326.
+LaTeX Info: Redefining \ttfamily on input line 5326.
+LaTeX Info: Redefining \rmfamily on input line 5436.
+LaTeX Info: Redefining \sffamily on input line 5436.
+LaTeX Info: Redefining \ttfamily on input line 5436.
 [56
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 5451.
-LaTeX Info: Redefining \sffamily on input line 5451.
-LaTeX Info: Redefining \ttfamily on input line 5451.
 LaTeX Info: Redefining \rmfamily on input line 5453.
 LaTeX Info: Redefining \sffamily on input line 5453.
 LaTeX Info: Redefining \ttfamily on input line 5453.
+LaTeX Info: Redefining \rmfamily on input line 5455.
+LaTeX Info: Redefining \sffamily on input line 5455.
+LaTeX Info: Redefining \ttfamily on input line 5455.
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 5456.
-LaTeX Info: Redefining \rmfamily on input line 5474.
-LaTeX Info: Redefining \sffamily on input line 5474.
-LaTeX Info: Redefining \ttfamily on input line 5474.
-LaTeX Info: Redefining \rmfamily on input line 5485.
-LaTeX Info: Redefining \sffamily on input line 5485.
-LaTeX Info: Redefining \ttfamily on input line 5485.
-LaTeX Info: Redefining \rmfamily on input line 5490.
-LaTeX Info: Redefining \sffamily on input line 5490.
-LaTeX Info: Redefining \ttfamily on input line 5490.
-LaTeX Info: Redefining \rmfamily on input line 5504.
-LaTeX Info: Redefining \sffamily on input line 5504.
-LaTeX Info: Redefining \ttfamily on input line 5504.
+line 5458.
+LaTeX Info: Redefining \rmfamily on input line 5476.
+LaTeX Info: Redefining \sffamily on input line 5476.
+LaTeX Info: Redefining \ttfamily on input line 5476.
+LaTeX Info: Redefining \rmfamily on input line 5487.
+LaTeX Info: Redefining \sffamily on input line 5487.
+LaTeX Info: Redefining \ttfamily on input line 5487.
+LaTeX Info: Redefining \rmfamily on input line 5492.
+LaTeX Info: Redefining \sffamily on input line 5492.
+LaTeX Info: Redefining \ttfamily on input line 5492.
 LaTeX Info: Redefining \rmfamily on input line 5506.
 LaTeX Info: Redefining \sffamily on input line 5506.
 LaTeX Info: Redefining \ttfamily on input line 5506.
-LaTeX Info: Redefining \rmfamily on input line 5512.
-LaTeX Info: Redefining \sffamily on input line 5512.
-LaTeX Info: Redefining \ttfamily on input line 5512.
-LaTeX Info: Redefining \rmfamily on input line 5517.
-LaTeX Info: Redefining \sffamily on input line 5517.
-LaTeX Info: Redefining \ttfamily on input line 5517.
+LaTeX Info: Redefining \rmfamily on input line 5508.
+LaTeX Info: Redefining \sffamily on input line 5508.
+LaTeX Info: Redefining \ttfamily on input line 5508.
+LaTeX Info: Redefining \rmfamily on input line 5514.
+LaTeX Info: Redefining \sffamily on input line 5514.
+LaTeX Info: Redefining \ttfamily on input line 5514.
+LaTeX Info: Redefining \rmfamily on input line 5519.
+LaTeX Info: Redefining \sffamily on input line 5519.
+LaTeX Info: Redefining \ttfamily on input line 5519.
 
-Overfull \hbox (11.17671pt too wide) in paragraph at lines 5514--5519
+Overfull \hbox (11.17671pt too wide) in paragraph at lines 5516--5521
 [][]\TU/OpenSansHebrew(0)/m/n/10 כאשר $\OML/txmi/m/it/10 M$ \TU/OpenSansHebrew(
 0)/m/n/10 אינסוף־מימדית (ולכן לא קומפקטית, גם מקומית), תנאי [][]\TU/txr/b/it/10
  Palais-Smale[] []\TU/OpenSansHebrew(0)/m/n/10 מהווה תחליף לתכונות של קומפקטיות
 . []
  []
 
-LaTeX Info: Redefining \rmfamily on input line 5537.
-LaTeX Info: Redefining \sffamily on input line 5537.
-LaTeX Info: Redefining \ttfamily on input line 5537.
-LaTeX Info: Redefining \rmfamily on input line 5598.
-LaTeX Info: Redefining \sffamily on input line 5598.
-LaTeX Info: Redefining \ttfamily on input line 5598.
-LaTeX Info: Redefining \rmfamily on input line 5610.
-LaTeX Info: Redefining \sffamily on input line 5610.
-LaTeX Info: Redefining \ttfamily on input line 5610.
-LaTeX Info: Redefining \rmfamily on input line 5619.
-LaTeX Info: Redefining \sffamily on input line 5619.
-LaTeX Info: Redefining \ttfamily on input line 5619.
+LaTeX Info: Redefining \rmfamily on input line 5539.
+LaTeX Info: Redefining \sffamily on input line 5539.
+LaTeX Info: Redefining \ttfamily on input line 5539.
+LaTeX Info: Redefining \rmfamily on input line 5600.
+LaTeX Info: Redefining \sffamily on input line 5600.
+LaTeX Info: Redefining \ttfamily on input line 5600.
+LaTeX Info: Redefining \rmfamily on input line 5612.
+LaTeX Info: Redefining \sffamily on input line 5612.
+LaTeX Info: Redefining \ttfamily on input line 5612.
+LaTeX Info: Redefining \rmfamily on input line 5621.
+LaTeX Info: Redefining \sffamily on input line 5621.
+LaTeX Info: Redefining \ttfamily on input line 5621.
 [57]
-LaTeX Info: Redefining \rmfamily on input line 5680.
-LaTeX Info: Redefining \sffamily on input line 5680.
-LaTeX Info: Redefining \ttfamily on input line 5680.
-LaTeX Info: Redefining \rmfamily on input line 5714.
-LaTeX Info: Redefining \sffamily on input line 5714.
-LaTeX Info: Redefining \ttfamily on input line 5714.
-LaTeX Info: Redefining \rmfamily on input line 5778.
-LaTeX Info: Redefining \sffamily on input line 5778.
-LaTeX Info: Redefining \ttfamily on input line 5778.
+LaTeX Info: Redefining \rmfamily on input line 5682.
+LaTeX Info: Redefining \sffamily on input line 5682.
+LaTeX Info: Redefining \ttfamily on input line 5682.
+LaTeX Info: Redefining \rmfamily on input line 5716.
+LaTeX Info: Redefining \sffamily on input line 5716.
+LaTeX Info: Redefining \ttfamily on input line 5716.
+LaTeX Info: Redefining \rmfamily on input line 5780.
+LaTeX Info: Redefining \sffamily on input line 5780.
+LaTeX Info: Redefining \ttfamily on input line 5780.
  [58]
-LaTeX Info: Redefining \rmfamily on input line 5796.
-LaTeX Info: Redefining \sffamily on input line 5796.
-LaTeX Info: Redefining \ttfamily on input line 5796.
-LaTeX Info: Redefining \rmfamily on input line 5836.
-LaTeX Info: Redefining \sffamily on input line 5836.
-LaTeX Info: Redefining \ttfamily on input line 5836.
-LaTeX Info: Redefining \rmfamily on input line 5892.
-LaTeX Info: Redefining \sffamily on input line 5892.
-LaTeX Info: Redefining \ttfamily on input line 5892.
-LaTeX Info: Redefining \rmfamily on input line 5902.
-LaTeX Info: Redefining \sffamily on input line 5902.
-LaTeX Info: Redefining \ttfamily on input line 5902.
-LaTeX Info: Redefining \rmfamily on input line 5942.
-LaTeX Info: Redefining \sffamily on input line 5942.
-LaTeX Info: Redefining \ttfamily on input line 5942.
+LaTeX Info: Redefining \rmfamily on input line 5798.
+LaTeX Info: Redefining \sffamily on input line 5798.
+LaTeX Info: Redefining \ttfamily on input line 5798.
+LaTeX Info: Redefining \rmfamily on input line 5838.
+LaTeX Info: Redefining \sffamily on input line 5838.
+LaTeX Info: Redefining \ttfamily on input line 5838.
+LaTeX Info: Redefining \rmfamily on input line 5894.
+LaTeX Info: Redefining \sffamily on input line 5894.
+LaTeX Info: Redefining \ttfamily on input line 5894.
+LaTeX Info: Redefining \rmfamily on input line 5904.
+LaTeX Info: Redefining \sffamily on input line 5904.
+LaTeX Info: Redefining \ttfamily on input line 5904.
+LaTeX Info: Redefining \rmfamily on input line 5944.
+LaTeX Info: Redefining \sffamily on input line 5944.
+LaTeX Info: Redefining \ttfamily on input line 5944.
  [59]
-LaTeX Info: Redefining \rmfamily on input line 6086.
-LaTeX Info: Redefining \sffamily on input line 6086.
-LaTeX Info: Redefining \ttfamily on input line 6086.
+LaTeX Info: Redefining \rmfamily on input line 6088.
+LaTeX Info: Redefining \sffamily on input line 6088.
+LaTeX Info: Redefining \ttfamily on input line 6088.
  [60]
 פרק 3.
-LaTeX Info: Redefining \rmfamily on input line 6213.
-LaTeX Info: Redefining \sffamily on input line 6213.
-LaTeX Info: Redefining \ttfamily on input line 6213.
+LaTeX Info: Redefining \rmfamily on input line 6215.
+LaTeX Info: Redefining \sffamily on input line 6215.
+LaTeX Info: Redefining \ttfamily on input line 6215.
 [61
 
 ]
 Package hyperref Info: bookmark level for unknown question defaults to 0 on inp
-ut line 6300.
-LaTeX Info: Redefining \rmfamily on input line 6306.
-LaTeX Info: Redefining \sffamily on input line 6306.
-LaTeX Info: Redefining \ttfamily on input line 6306.
-LaTeX Info: Redefining \rmfamily on input line 6313.
-LaTeX Info: Redefining \sffamily on input line 6313.
-LaTeX Info: Redefining \ttfamily on input line 6313.
-LaTeX Info: Redefining \rmfamily on input line 6337.
-LaTeX Info: Redefining \sffamily on input line 6337.
-LaTeX Info: Redefining \ttfamily on input line 6337.
-LaTeX Info: Redefining \rmfamily on input line 6385.
-LaTeX Info: Redefining \sffamily on input line 6385.
-LaTeX Info: Redefining \ttfamily on input line 6385.
- [62]
-LaTeX Info: Redefining \rmfamily on input line 6507.
-LaTeX Info: Redefining \sffamily on input line 6507.
-LaTeX Info: Redefining \ttfamily on input line 6507.
-LaTeX Info: Redefining \rmfamily on input line 6527.
-LaTeX Info: Redefining \sffamily on input line 6527.
-LaTeX Info: Redefining \ttfamily on input line 6527.
+ut line 6302.
+LaTeX Info: Redefining \rmfamily on input line 6308.
+LaTeX Info: Redefining \sffamily on input line 6308.
+LaTeX Info: Redefining \ttfamily on input line 6308.
+LaTeX Info: Redefining \rmfamily on input line 6315.
+LaTeX Info: Redefining \sffamily on input line 6315.
+LaTeX Info: Redefining \ttfamily on input line 6315.
+LaTeX Info: Redefining \rmfamily on input line 6339.
+LaTeX Info: Redefining \sffamily on input line 6339.
+LaTeX Info: Redefining \ttfamily on input line 6339.
+LaTeX Info: Redefining \rmfamily on input line 6387.
+LaTeX Info: Redefining \sffamily on input line 6387.
+LaTeX Info: Redefining \ttfamily on input line 6387.
+
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 6392.
+
+[62]
+LaTeX Info: Redefining \rmfamily on input line 6509.
+LaTeX Info: Redefining \sffamily on input line 6509.
+LaTeX Info: Redefining \ttfamily on input line 6509.
+LaTeX Info: Redefining \rmfamily on input line 6529.
+LaTeX Info: Redefining \sffamily on input line 6529.
+LaTeX Info: Redefining \ttfamily on input line 6529.
  [63]
-LaTeX Info: Redefining \rmfamily on input line 6593.
-LaTeX Info: Redefining \sffamily on input line 6593.
-LaTeX Info: Redefining \ttfamily on input line 6593.
-LaTeX Info: Redefining \rmfamily on input line 6605.
-LaTeX Info: Redefining \sffamily on input line 6605.
-LaTeX Info: Redefining \ttfamily on input line 6605.
-LaTeX Info: Redefining \rmfamily on input line 6625.
-LaTeX Info: Redefining \sffamily on input line 6625.
-LaTeX Info: Redefining \ttfamily on input line 6625.
-LaTeX Info: Redefining \rmfamily on input line 6638.
-LaTeX Info: Redefining \sffamily on input line 6638.
-LaTeX Info: Redefining \ttfamily on input line 6638.
-LaTeX Info: Redefining \rmfamily on input line 6679.
-LaTeX Info: Redefining \sffamily on input line 6679.
-LaTeX Info: Redefining \ttfamily on input line 6679.
-)
-Runaway argument?
-{\mrm {south pole}$, ולכן $\phi $ כוויצה, בסתירה לב\ETC.
-! File ended while scanning use of \prs.
-<inserted text> 
-                \par 
-<*> "./morse theory.tex"
-                        
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+LaTeX Info: Redefining \rmfamily on input line 6595.
+LaTeX Info: Redefining \sffamily on input line 6595.
+LaTeX Info: Redefining \ttfamily on input line 6595.
+LaTeX Info: Redefining \rmfamily on input line 6607.
+LaTeX Info: Redefining \sffamily on input line 6607.
+LaTeX Info: Redefining \ttfamily on input line 6607.
+LaTeX Info: Redefining \rmfamily on input line 6627.
+LaTeX Info: Redefining \sffamily on input line 6627.
+LaTeX Info: Redefining \ttfamily on input line 6627.
+LaTeX Info: Redefining \rmfamily on input line 6640.
+LaTeX Info: Redefining \sffamily on input line 6640.
+LaTeX Info: Redefining \ttfamily on input line 6640.
+LaTeX Info: Redefining \rmfamily on input line 6681.
+LaTeX Info: Redefining \sffamily on input line 6681.
+LaTeX Info: Redefining \ttfamily on input line 6681.
+ [64]
+פרק 4.
 
-! Emergency stop.
-<*> "./morse theory.tex"
-                        
-*** (job aborted, no legal \end found)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textenglish' on input line 6728.
 
- 
+LaTeX Info: Redefining \rmfamily on input line 6728.
+LaTeX Info: Redefining \sffamily on input line 6728.
+LaTeX Info: Redefining \ttfamily on input line 6728.
+[65
+
+]
+LaTeX Info: Redefining \rmfamily on input line 6942.
+LaTeX Info: Redefining \sffamily on input line 6942.
+LaTeX Info: Redefining \ttfamily on input line 6942.
+LaTeX Info: Redefining \rmfamily on input line 7000.
+LaTeX Info: Redefining \sffamily on input line 7000.
+LaTeX Info: Redefining \ttfamily on input line 7000.
+ [66]
+LaTeX Info: Redefining \rmfamily on input line 7159.
+LaTeX Info: Redefining \sffamily on input line 7159.
+LaTeX Info: Redefining \ttfamily on input line 7159.
+LaTeX Info: Redefining \rmfamily on input line 7180.
+LaTeX Info: Redefining \sffamily on input line 7180.
+LaTeX Info: Redefining \ttfamily on input line 7180.
+LaTeX Info: Redefining \rmfamily on input line 7203.
+LaTeX Info: Redefining \sffamily on input line 7203.
+LaTeX Info: Redefining \ttfamily on input line 7203.
+
+Overfull \hbox (3.63983pt too wide) in paragraph at lines 7195--7210
+[][]\TU/OpenSansHebrew(0)/m/it/10 תהי $[]$ יריעה רימנית סגורה (מספיק לדרוש יריע
+ה רימנית[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 7268.
+LaTeX Info: Redefining \sffamily on input line 7268.
+LaTeX Info: Redefining \ttfamily on input line 7268.
+LaTeX Info: Redefining \rmfamily on input line 7302.
+LaTeX Info: Redefining \sffamily on input line 7302.
+LaTeX Info: Redefining \ttfamily on input line 7302.
+LaTeX Info: Redefining \rmfamily on input line 7315.
+LaTeX Info: Redefining \sffamily on input line 7315.
+LaTeX Info: Redefining \ttfamily on input line 7315.
+[67] [68]
+\tf@thm=\write7
+\openout7 = `"morse theory.thm"'.
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {hebrew/script}  =>  {Hebrew}
+>  {hebrew/lcscript}  =>  {hebrew}
+>  {hebrew/scripttag}  =>  {hebr}
+>  {hebrew/language}  =>  {Hebrew}
+>  {hebrew/langtag}  =>  {IWR}
+>  {hebrew/bcp47}  =>  {he}
+>  {hebrew/hyphennames}  =>  {nohyphenation}
+>  {hebrew/direction}  =>  {RL}
+>  {hebrew/hyphenmins}  =>  {2,3}
+>  {hebrew/frenchspacing}  =>  {false}
+>  {hebrew/indentfirst}  =>  {false}
+>  {hebrew/fontsetup}  =>  {true}
+>  {hebrew/envname}  =>  {hebrew}
+>  {hebrew/babelname}  =>  {hebrew}
+>  {hebrew/localnumeral}  =>  {hebrewnumerals}
+>  {hebrew/Localnumeral}  =>  {hebrewnumerals}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+ (morse theory.aux Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+ Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
+ Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew
+LaTeX Info: Redefining \rmfamily on input line 40.
+LaTeX Info: Redefining \sffamily on input line 40.
+LaTeX Info: Redefining \ttfamily on input line 40.
+ Setting \if@calendar@hebrew
+Setting \if@calendar@hebrew)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `"morse theory".out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+ ) 
 Here is how much of TeX's memory you used:
- 36418 strings out of 411486
- 739346 string characters out of 2832793
- 1324321 words of memory out of 3000000
- 55868 multiletter control sequences out of 15000+600000
- 442818 words of font info for 209 fonts, out of 8000000 for 9000
+ 36756 strings out of 411254
+ 744037 string characters out of 2828529
+ 1331225 words of memory out of 3000000
+ 56434 multiletter control sequences out of 15000+600000
+ 444450 words of font info for 217 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 117i,24n,122p,1288b,1170s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on morse theory.pdf (67 pages).
+ 117i,24n,122p,1288b,1176s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on morse theory.pdf (72 pages).
